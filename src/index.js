@@ -1,4 +1,4 @@
-import './scss/main.scss';
-import './sass/main.sass';
+import './scss/sticky.scss';
+import './components/scroll';
 
 console.log('Hello, world!');
