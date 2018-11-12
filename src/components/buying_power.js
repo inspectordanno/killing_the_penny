@@ -82,11 +82,8 @@ const items = [
 
 d3.select('.graphic_container')
   .append('svg')
-  .attr('width', 900)
-  .attr('height', 600)
+  .attr('width', graphicDimensions.width * .90) //svg 90% width of container
+  .attr('height',graphicDimensions.width * .90 * .66) //svg 66% height of container
   .style('background', 'lightblue');
-
-console.log(graphicDimensions);
-console.log(test);
 
   
