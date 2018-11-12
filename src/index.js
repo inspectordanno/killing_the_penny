@@ -1,3 +1,4 @@
-import './scss/sticky.scss';
+import './scss/main.scss';
 import './components/scroll';
-import './buying_power';
+import './components/buying_power';
+

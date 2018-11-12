@@ -1,4 +1,6 @@
 import * as d3 from 'd3';
+import {graphicDimensions, test} from './utils.js';
+
 
 const items = [
   {
@@ -78,5 +80,13 @@ const items = [
   },
 ];
 
-d3.select('')
+d3.select('.graphic_container')
+  .append('svg')
+  .attr('width', 900)
+  .attr('height', 600)
+  .style('background', 'lightblue');
+
+console.log(graphicDimensions);
+console.log(test);
+
   
