@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik');
+
 //border box
 html {
   box-sizing: border-box;
@@ -43,15 +45,11 @@ html, body {
   min-height: 5000px;
 }
 
-.step {
-  
+.step:nth-child(n+2) {
+  margin-top: 50%;
 }
 
 .intro {
   margin-top: 200px;
-}
-
-svg {
-  margin: 0 auto;
 }
 

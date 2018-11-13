@@ -11,7 +11,7 @@ scroller
     graphic: '.sticky_graphic'
   })
   .onStepEnter(handleStepEnter)
-  .onStepExit(handleStepExit)
+  // .onStepExit(handleStepExit)
   // .onContainerEnter(handleContainerEnter)
   // .onContainerExit(handleContainerExit);
 
@@ -20,7 +20,7 @@ scroller
     console.log('entered');
   }
 
-  function handleStepExit(d) {
-    console.log(d.element);
-    console.log('exited');
-  }
+  // function handleStepExit(d) {
+  //   console.log(d.element);
+  //   console.log('exited');
+  // }
