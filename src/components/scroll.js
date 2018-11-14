@@ -1,6 +1,6 @@
 import 'intersection-observer';
 import scrollama from 'scrollama';
-import {select} from 'd3';
+import drawBuyingPower from './buying_power';
 
 const scroller = scrollama();
 
@@ -16,7 +16,7 @@ scroller
   // .onContainerExit(handleContainerExit);
 
   function handleStepEnter(d) {
-    console.log(d.element);
+    drawBuyingPower(d.element.getAttribute('data-step'));
     console.log('entered');
   }
 

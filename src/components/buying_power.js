@@ -4,7 +4,7 @@ import * as d3Array from 'd3-array';
 
 //initial object of items
 
-let items = [
+let prefilteredItems = [
   {
     name: 'cup of coffee',
     year: 1910,
@@ -21,17 +21,17 @@ let items = [
     price: 1.50
   },
   {
-    name: `Hershey's chocolate bar`,
+    name: 'Hersheyʼs chocolate bar',
     year: 1910,
     price: .02
   },
   {
-    name: `Hershey's chocolate bar`,
+    name: 'Hersheyʼs chocolate bar',
     year: 1960,
     price: .05
   },
   {
-    name: `Hershey's chocolate bar`,
+    name: 'Hersheyʼs chocolate bar',
     year: 2010,
     price: .99
   },
@@ -84,12 +84,12 @@ let items = [
 
 //adding buying power metric to each item
 
-items = items.map(d => { 
+prefilteredItems = prefilteredItems.map(d => { 
   d.buying_power = Math.round((.01 / d.price) * 1000) / 1000;
   return d;
 })
 
-console.log(items);
+console.log(prefilteredItems);
 
 //appending an SVG
 
@@ -110,6 +110,11 @@ const svgDimensions = {
 console.log(svgDimensions);
 
 function drawBuyingPower(item) {
+
+  //remove all text before drawing
+  d3.selectAll('text')
+    .remove();
+
   root_svg.append('text')
     .text(`How far does one penny go when buying a ${item}?`)
     .attr('x', svgDimensions.width * .5)
@@ -146,6 +151,10 @@ function drawBuyingPower(item) {
   drawYearText('1960', svgDimensions.width * .5, 'green');
   drawYearText('2010', svgDimensions.width * .85, 'blue');
 
+  //remove all overallBars before drawing
+  d3.selectAll('.overallBar')
+    .remove();
+
   //append overall bars
   for (let i = 0; i <= 2; i++) {
     root_svg.append('rect')
@@ -157,23 +166,26 @@ function drawBuyingPower(item) {
       .style('fill', 'lightgray');
   }
 
-  //filters the array by the current item we're analyzing
-  items = items.filter(d => {
-    return d.name === item; 
-  });
-
-  console.log(items);
-
   const buyingPowerScale = d3.scaleLinear()
     .domain([0,1])
     .range([0, svgDimensions.height * .4]);  
 
+  let filteredItems; 
 
   //if no buyingPowerBars exist on the page, enter and append them
   if (d3.selectAll('.buyingPowerBar').nodes().length === 0) {
+
     console.log('no bars exist');
+    
+    //filters the array by the current item we're analyzing
+    filteredItems = prefilteredItems.filter(d => {
+      return d.name === item; 
+    });
+    console.log(filteredItems);
+    
+
     root_svg.selectAll('.buyingPowerBar')
-      .data(items)
+      .data(filteredItems)
       .enter()
       .append('rect')
       .attr('class', 'buyingPowerBar')
@@ -190,16 +202,32 @@ function drawBuyingPower(item) {
   } 
     //if buyingPowerBars do exist on the page, update them
     else if (d3.selectAll('.buyingPowerBar').nodes().length === 3) {
+
+      console.log(prefilteredItems);
+
       console.log('bars exist');
+
+      // const test = prefilteredItems.forEach(function(d) {
+      //   console.log(d.name);
+      // })
+      
+      // console.log(test);
+
+      //filters the array by the current item we're analyzing
+      filteredItems = prefilteredItems.filter(d => {
+        return d.name === item; 
+      });
+
+      console.log(filteredItems);
+
       root_svg.selectAll('.buyingPowerBar')
-        .data(items)
+        .data(filteredItems)
         .attr('y', d => {
           return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
         })
         .attr('height', d => buyingPowerScale(d.buying_power))
     }
-
-
+    console.log('items');
 }
 
-drawBuyingPower('cup of coffee');
+export default drawBuyingPower;
