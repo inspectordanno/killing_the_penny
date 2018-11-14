@@ -170,64 +170,49 @@ function drawBuyingPower(item) {
     .domain([0,1])
     .range([0, svgDimensions.height * .4]);  
 
-  let filteredItems; 
-
-  //if no buyingPowerBars exist on the page, enter and append them
-  if (d3.selectAll('.buyingPowerBar').nodes().length === 0) {
-
-    console.log('no bars exist');
-    
-    //filters the array by the current item we're analyzing
-    filteredItems = prefilteredItems.filter(d => {
-      return d.name === item; 
-    });
-    console.log(filteredItems);
-    
-
-    root_svg.selectAll('.buyingPowerBar')
-      .data(filteredItems)
-      .enter()
-      .append('rect')
-      .attr('class', 'buyingPowerBar')
-      .attr('x', (d, i) => {
-        return svgDimensions.width * (.075 +(.35 * i))
-      })
-      .attr('y', d => {
-        return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
-      })
-      // .attr('y', svgDimensions.height * .35)
-      .attr('width', svgDimensions.width * .15)
-      .attr('height', d => buyingPowerScale(d.buying_power))
-      .style('fill', 'black');
-  } 
-    //if buyingPowerBars do exist on the page, update them
-    else if (d3.selectAll('.buyingPowerBar').nodes().length === 3) {
-
-      console.log(prefilteredItems);
-
-      console.log('bars exist');
-
-      // const test = prefilteredItems.forEach(function(d) {
-      //   console.log(d.name);
-      // })
-      
-      // console.log(test);
-
-      //filters the array by the current item we're analyzing
-      filteredItems = prefilteredItems.filter(d => {
+  let filteredItems = prefilteredItems.filter(d => {
         return d.name === item; 
       });
 
-      console.log(filteredItems);
+  //update selection
+  const bars = root_svg.selectAll('.buyingPowerBar')
+      .data(filteredItems, d => d.name);
+  
+  //enter selection
+  const enterBars = bars.enter()
+    .append('rect')
+    .attr('class', 'buyingPowerBar')
+    .attr('x', (d, i) => {
+      return svgDimensions.width * (.075 +(.35 * i))
+    })
+    .attr('y', svgDimensions.height * .35)
+    .attr('width', svgDimensions.width * .15)
+    .attr('height', 0)
+    .style('fill', 'black')
+    .transition()
+    .duration(500)
+    .attr('y', d => {
+      return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+    })
+    .attr('height', d => buyingPowerScale(d.buying_power))
+    
+    
+    //update selection continued
+    const updateBars = bars
+      .attr('y', d => {
+      return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+    })
+      .attr('height', d => buyingPowerScale(d.buying_power))
 
-      root_svg.selectAll('.buyingPowerBar')
-        .data(filteredItems)
-        .attr('y', d => {
-          return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
-        })
-        .attr('height', d => buyingPowerScale(d.buying_power))
-    }
-    console.log('items');
+    const exitBars = bars.exit()
+      .transition()
+      .duration(500)
+      .attr('height', 0)
+      .remove()
+
+    console.log(filteredItems);
+
+    console.log(bars);
 }
 
 export default drawBuyingPower;
