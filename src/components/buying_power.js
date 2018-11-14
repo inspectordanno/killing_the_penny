@@ -185,7 +185,7 @@ function drawBuyingPower(item) {
     .attr('x', (d, i) => {
       return svgDimensions.width * (.075 +(.35 * i))
     })
-    .attr('y', svgDimensions.height * .35)
+    .attr('y', svgDimensions.height * .75)
     .attr('width', svgDimensions.width * .15)
     .attr('height', 0)
     .style('fill', 'black')
@@ -205,9 +205,6 @@ function drawBuyingPower(item) {
       .attr('height', d => buyingPowerScale(d.buying_power))
 
     const exitBars = bars.exit()
-      .transition()
-      .duration(500)
-      .attr('height', 0)
       .remove()
 
     console.log(filteredItems);
