@@ -115,12 +115,12 @@ const svgDimensions = {
 
 function drawBuyingPower(item) {
   root_svg.append('text')
-    .text(item)
+    .text(`How far does my penny go when buying a ${item}?`)
     .attr('x', svgDimensions.width * .5)
     .attr('y', svgDimensions.height *.12)
     .attr('text-anchor', 'middle')
     .style('font-family', 'Rubik, sans-serif')
-    .style('font-size', '40px');
+    .style('font-size', '30px');
 
   const drawYearText = (year, xCoordinate, yearColor) => {
 
@@ -156,20 +156,16 @@ function drawBuyingPower(item) {
     console.log('hello')
     root_svg.append('rect')
       .attr('class', 'overallBar')
-      .attr('x', svgDimensions.width * (.075 +(.35 * (i-1))))
+      .attr('x', svgDimensions.width * (.075 +(.35 * (i-1)))) //the initial starting point is the first number. the second number is how much space there should be between the bars.
       .attr('y', svgDimensions.height * .35)
       .attr('width', svgDimensions.width * .15)
       .attr('height', svgDimensions.height *.4 )
       .style('fill', 'lightgray');
     }
 
-  // const w = 50;
 
-  // for (let i =1; i <=3; i++) {
-  //   w * .15 * i
-  // }
 
 }
 
-drawBuyingPower('Cup of Coffee');
+drawBuyingPower('cup of coffee');
   
