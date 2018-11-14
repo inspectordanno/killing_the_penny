@@ -123,6 +123,8 @@ function drawBuyingPower(item) {
     .style('font-size', '40px');
 
   const drawYearText = (year, xCoordinate, yearColor) => {
+
+    //appending year
     root_svg.append('text')
       .text(year)
       .attr('x', xCoordinate)
@@ -131,11 +133,41 @@ function drawBuyingPower(item) {
       .style('font-family', 'Rubik, sans-serif')
       .style('fill', yearColor)
       .style('font-size', '24px');
+
+    //appending Cost:
+    root_svg.append('text')
+      .text('Cost:')
+      .attr('x', xCoordinate)
+      .attr('y', svgDimensions.height * .8)
+      .attr('text-anchor', 'middle')
+      .style('font-family', 'Rubik, sans-serif')
+      .style('fill', yearColor)
+      .style('font-size', '18px');  
+    
   }
 
   drawYearText('1910', svgDimensions.width * .15, 'red');
   drawYearText('1960', svgDimensions.width * .5, 'green');
   drawYearText('2010', svgDimensions.width * .85, 'blue');
+
+  //append overall bar
+  for (let i = 1; i <= 3; i++) {
+
+    console.log('hello')
+    root_svg.append('rect')
+      .attr('class', 'overallBar')
+      .attr('x', svgDimensions.width * (.075 +(.35 * (i-1))))
+      .attr('y', svgDimensions.height * .35)
+      .attr('width', svgDimensions.width * .15)
+      .attr('height', svgDimensions.height *.4 )
+      .style('fill', 'lightgray');
+    }
+
+  // const w = 50;
+
+  // for (let i =1; i <=3; i++) {
+  //   w * .15 * i
+  // }
 
 }
 
