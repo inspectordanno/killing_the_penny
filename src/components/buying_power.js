@@ -148,8 +148,6 @@ function drawBuyingPower(item) {
 
   //append overall bars
   for (let i = 0; i <= 2; i++) {
-
-    console.log('hello')
     root_svg.append('rect')
       .attr('class', 'overallBar')
       .attr('x', svgDimensions.width * (.075 +(.35 * i))) //the initial starting point is the first number. the second number is how much space there should be between the bars.
@@ -157,7 +155,7 @@ function drawBuyingPower(item) {
       .attr('width', svgDimensions.width * .15)
       .attr('height', svgDimensions.height * .4)
       .style('fill', 'lightgray');
-    }
+  }
 
   //filters the array by the current item we're analyzing
   items = items.filter(d => {
@@ -170,30 +168,36 @@ function drawBuyingPower(item) {
     .domain([0,1])
     .range([0, svgDimensions.height * .4]);  
 
-  root_svg
-    .selectAll('.buyingPowerBar')
-    .data(items)
-    .enter()
-    .append('rect')
-    .attr('class', '.buyingPowerBar')
-    .attr('x', (d, i) => {
-      return svgDimensions.width * (.075 +(.35 * i))
-    })
-    .attr('y', d => {
-      return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
-    })
-    // .attr('y', svgDimensions.height * .35)
-    .attr('width', svgDimensions.width * .15)
-    .attr('height', d => buyingPowerScale(d.buying_power))
-    .style('fill', 'black');
 
-    console.log('yo')
-
-
-// //grouping items by year
-
-// items = d3Array.group(items, d => d.year);
-
+  //if no buyingPowerBars exist on the page, enter and append them
+  if (d3.selectAll('.buyingPowerBar').nodes().length === 0) {
+    console.log('no bars exist');
+    root_svg.selectAll('.buyingPowerBar')
+      .data(items)
+      .enter()
+      .append('rect')
+      .attr('class', 'buyingPowerBar')
+      .attr('x', (d, i) => {
+        return svgDimensions.width * (.075 +(.35 * i))
+      })
+      .attr('y', d => {
+        return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+      })
+      // .attr('y', svgDimensions.height * .35)
+      .attr('width', svgDimensions.width * .15)
+      .attr('height', d => buyingPowerScale(d.buying_power))
+      .style('fill', 'black');
+  } 
+    //if buyingPowerBars do exist on the page, update them
+    else if (d3.selectAll('.buyingPowerBar').nodes().length === 3) {
+      console.log('bars exist');
+      root_svg.selectAll('.buyingPowerBar')
+        .data(items)
+        .attr('y', d => {
+          return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+        })
+        .attr('height', d => buyingPowerScale(d.buying_power))
+    }
 
 
 }
