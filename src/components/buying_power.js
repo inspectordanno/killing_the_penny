@@ -158,14 +158,14 @@ function drawBuyingPower(item) {
   const drawYearText = (year, xCoordinate, yearColor) => {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
     function displayBuyingPower() {
-      let found = filteredItems.find(d => d.year === parseInt(year));
+      const found = filteredItems.find(d => d.year === parseInt(year));
       const fraction = new Fraction(found.buying_power).toFraction(true);
       return fraction;
     }
 
     function displayCost() {
       //finds the item, displays the price, converts price to string of 2 decimal places
-      let found = filteredItems.find(d => d.year === parseInt(year));
+      const found = filteredItems.find(d => d.year === parseInt(year));
       return (found.price).toFixed(2);
     }
 
