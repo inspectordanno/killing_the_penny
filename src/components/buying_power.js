@@ -164,11 +164,10 @@ function drawBuyingPower(item) {
     }
 
     function displayCost() {
+      //finds the item, displays the price, converts price to string of 2 decimal places
       let found = filteredItems.find(d => d.year === parseInt(year));
       return (found.price).toFixed(2);
     }
-
-    console.log(displayBuyingPower());
 
     //appending year
     root_svg.append('text')
