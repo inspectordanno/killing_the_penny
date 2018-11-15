@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+const Fraction = require('fraction.js');
 import {graphicDimensions} from './utils.js';
 import * as d3Array from 'd3-array';
 
@@ -114,47 +115,26 @@ function drawBuyingPower(item) {
   //remove all text before drawing
   d3.selectAll('text')
     .remove();
+  
+  //remove all overallBars before drawing
+  d3.selectAll('.overallBar')
+  .remove();
 
-  root_svg.append('text')
-    .text(`How far does one penny go when buying a ${item}?`)
+  const yearText = root_svg.append('text')
     .attr('x', svgDimensions.width * .5)
     .attr('y', svgDimensions.height *.12)
     .attr('text-anchor', 'middle')
     .style('font-family', 'Rubik, sans-serif')
     .style('font-size', '30px');
+  
+  yearText.append('tspan')
+    .text(`How far does one penny go when buying a `);
+  
+  yearText.append('tspan')
+    .text(`${item}?`)
+    .style('fill', 'orange');
 
-  const drawYearText = (year, xCoordinate, yearColor) => {
-
-    //appending year
-    root_svg.append('text')
-      .text(year)
-      .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .25)
-      .attr('text-anchor', 'middle')
-      .style('font-family', 'Rubik, sans-serif')
-      .style('fill', yearColor)
-      .style('font-size', '24px');
-
-    //appending Cost:
-    root_svg.append('text')
-      .text('Cost:')
-      .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .8)
-      .attr('text-anchor', 'middle')
-      .style('font-family', 'Rubik, sans-serif')
-      .style('fill', yearColor)
-      .style('font-size', '18px');  
-    
-  }
-
-  drawYearText('1910', svgDimensions.width * .15, 'red');
-  drawYearText('1960', svgDimensions.width * .5, 'green');
-  drawYearText('2010', svgDimensions.width * .85, 'blue');
-
-  //remove all overallBars before drawing
-  d3.selectAll('.overallBar')
-    .remove();
-
+  
   //append overall bars
   for (let i = 0; i <= 2; i++) {
     root_svg.append('rect')
@@ -163,7 +143,8 @@ function drawBuyingPower(item) {
       .attr('y', svgDimensions.height * .35)
       .attr('width', svgDimensions.width * .15)
       .attr('height', svgDimensions.height * .4)
-      .style('fill', 'lightgray');
+      .style('fill', 'lightgray')
+      .order();
   }
 
   const buyingPowerScale = d3.scaleLinear()
@@ -173,6 +154,58 @@ function drawBuyingPower(item) {
   let filteredItems = prefilteredItems.filter(d => {
         return d.name === item; 
       });
+  
+  const drawYearText = (year, xCoordinate, yearColor) => {
+    //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
+    function displayBuyingPower() {
+      let found = filteredItems.find(d => d.year === parseInt(year));
+      const fraction = new Fraction(found.buying_power).toFraction(true);
+      return fraction;
+    }
+
+    function displayCost() {
+      let found = filteredItems.find(d => d.year === parseInt(year));
+      return (found.price).toFixed(2);
+    }
+
+    console.log(displayBuyingPower());
+
+    //appending year
+    root_svg.append('text')
+      .text(`In ${year}`)
+      .attr('x', xCoordinate)
+      .attr('y', svgDimensions.height * .25)
+      .attr('text-anchor', 'middle')
+      .style('font-family', 'Rubik, sans-serif')
+      .style('fill', yearColor)
+      .style('font-size', '24px');
+    
+    //appending year
+    root_svg.append('text')
+      .text(`A penny could buy ${displayBuyingPower()} of a ${item}.`)
+      .attr('x', xCoordinate)
+      .attr('y', svgDimensions.height * .3)
+      .attr('text-anchor', 'middle')
+      .style('font-family', 'Rubik, sans-serif')
+      .style('fill', yearColor)
+      .style('font-size', '12px');
+
+    //appending Cost:
+    root_svg.append('text')
+      .text(`The ${item} cost $${displayCost()}.`)
+      .attr('x', xCoordinate)
+      .attr('y', svgDimensions.height * .8)
+      .attr('text-anchor', 'middle')
+      .style('font-family', 'Rubik, sans-serif')
+      .style('fill', yearColor)
+      .style('font-size', '12px');  
+    
+  }
+
+  drawYearText('1910', svgDimensions.width * .15, 'red');
+  drawYearText('1960', svgDimensions.width * .5, 'green');
+  drawYearText('2010', svgDimensions.width * .85, 'blue');
+
 
   //update selection
   const bars = root_svg.selectAll('.buyingPowerBar')
