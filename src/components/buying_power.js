@@ -122,7 +122,23 @@ console.log(svgDimensions);
     .style('fill', 'lightgray')
 }
 
+
+
 function drawBuyingPower(item) {
+
+  //selecting existing svg objects
+  //chance opacity using transition()
+  //remove
+
+  //calculate width and height of imported svg object
+  //scale it down to fit the width of the overall bar
+  //draw with an opacity of 0
+  //transition()
+  // fade in
+
+
+
+
 
   //remove all text before drawing
   d3.selectAll('text')
@@ -216,6 +232,12 @@ function drawBuyingPower(item) {
     .attr('width', svgDimensions.width * .15)
     .attr('height', 0)
     .style('fill', 'black')
+    .transition()
+      .duration(500)
+      .attr('y', d => {
+        return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+      })
+    .attr('height', d => buyingPowerScale(d.buying_power))
     
     
     
