@@ -1,7 +1,6 @@
 import * as d3 from 'd3';
 const Fraction = require('fraction.js');
 import {graphicDimensions} from './utils.js';
-import * as d3Array from 'd3-array';
 
 //initial object of items
 
@@ -110,11 +109,11 @@ const svgDimensions = {
 
 console.log(svgDimensions);
 
-const barWidth = svgDimensions.width * .20;
-const barHeight = svgDimensions.height * .4;
+const barWidth = svgDimensions.width * .25;
+const barHeight = svgDimensions.height * .6;
 
 const barX = i => {
-  return svgDimensions.width * (.05 +(.35 * i));
+  return svgDimensions.width * (.025 +(.35 * i));
 } 
 
 const barY = svgDimensions.height * .35;
@@ -144,11 +143,7 @@ function drawBuyingPower(item) {
   //draw with an opacity of 0
   //transition()
   // fade in
-
-
-
-
-
+  
   //remove all text before drawing
   d3.selectAll('text')
     .remove();
@@ -172,9 +167,9 @@ function drawBuyingPower(item) {
 
   const buyingPowerScale = d3.scaleLinear()
     .domain([0,1])
-    .range([0, svgDimensions.height * .4]);  
+    .range([0, barHeight]);  
 
-  let filteredItems = prefilteredItems.filter(d => {
+  const filteredItems = prefilteredItems.filter(d => {
         return d.name === item; 
       });
   
@@ -203,7 +198,7 @@ function drawBuyingPower(item) {
       .style('font-size', '24px');
     
     //appending year
-    root_svg.append('text')
+    const appendYear = root_svg.append('text')
       .text(`A penny could buy ${displayBuyingPower()} of a ${item}.`)
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .3)
@@ -216,7 +211,7 @@ function drawBuyingPower(item) {
     root_svg.append('text')
       .text(`The ${item} cost $${displayCost()}.`)
       .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .8)
+      .attr('y', svgDimensions.height * .99)
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
       .style('fill', yearColor)
@@ -238,16 +233,16 @@ function drawBuyingPower(item) {
     .append('rect')
     .attr('class', 'buyingPowerBar')
     .attr('x', (d, i) => {
-      return svgDimensions.width * (.05 +(.35 * i))
+      return barX(i);
     })
-    .attr('y', svgDimensions.height * .75)
-    .attr('width', svgDimensions.width * .20)
+    .attr('y', svgDimensions.height * .95)
+    .attr('width', barWidth)
     .attr('height', 0)
     .style('fill', 'black')
     .transition()
-      .duration(500)
-      .attr('y', d => {
-        return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+    .duration(500)
+    .attr('y', d => {
+        return (barHeight - buyingPowerScale(d.buying_power)) + barY; // the top of each bar is a relationship between the height and corresponding data value
       })
     .attr('height', d => buyingPowerScale(d.buying_power))
     
@@ -256,7 +251,7 @@ function drawBuyingPower(item) {
       .transition()
       .duration(500)
       .attr('y', d => {
-        return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
+        return (barHeight - buyingPowerScale(d.buying_power)) + barY; // the top of each bar is a relationship between the height and corresponding data value
       })
       .attr('height', d => buyingPowerScale(d.buying_power))
 
