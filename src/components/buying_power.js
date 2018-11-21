@@ -127,7 +127,7 @@ const barY = svgDimensions.height * .35;
     .attr('y', barY)
     .attr('width', barWidth)
     .attr('height', barHeight)
-    .style('fill', 'lightgray')
+    .style('fill', 'var(--silver)')
 }
 
 
@@ -153,7 +153,7 @@ function drawBuyingPower(item) {
     .attr('y', svgDimensions.height *.05)
     .attr('text-anchor', 'middle')
     .style('font-family', 'Rubik, sans-serif')
-    .style('font-size', '30px');
+    .style('font-size', '20px');
   
   yearText.append('tspan')
     .text(`How far does one penny go when buying a `);
@@ -161,9 +161,9 @@ function drawBuyingPower(item) {
   yearText.append('tspan')
     .text(`${item}?`)
     .attr('x', svgDimensions.width * .5)
-    .attr('y', svgDimensions.height * .15)
-    .style('font-size', '50px')
-    .style('fill', 'gray');
+    .attr('y', svgDimensions.height * .14)
+    .style('font-size', '46px')
+    .style('fill', 'var(--silver)');
 
   const buyingPowerScale = d3.scaleLinear()
     .domain([0,1])
@@ -173,7 +173,7 @@ function drawBuyingPower(item) {
         return d.name === item; 
       });
   
-  const drawYearText = (year, xCoordinate, yearColor) => {
+  const drawYearText = (year, xCoordinate) => {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
     function displayBuyingPower() {
       const found = filteredItems.find(d => d.year === parseInt(year));
@@ -194,34 +194,58 @@ function drawBuyingPower(item) {
       .attr('y', svgDimensions.height * .25)
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
-      .style('fill', yearColor)
-      .style('font-size', '24px');
+      .style('fill', 'var(--black)')
+      .style('font-size', '30px');
     
     //appending year
-    const appendYear = root_svg.append('text')
-      .text(`A penny could buy ${displayBuyingPower()} of a ${item}.`)
+    root_svg.append('text')
+      .text(`A penny could buy ${displayBuyingPower()}`)
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .3)
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
-      .style('fill', yearColor)
-      .style('font-size', '12px');
+      .style('fill', 'var(--black)')
+      .style('font-size', '14px');
+    
+    const itemText = root_svg.append('text')
+      .attr('x', xCoordinate)
+      .attr('y', svgDimensions.height * .33)
+      .attr('text-anchor', 'middle')
+      .style('font-family', 'Rubik, sans-serif')
+      .style('fill', `var(--black)`)
+      .style('font-size', '14px');
+    
+    itemText.append('tspan')
+      .text('of a ');
+    
+    itemText.append('tspan')
+      .text(`${item}.`)
+      .style('fill', 'var(--silver)');
 
     //appending Cost:
-    root_svg.append('text')
-      .text(`The ${item} cost $${displayCost()}.`)
+    const costText = root_svg.append('text')
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .99)
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
-      .style('fill', yearColor)
-      .style('font-size', '12px');  
+      .style('fill', `var(--black)`)
+      .style('font-size', '14px');  
+
+    costText.append('tspan')
+      .text('The ')
+    
+    costText.append('tspan')
+      .text(`${item}`)
+      .style('fill', 'var(--silver)');
+
+    costText.append('tspan')
+      .text(` cost $${displayCost()}.`);
     
   }
 
-  drawYearText('1910', svgDimensions.width * .15, 'black');
-  drawYearText('1960', svgDimensions.width * .5, 'black');
-  drawYearText('2010', svgDimensions.width * .85, 'black');
+  drawYearText('1910', svgDimensions.width * .15);
+  drawYearText('1960', svgDimensions.width * .5);
+  drawYearText('2010', svgDimensions.width * .85);
 
 
   //update selection
