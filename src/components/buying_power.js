@@ -52,17 +52,17 @@ let prefilteredItems = [
     price: .44
   },
   {
-    name: 'New York Times weekday',
+    name: 'New York Times',
     year: 1910,
     price: .01
   },
   {
-    name: 'New York Times weekday',
+    name: 'New York Times',
     year: 1960,
     price: .05
   },
   {
-    name: 'New York Times weekday',
+    name: 'New York Times',
     year: 2010,
     price: 2.00
   },
@@ -96,10 +96,10 @@ console.log(prefilteredItems);
 
 const root_svg = d3.select('.graphic_container')
   .append('svg')
-  .attr('width', graphicDimensions.width * .90) //svg 90% width of container
-  .attr('height',graphicDimensions.width * .90 * .66) //svg 66% height of container
-  .attr('class', 'svg')
-  .style('background', 'lightblue');
+  .attr('width', graphicDimensions.width * .98) //svg 90% width of container
+  .attr('height',graphicDimensions.width * .98 * .60) //svg 66% height of container
+  // .style('background', 'lightblue')
+  .attr('class', 'svg');
 
 //getting the dimensions of the SVG
 
@@ -110,15 +110,24 @@ const svgDimensions = {
 
 console.log(svgDimensions);
 
+const barWidth = svgDimensions.width * .20;
+const barHeight = svgDimensions.height * .4;
+
+const barX = i => {
+  return svgDimensions.width * (.05 +(.35 * i));
+} 
+
+const barY = svgDimensions.height * .35;
+
  //append overall bars
  for (let i = 0; i <= 2; i++) {
   console.log(root_svg);
   root_svg.append('rect')
     .attr('class', 'overallBar')
-    .attr('x', svgDimensions.width * (.075 +(.35 * i))) //the initial starting point is the first number. the second number is how much space there should be between the bars.
-    .attr('y', svgDimensions.height * .35)
-    .attr('width', svgDimensions.width * .15)
-    .attr('height', svgDimensions.height * .4)
+    .attr('x', barX(i)) //the initial starting point is the first number. the second number is how much space there should be between the bars.
+    .attr('y', barY)
+    .attr('width', barWidth)
+    .attr('height', barHeight)
     .style('fill', 'lightgray')
 }
 
@@ -146,7 +155,7 @@ function drawBuyingPower(item) {
 
   const yearText = root_svg.append('text')
     .attr('x', svgDimensions.width * .5)
-    .attr('y', svgDimensions.height *.12)
+    .attr('y', svgDimensions.height *.05)
     .attr('text-anchor', 'middle')
     .style('font-family', 'Rubik, sans-serif')
     .style('font-size', '30px');
@@ -156,7 +165,10 @@ function drawBuyingPower(item) {
   
   yearText.append('tspan')
     .text(`${item}?`)
-    .style('fill', 'orange');
+    .attr('x', svgDimensions.width * .5)
+    .attr('y', svgDimensions.height * .15)
+    .style('font-size', '50px')
+    .style('fill', 'gray');
 
   const buyingPowerScale = d3.scaleLinear()
     .domain([0,1])
@@ -212,9 +224,9 @@ function drawBuyingPower(item) {
     
   }
 
-  drawYearText('1910', svgDimensions.width * .15, 'red');
-  drawYearText('1960', svgDimensions.width * .5, 'green');
-  drawYearText('2010', svgDimensions.width * .85, 'blue');
+  drawYearText('1910', svgDimensions.width * .15, 'black');
+  drawYearText('1960', svgDimensions.width * .5, 'black');
+  drawYearText('2010', svgDimensions.width * .85, 'black');
 
 
   //update selection
@@ -226,10 +238,10 @@ function drawBuyingPower(item) {
     .append('rect')
     .attr('class', 'buyingPowerBar')
     .attr('x', (d, i) => {
-      return svgDimensions.width * (.075 +(.35 * i))
+      return svgDimensions.width * (.05 +(.35 * i))
     })
     .attr('y', svgDimensions.height * .75)
-    .attr('width', svgDimensions.width * .15)
+    .attr('width', svgDimensions.width * .20)
     .attr('height', 0)
     .style('fill', 'black')
     .transition()
@@ -238,8 +250,6 @@ function drawBuyingPower(item) {
         return (svgDimensions.height * .4 - buyingPowerScale(d.buying_power)) + svgDimensions.height * .35 ; // the top of each bar is a relationship between the height and corresponding data value
       })
     .attr('height', d => buyingPowerScale(d.buying_power))
-    
-    
     
     //update selection continued
     const updateBars = bars
@@ -250,6 +260,7 @@ function drawBuyingPower(item) {
       })
       .attr('height', d => buyingPowerScale(d.buying_power))
 
+    //exit selection
     const exitBars = bars.exit()
       .remove()
 
