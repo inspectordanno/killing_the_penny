@@ -127,7 +127,7 @@ const barY = svgDimensions.height * .35;
     .attr('y', barY)
     .attr('width', barWidth)
     .attr('height', barHeight)
-    .style('fill', 'var(--silver)')
+    .style('fill', 'var(--buyingPowerSilver)')
 }
 
 
@@ -153,7 +153,7 @@ function drawBuyingPower(item) {
     .attr('y', svgDimensions.height *.05)
     .attr('text-anchor', 'middle')
     .style('font-family', 'Rubik, sans-serif')
-    .style('font-size', '20px');
+    .style('font-size', '1.25em');
   
   yearText.append('tspan')
     .text(`How far does one penny go when buying a `);
@@ -161,9 +161,9 @@ function drawBuyingPower(item) {
   yearText.append('tspan')
     .text(`${item}?`)
     .attr('x', svgDimensions.width * .5)
-    .attr('y', svgDimensions.height * .14)
-    .style('font-size', '46px')
-    .style('fill', 'var(--silver)');
+    .attr('y', svgDimensions.height * .15)
+    .attr('id', 'item_title')
+    .style('fill', 'var(--buyingPowerSilver)');
 
   const buyingPowerScale = d3.scaleLinear()
     .domain([0,1])
@@ -195,7 +195,7 @@ function drawBuyingPower(item) {
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
       .style('fill', 'var(--black)')
-      .style('font-size', '30px');
+      .style('font-size', '2em');
     
     //appending year
     root_svg.append('text')
@@ -205,7 +205,7 @@ function drawBuyingPower(item) {
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
       .style('fill', 'var(--black)')
-      .style('font-size', '14px');
+      .style('font-size', '1em');
     
     const itemText = root_svg.append('text')
       .attr('x', xCoordinate)
@@ -213,30 +213,30 @@ function drawBuyingPower(item) {
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
       .style('fill', `var(--black)`)
-      .style('font-size', '14px');
+      .style('font-size', '1em');
     
     itemText.append('tspan')
       .text('of a ');
     
     itemText.append('tspan')
       .text(`${item}.`)
-      .style('fill', 'var(--silver)');
+      .style('fill', 'var(--buyingPowerSilver)');
 
     //appending Cost:
     const costText = root_svg.append('text')
       .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .99)
+      .attr('y', svgDimensions.height * .995)
       .attr('text-anchor', 'middle')
       .style('font-family', 'Rubik, sans-serif')
       .style('fill', `var(--black)`)
-      .style('font-size', '14px');  
+      .style('font-size', '1em');  
 
     costText.append('tspan')
       .text('The ')
     
     costText.append('tspan')
       .text(`${item}`)
-      .style('fill', 'var(--silver)');
+      .style('fill', 'var(--buyingPowerSilver)');
 
     costText.append('tspan')
       .text(` cost $${displayCost()}.`);
