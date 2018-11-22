@@ -103,7 +103,7 @@ const root_svg = d3.select('.graphic_container')
   .append('svg')
   .attr('width', graphicDimensions.width * .98) //svg 90% width of container
   .attr('height',graphicDimensions.width * .98 * .60) //svg 66% height of container
-  // .style('background', 'lightblue')
+  .style('font-family', `'Source Sans Pro', sans-serif`)
   .attr('class', 'svg');
 
 //getting the dimensions of the SVG
@@ -158,7 +158,7 @@ function drawBuyingPower(item) {
     .attr('x', svgDimensions.width * .5)
     .attr('y', svgDimensions.height *.035)
     .attr('text-anchor', 'middle')
-    .style('font-family', 'Hind, sans-serif')
+    // .style('font-family', 'Dosis, sans-serif')
     .style('font-size', '1.5em');
   
   yearText.append('tspan')
@@ -199,7 +199,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .25)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Hind, sans-serif')
+      // .style('font-family', 'Dosis, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '2em');
     
@@ -209,7 +209,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .3)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Hind, sans-serif')
+      // .style('font-family', 'Dosis, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '1em');
     
@@ -217,7 +217,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .33)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Hind, sans-serif')
+      // .style('font-family', 'Dosis, sans-serif')
       .style('fill', `var(--black)`)
       .style('font-size', '1em');
     
@@ -233,7 +233,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .995)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Hind, sans-serif')
+      // .style('font-family', 'Dosis, sans-serif')
       .style('fill', `var(--black)`)
       .style('font-size', '1em');  
 
