@@ -150,10 +150,10 @@ function drawBuyingPower(item) {
 
   const yearText = root_svg.append('text')
     .attr('x', svgDimensions.width * .5)
-    .attr('y', svgDimensions.height *.05)
+    .attr('y', svgDimensions.height *.035)
     .attr('text-anchor', 'middle')
     .style('font-family', 'Rubik, sans-serif')
-    .style('font-size', '1.25em');
+    .style('font-size', '1.5em');
   
   yearText.append('tspan')
     .text(`How far does one penny go when buying a `);
@@ -161,7 +161,7 @@ function drawBuyingPower(item) {
   yearText.append('tspan')
     .text(`${item}?`)
     .attr('x', svgDimensions.width * .5)
-    .attr('y', svgDimensions.height * .15)
+    .attr('y', svgDimensions.height * .145)
     .attr('id', 'item_title')
     .style('fill', 'var(--buyingPowerSilver)');
 
