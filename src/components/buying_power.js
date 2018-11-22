@@ -66,26 +66,32 @@ let prefilteredItems = [
     price: 2.00
   },
   {
-    name: 'gallon of gas',
+    name: 'loaf of bread',
     year: 1910,
-    price: .12
+    price: .03
   },
   {
-    name: 'gallon of gas',
+    name: 'loaf of bread',
     year: 1960,
-    price: .30
+    price: .23
   },
   {
-    name: 'gallon of gas',
+    name: 'loaf of bread',
     year: 2010,
-    price: 2.80
+    price: 2.50
   },
 ];
 
 //adding buying power metric to each item
+//then convering buying power to something that will be converted to a fraction
 
 prefilteredItems = prefilteredItems.map(d => { 
   d.buying_power = Math.round((.01 / d.price) * 1000) / 1000;
+  d.toFraction = d.buying_power;
+  const lastDigit = d.buying_power.toString().split('').pop()
+  if (lastDigit == 3) {
+    d.toFraction = d.buying_power + '(3)'; //3 repeating which will convert to 1/3
+  }
   return d;
 })
 
@@ -152,7 +158,7 @@ function drawBuyingPower(item) {
     .attr('x', svgDimensions.width * .5)
     .attr('y', svgDimensions.height *.035)
     .attr('text-anchor', 'middle')
-    .style('font-family', 'Rubik, sans-serif')
+    .style('font-family', 'Hind, sans-serif')
     .style('font-size', '1.5em');
   
   yearText.append('tspan')
@@ -177,7 +183,7 @@ function drawBuyingPower(item) {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
     function displayBuyingPower() {
       const found = filteredItems.find(d => d.year === parseInt(year));
-      const fraction = new Fraction(found.buying_power).toFraction(true);
+      const fraction = new Fraction(found.toFraction).toFraction(true);
       return fraction;
     }
 
@@ -193,7 +199,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .25)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Rubik, sans-serif')
+      .style('font-family', 'Hind, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '2em');
     
@@ -203,7 +209,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .3)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Rubik, sans-serif')
+      .style('font-family', 'Hind, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '1em');
     
@@ -211,7 +217,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .33)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Rubik, sans-serif')
+      .style('font-family', 'Hind, sans-serif')
       .style('fill', `var(--black)`)
       .style('font-size', '1em');
     
@@ -227,7 +233,7 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .995)
       .attr('text-anchor', 'middle')
-      .style('font-family', 'Rubik, sans-serif')
+      .style('font-family', 'Hind, sans-serif')
       .style('fill', `var(--black)`)
       .style('font-size', '1em');  
 
