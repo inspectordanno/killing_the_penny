@@ -120,6 +120,17 @@ const root_svg = d3.select('.graphic_container')
   .attr('height',graphicDimensions.width * .98 * .60) //svg 66% height of container
   .style('font-family', `'Source Sans Pro', sans-serif`)
   .attr('class', 'svg');
+ 
+const title_g = root_svg
+  .append('g')
+  .attr('id', 'title')
+  .attr('transform', 'translate(0,-3.5)')
+
+const content_g = root_svg
+  .append('g')
+  .attr('id', 'content')
+  // .attr('transform', 'translate(0,1)')
+
 
 //getting the dimensions of the SVG
 
@@ -142,7 +153,7 @@ const barY = svgDimensions.height * .35;
  //append overall bars
  for (let i = 0; i <= 2; i++) {
   console.log(root_svg);
-  root_svg.append('rect')
+  content_g.append('rect')
     .attr('class', 'overallBar')
     .attr('x', barX(i)) //the initial starting point is the first number. the second number is how much space there should be between the bars.
     .attr('y', barY)
@@ -177,7 +188,7 @@ function drawBuyingPower(item) {
     // .attr('opacity', 0)
     .remove();
 
-  const yearText = root_svg.append('text')
+  const yearText = title_g.append('text')
     .attr('x', svgDimensions.width * .5)
     .attr('y', svgDimensions.height *.035)
     .attr('text-anchor', 'middle')
@@ -190,7 +201,7 @@ function drawBuyingPower(item) {
   yearText.append('tspan')
     .text(`${item}?`)
     .attr('x', svgDimensions.width * .5)
-    .attr('y', svgDimensions.height * .145)
+    .attr('y', svgDimensions.height * .12)
     .attr('id', 'item_title')
     .style('fill', 'var(--buyingPowerSilver)');
 
@@ -206,24 +217,24 @@ function drawBuyingPower(item) {
 
   const drawImages = (xCoordinate) => {
 
-    root_svg.append('image')
+    content_g.append('image')
       .attr('class', 'svgImage')
       .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .3)
+      .attr('y', svgDimensions.height * .22)
       .attr('opacity', 0)
-      .attr('width', 50)
-      .attr('height', 50)
+      .attr('width', 30)
+      .attr('height', 30)
       .attr('href', filteredItems[0].file) //this gets the file attribute
       .transition()
       .duration(1000)
       .attr('opacity', 1);
   }
 
-  drawImages(svgDimensions.width * .13);
-  drawImages(svgDimensions.width * .48);
-  drawImages(svgDimensions.width * .83);
+  drawImages(svgDimensions.width * .135);
+  drawImages(svgDimensions.width * .49);
+  drawImages(svgDimensions.width * .84);
   
-  const drawYearText = (year, xCoordinate, xCoordinateDescription) => {
+  const drawYearText = (year, xCoordinate) => {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
     function displayBuyingPower() {
       const found = filteredItems.find(d => d.year === parseInt(year));
@@ -238,29 +249,29 @@ function drawBuyingPower(item) {
     }
 
     //appending year
-    root_svg.append('text')
+    content_g.append('text')
       .text(`In ${year}`)
       .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .25)
+      .attr('y', svgDimensions.height * .20)
       .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '2em');
     
     //appending year
-    root_svg.append('text')
+    content_g.append('text')
       .text(`A penny could buy ${displayBuyingPower()}`)
-      .attr('x', xCoordinateDescription)
+      .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .3)
-      .attr('text-anchor', 'left')
+      .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '1em');
     
-    const itemText = root_svg.append('text')
-      .attr('x', xCoordinateDescription)
+    const itemText = content_g.append('text')
+      .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .33)
-      .attr('text-anchor', 'left')
+      .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
       .style('fill', `var(--black)`)
       .style('font-size', '1em');
@@ -273,9 +284,9 @@ function drawBuyingPower(item) {
       .style('fill', 'var(--buyingPowerSilver)');
 
     //appending Cost:
-    const costText = root_svg.append('text')
+    const costText = content_g.append('text')
       .attr('x', xCoordinate)
-      .attr('y', svgDimensions.height * .995)
+      .attr('y', svgDimensions.height * .992)
       .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
       .style('fill', `var(--black)`)
@@ -293,13 +304,13 @@ function drawBuyingPower(item) {
     
   }
 
-  drawYearText('1910', svgDimensions.width * .15, svgDimensions.width * .05);
-  drawYearText('1960', svgDimensions.width * .5, svgDimensions.width * .40);
-  drawYearText('2010', svgDimensions.width * .85, svgDimensions.width * .75);
+  drawYearText('1910', svgDimensions.width * .15);
+  drawYearText('1960', svgDimensions.width * .5);
+  drawYearText('2010', svgDimensions.width * .85);
 
 
   //update selection
-  const bars = root_svg.selectAll('.buyingPowerBar')
+  const bars = content_g.selectAll('.buyingPowerBar')
       .data(filteredItems);
   
   //enter selection
