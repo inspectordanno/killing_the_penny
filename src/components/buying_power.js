@@ -215,7 +215,7 @@ function drawBuyingPower(item) {
 
   //drawing external svgs
 
-  const drawImages = (xCoordinate) => {
+  const drawImages = (xCoordinate, opacity) => {
 
     content_g.append('image')
       .attr('class', 'svgImage')
