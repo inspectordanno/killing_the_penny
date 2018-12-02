@@ -8,77 +8,92 @@ let prefilteredItems = [
   {
     name: 'cup of coffee',
     year: 1910,
-    price: .05
+    price: .05,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'cup of coffee',
     year: 1960,
-    price: .20
+    price: .20,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'cup of coffee',
     year: 2010,
-    price: 1.50
+    price: 1.50,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'Hersheyʼs chocolate bar',
     year: 1910,
-    price: .02
+    price: .02,
+    file: '../src/images/chocolate.svg'
   },
   {
     name: 'Hersheyʼs chocolate bar',
     year: 1960,
-    price: .05
+    price: .05,
+    file: '../src/images/chocolate.svg'
   },
   {
     name: 'Hersheyʼs chocolate bar',
     year: 2010,
-    price: .99
+    price: .99,
+    file: '../src/images/chocolate.svg'
   },
   {
     name: 'postage stamp',
     year: 1910,
-    price: .02
+    price: .02,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'postage stamp',
     year: 1960,
-    price: .04
+    price: .04,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'postage stamp',
     year: 2010,
-    price: .44
+    price: .44,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'New York Times',
     year: 1910,
-    price: .01
+    price: .01,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'New York Times',
     year: 1960,
-    price: .05
+    price: .05,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'New York Times',
     year: 2010,
-    price: 2.00
+    price: 2.00,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'loaf of bread',
     year: 1910,
-    price: .03
+    price: .03,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'loaf of bread',
     year: 1960,
-    price: .23
+    price: .23,
+    file: '../src/images/coffee.svg'
   },
   {
     name: 'loaf of bread',
     year: 2010,
-    price: 2.50
+    price: 2.50,
+    file: '../src/images/coffee.svg'
   },
 ];
 
@@ -138,6 +153,8 @@ const barY = svgDimensions.height * .35;
 
 
 
+
+
 function drawBuyingPower(item) {
 
   //selecting existing svg objects
@@ -152,6 +169,12 @@ function drawBuyingPower(item) {
   
   //remove all text before drawing
   d3.selectAll('text')
+    .remove();
+  
+  //remove all images before drawing
+  d3.selectAll('.svgImage')
+    // .transition()
+    // .attr('opacity', 0)
     .remove();
 
   const yearText = root_svg.append('text')
@@ -178,8 +201,29 @@ function drawBuyingPower(item) {
   const filteredItems = prefilteredItems.filter(d => {
         return d.name === item; 
       });
+
+  //drawing external svgs
+
+  const drawImages = (xCoordinate) => {
+
+    root_svg.append('image')
+      .attr('class', 'svgImage')
+      .attr('x', xCoordinate)
+      .attr('y', svgDimensions.height * .3)
+      .attr('opacity', 0)
+      .attr('width', 50)
+      .attr('height', 50)
+      .attr('href', filteredItems[0].file) //this gets the file attribute
+      .transition()
+      .duration(1000)
+      .attr('opacity', 1);
+  }
+
+  drawImages(svgDimensions.width * .13);
+  drawImages(svgDimensions.width * .48);
+  drawImages(svgDimensions.width * .83);
   
-  const drawYearText = (year, xCoordinate) => {
+  const drawYearText = (year, xCoordinate, xCoordinateDescription) => {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
     function displayBuyingPower() {
       const found = filteredItems.find(d => d.year === parseInt(year));
@@ -206,17 +250,17 @@ function drawBuyingPower(item) {
     //appending year
     root_svg.append('text')
       .text(`A penny could buy ${displayBuyingPower()}`)
-      .attr('x', xCoordinate)
+      .attr('x', xCoordinateDescription)
       .attr('y', svgDimensions.height * .3)
-      .attr('text-anchor', 'middle')
+      .attr('text-anchor', 'left')
       // .style('font-family', 'Dosis, sans-serif')
       .style('fill', 'var(--black)')
       .style('font-size', '1em');
     
     const itemText = root_svg.append('text')
-      .attr('x', xCoordinate)
+      .attr('x', xCoordinateDescription)
       .attr('y', svgDimensions.height * .33)
-      .attr('text-anchor', 'middle')
+      .attr('text-anchor', 'left')
       // .style('font-family', 'Dosis, sans-serif')
       .style('fill', `var(--black)`)
       .style('font-size', '1em');
@@ -249,9 +293,9 @@ function drawBuyingPower(item) {
     
   }
 
-  drawYearText('1910', svgDimensions.width * .15);
-  drawYearText('1960', svgDimensions.width * .5);
-  drawYearText('2010', svgDimensions.width * .85);
+  drawYearText('1910', svgDimensions.width * .15, svgDimensions.width * .05);
+  drawYearText('1960', svgDimensions.width * .5, svgDimensions.width * .40);
+  drawYearText('2010', svgDimensions.width * .85, svgDimensions.width * .75);
 
 
   //update selection
