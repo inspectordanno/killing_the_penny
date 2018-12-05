@@ -11,7 +11,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[chunkhash].js'
   },
-  devtool: 'eval-source-map',
   module: {
     rules: [
       {
