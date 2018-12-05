@@ -4,97 +4,40 @@ import {graphicDimensions} from './utils.js';
 
 //initial object of items
 
+class Item {
+  constructor(name, year, price, file) {
+    this.name = name;
+    this.year = year;
+    this.price = price;
+    this.file = file;
+  }
+}
+
 let prefilteredItems = [
-  {
-    name: 'cup of coffee',
-    year: 1910,
-    price: .05,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'cup of coffee',
-    year: 1960,
-    price: .20,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'cup of coffee',
-    year: 2010,
-    price: 1.50,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'Hersheyʼs chocolate bar',
-    year: 1910,
-    price: .02,
-    file: '../src/images/chocolate.svg'
-  },
-  {
-    name: 'Hersheyʼs chocolate bar',
-    year: 1960,
-    price: .05,
-    file: '../src/images/chocolate.svg'
-  },
-  {
-    name: 'Hersheyʼs chocolate bar',
-    year: 2010,
-    price: .99,
-    file: '../src/images/chocolate.svg'
-  },
-  {
-    name: 'postage stamp',
-    year: 1910,
-    price: .02,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'postage stamp',
-    year: 1960,
-    price: .04,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'postage stamp',
-    year: 2010,
-    price: .44,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'New York Times',
-    year: 1910,
-    price: .01,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'New York Times',
-    year: 1960,
-    price: .05,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'New York Times',
-    year: 2010,
-    price: 2.00,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'loaf of bread',
-    year: 1910,
-    price: .03,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'loaf of bread',
-    year: 1960,
-    price: .23,
-    file: '../src/images/coffee.svg'
-  },
-  {
-    name: 'loaf of bread',
-    year: 2010,
-    price: 2.50,
-    file: '../src/images/coffee.svg'
-  },
+  //coffee
+  new Item('cup of coffee', 1910, 0.05, '../src/images/coffee.svg'),
+  new Item('cup of coffee', 1960, 0.20, '../src/images/coffee.svg'),
+  new Item('cup of coffee', 2010, 1.50, '../src/images/coffee.svg'),
+
+  //Hershey's chocolate bar
+  new Item(`Hersheyʼs chocolate bar`, 1910, 0.02, '../src/images/chocolate.svg'),
+  new Item(`Hersheyʼs chocolate bar`, 1960, 0.05, '../src/images/chocolate.svg'),
+  new Item(`Hersheyʼs chocolate bar`, 2010, 0.99, '../src/images/chocolate.svg'),
+
+  //postage stamp
+  new Item('postage stamp', 1910, 0.02, '../src/images/stamp.svg'),
+  new Item('postage stamp', 1960, 0.04, '../src/images/stamp.svg'),
+  new Item('postage stamp', 2010, 0.44, '../src/images/stamp.svg'),
+
+  //New York Times
+  new Item('New York Times', 1910, 0.01, '../src/images/newspaper.svg'),
+  new Item('New York Times', 1960, 0.05, '../src/images/newspaper.svg'),
+  new Item('New York Times', 2010, 2.00, '../src/images/newspaper.svg'),
+
+  //loaf of bread
+  new Item('loaf of bread', 1910, 0.03, '../src/images/bread.svg'),
+  new Item('loaf of bread', 1960, 0.23, '../src/images/bread.svg'),
+  new Item('loaf of bread', 2010, 2.50, '../src/images/bread.svg')
 ];
 
 //adding buying power metric to each item
@@ -212,7 +155,7 @@ function drawBuyingPower(item) {
   const filteredItems = prefilteredItems.filter(d => {
         return d.name === item; 
       });
-
+  
   //drawing external svgs
 
   const drawImages = (xCoordinate, opacity) => {
