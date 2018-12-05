@@ -165,8 +165,8 @@ function drawBuyingPower(item) {
       .attr('x', xCoordinate)
       .attr('y', svgDimensions.height * .22)
       .attr('opacity', 0)
-      .attr('width', 30)
-      .attr('height', 30)
+      .attr('width', svgDimensions.width * .03) //30px on desktop
+      .attr('height', svgDimensions.width * .03) //30px on desktop
       .attr('href', filteredItems[0].file) //this gets the file attribute
       .transition()
       .duration(1000)
