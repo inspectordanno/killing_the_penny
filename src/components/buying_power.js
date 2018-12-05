@@ -43,7 +43,7 @@ let prefilteredItems = [
 //adding buying power metric to each item
 //then convering buying power to something that will be converted to a fraction
 
-prefilteredItems = prefilteredItems.map(d => { 
+prefilteredItems = prefilteredItems.map((d,i) => { 
   d.buying_power = Math.round((.01 / d.price) * 1000) / 1000;
   d.toFraction = d.buying_power;
   const lastDigit = d.buying_power.toString().split('').pop()
@@ -170,12 +170,12 @@ function drawBuyingPower(item) {
       .attr('href', filteredItems[0].file) //this gets the file attribute
       .transition()
       .duration(1000)
-      .attr('opacity', 1);
+      .attr('opacity', opacity);
   }
 
-  drawImages(svgDimensions.width * .135);
-  drawImages(svgDimensions.width * .49);
-  drawImages(svgDimensions.width * .84);
+  drawImages(svgDimensions.width * .135, 1);
+  drawImages(svgDimensions.width * .49, .5);
+  drawImages(svgDimensions.width * .84, .2);
   
   const drawYearText = (year, xCoordinate) => {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
