@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 const Fraction = require('fraction.js');
-import {graphicDimensions} from './utils.js';
+import {svgDimensions, root_svg} from './utils.js';
 
 //initial object of items
 
@@ -53,15 +53,6 @@ prefilteredItems = prefilteredItems.map((d,i) => {
   return d;
 })
 
-//appending an SVG
-
-const root_svg = d3.select('.graphic_container')
-  .append('svg')
-  .attr('width', graphicDimensions.width * .98) //svg 90% width of container
-  .attr('height',graphicDimensions.width * .98 * .60) //svg 66% height of container
-  .style('font-family', `'Source Sans Pro', sans-serif`)
-  .attr('class', 'svg');
- 
 const title_g = root_svg
   .append('g')
   .attr('id', 'title')
@@ -72,13 +63,6 @@ const content_g = root_svg
   .attr('id', 'content')
   // .attr('transform', 'translate(0,1)')
 
-
-//getting the dimensions of the SVG
-
-const svgDimensions = {
-  width: document.querySelector('.svg').clientWidth,
-  height: document.querySelector('.svg').clientHeight
-}
 
 const barWidth = svgDimensions.width * .25;
 const barHeight = svgDimensions.height * .6;
@@ -281,7 +265,6 @@ function drawBuyingPower(item) {
     //exit selection
     const exitBars = bars.exit()
       .remove()
-
 }
 
 export default drawBuyingPower;
