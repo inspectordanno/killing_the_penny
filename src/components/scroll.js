@@ -1,8 +1,26 @@
 import 'intersection-observer';
 import scrollama from 'scrollama';
 import drawBuyingPower from './buying_power';
+import drawRounding from './rounding'
 
 const scroller = scrollama();
+
+const handleStepEnter = (d) => {
+  const chapterSelector = (d, attribute, functionName) => {
+    if (d.element.hasAttribute(attribute)) {
+      functionName(d.element.getAttribute(attribute))
+    }
+  }
+  chapterSelector(d, 'data-step-buying-power', drawBuyingPower);
+  chapterSelector(d, 'data-step-rounding', drawRounding);
+
+  const drawChapter = (d) => {
+    if (d.element.classList.contains('intro') || d.element.classList.contains('conclusion')) {
+      console.log('hey');
+    }
+  }
+  drawChapter(d);
+}
 
 scroller
   .setup({
@@ -15,10 +33,8 @@ scroller
   // .onContainerEnter(handleContainerEnter)
   // .onContainerExit(handleContainerExit);
 
-  function handleStepEnter(d) {
-    drawBuyingPower(d.element.getAttribute('data-step'));
-    console.log('entered');
-  }
+
+
 
   // function handleStepExit(d) {
   //   console.log(d.element);

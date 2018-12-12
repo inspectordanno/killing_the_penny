@@ -5,39 +5,39 @@ import {graphicDimensions} from './utils.js';
 //initial object of items
 
 class Item {
-  constructor(name, year, price, file) {
+  constructor(name, year, price, fileName) {
     this.name = name;
     this.year = year;
     this.price = price;
-    this.file = file;
+    this.file = `../src/images/${fileName}.svg`
   }
 }
 
 let prefilteredItems = [
   //coffee
-  new Item('cup of coffee', 1910, 0.05, '../src/images/coffee.svg'),
-  new Item('cup of coffee', 1960, 0.20, '../src/images/coffee.svg'),
-  new Item('cup of coffee', 2010, 1.50, '../src/images/coffee.svg'),
+  new Item('cup of coffee', 1910, 0.05, 'coffee'),
+  new Item('cup of coffee', 1960, 0.20, 'coffee'),
+  new Item('cup of coffee', 2010, 1.50, 'coffee'),
 
   //Hershey's chocolate bar
-  new Item(`Hersheyʼs chocolate bar`, 1910, 0.02, '../src/images/chocolate.svg'),
-  new Item(`Hersheyʼs chocolate bar`, 1960, 0.05, '../src/images/chocolate.svg'),
-  new Item(`Hersheyʼs chocolate bar`, 2010, 0.99, '../src/images/chocolate.svg'),
+  new Item(`Hersheyʼs chocolate bar`, 1910, 0.02, 'chocolate'),
+  new Item(`Hersheyʼs chocolate bar`, 1960, 0.05, 'chocolate'),
+  new Item(`Hersheyʼs chocolate bar`, 2010, 0.99, 'chocolate'),
 
   //postage stamp
-  new Item('postage stamp', 1910, 0.02, '../src/images/stamp.svg'),
-  new Item('postage stamp', 1960, 0.04, '../src/images/stamp.svg'),
-  new Item('postage stamp', 2010, 0.44, '../src/images/stamp.svg'),
+  new Item('postage stamp', 1910, 0.02, 'stamp'),
+  new Item('postage stamp', 1960, 0.04, 'stamp'),
+  new Item('postage stamp', 2010, 0.44, 'stamp'),
 
   //New York Times
-  new Item('New York Times', 1910, 0.01, '../src/images/newspaper.svg'),
-  new Item('New York Times', 1960, 0.05, '../src/images/newspaper.svg'),
-  new Item('New York Times', 2010, 2.00, '../src/images/newspaper.svg'),
+  new Item('New York Times', 1910, 0.01, 'newspaper'),
+  new Item('New York Times', 1960, 0.05, 'newspaper'),
+  new Item('New York Times', 2010, 2.00, 'newspaper'),
 
   //loaf of bread
-  new Item('loaf of bread', 1910, 0.03, '../src/images/bread.svg'),
-  new Item('loaf of bread', 1960, 0.23, '../src/images/bread.svg'),
-  new Item('loaf of bread', 2010, 2.50, '../src/images/bread.svg')
+  new Item('loaf of bread', 1910, 0.03, 'bread'),
+  new Item('loaf of bread', 1960, 0.23, 'bread'),
+  new Item('loaf of bread', 2010, 2.50, 'bread')
 ];
 
 //adding buying power metric to each item
@@ -52,8 +52,6 @@ prefilteredItems = prefilteredItems.map((d,i) => {
   }
   return d;
 })
-
-console.log(prefilteredItems);
 
 //appending an SVG
 
@@ -82,8 +80,6 @@ const svgDimensions = {
   height: document.querySelector('.svg').clientHeight
 }
 
-console.log(svgDimensions);
-
 const barWidth = svgDimensions.width * .25;
 const barHeight = svgDimensions.height * .6;
 
@@ -95,7 +91,6 @@ const barY = svgDimensions.height * .35;
 
  //append overall bars
  for (let i = 0; i <= 2; i++) {
-  console.log(root_svg);
   content_g.append('rect')
     .attr('class', 'overallBar')
     .attr('x', barX(i)) //the initial starting point is the first number. the second number is how much space there should be between the bars.
@@ -287,9 +282,6 @@ function drawBuyingPower(item) {
     const exitBars = bars.exit()
       .remove()
 
-    console.log(filteredItems);
-
-    console.log(bars);
 }
 
 export default drawBuyingPower;
