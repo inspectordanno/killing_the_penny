@@ -36,7 +36,7 @@ export const initializeScroll = (data) => {
   }
 
   makeScrollamaInstance(scroller_buying_power, '#container_buying_power');
-  makeScrollamaInstance(scroller_rounding, '#container-rounding');
+  makeScrollamaInstance(scroller_rounding, '#container_rounding');
   
     // .onStepExit(handleStepExit)
     // .onContainerEnter(handleContainerEnter)
