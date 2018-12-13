@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-const Fraction = require('fraction.js');
+import Fraction from 'fraction.js';
 import {generateSVG} from './utils.js';
 
 console.log('hello');

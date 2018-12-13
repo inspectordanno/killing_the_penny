@@ -30,8 +30,8 @@ const drawRounding = (data_step, data) => {
       .attr('fill', 'orange')
       .attr('width', 100)
       .attr('height', 100)
-      .attr('x', 500)
-      .attr('y', 500)
+      .attr('x', 300)
+      .attr('y', 300)
   }
 
   if (data_step == 1)  {
