@@ -2,6 +2,8 @@ import * as d3 from 'd3';
 const Fraction = require('fraction.js');
 import {svgDimensions, root_svg} from './utils.js';
 
+console.log('hello');
+
 //initial object of items
 
 class Item {
@@ -90,15 +92,9 @@ const barY = svgDimensions.height * .35;
 
 function drawBuyingPower(item) {
 
-  //selecting existing svg objects
-  //chance opacity using transition()
-  //remove
+  //draw overall bars (if they do not exist)
+  //attach g's (if they do not exist)
 
-  //calculate width and height of imported svg object
-  //scale it down to fit the width of the overall bar
-  //draw with an opacity of 0
-  //transition()
-  // fade in
   
   //remove all text before drawing
   d3.selectAll('text')

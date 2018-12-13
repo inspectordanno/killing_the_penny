@@ -1,7 +1,8 @@
 import 'intersection-observer';
 import scrollama from 'scrollama';
 import drawBuyingPower from './buying_power';
-import drawRounding from './rounding'
+import drawRounding from './rounding';
+import {select} from 'd3-selection';
 
 const scroller = scrollama();
 
@@ -15,30 +16,18 @@ const handleStepEnter = (d) => {
   chapterSelector(d, 'data-step-buying-power', drawBuyingPower);
   chapterSelector(d, 'data-step-rounding', drawRounding);
 
-  const drawChapter = (d) => {
-    //if I'm entering a section from the top
-    //erase everything
-    //draw
-
-    //if I'm leaving a section from the bottom
-    //erase everything
-   // draw
-
-
-    // if (d.element.classList.contains('intro') || d.element.classList.contains('conclusion')) {
-    //   //erase previous
-    //   d3.selectAll('.svg > *')
-    //   .attr('opacity', 1)
-    //   .transition()
-    //   .duration(500)
-    //   .attr('opacity', 0)
-    //   .remove();
-
-    //   //draw current
-    // }
+  //when i enter a section, delete everything
+  if (d.element.classList.contains('erase')) {
+    select('.svg')
+      .attr('opacity', 1)
+      .transition()
+      .duration(500)
+      .attr('opacity', 0)
+      .remove();
   }
-  drawChapter(d);
 }
+
+
 
 scroller
   .setup({
