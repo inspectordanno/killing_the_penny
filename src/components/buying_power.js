@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 const Fraction = require('fraction.js');
-import {svgDimensions, root_svg} from './utils.js';
+import {generateSVG} from './utils.js';
 
 console.log('hello');
 
@@ -54,6 +54,13 @@ prefilteredItems = prefilteredItems.map((d,i) => {
   }
   return d;
 })
+
+const root_svg = generateSVG('#container_buying_power', 'svg_buying_power');
+
+const svgDimensions = {
+  width: document.querySelector('#svg_buying_power').clientWidth,
+  height: document.querySelector('#svg_buying_power').clientHeight
+}
 
 const title_g = root_svg
   .append('g')

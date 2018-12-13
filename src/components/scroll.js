@@ -6,7 +6,8 @@ import {select} from 'd3-selection';
 
 export const initializeScroll = (data) => {
 
-  const scroller = scrollama();
+  const scroller_buying_power = scrollama();
+  const scroller_rounding = scrollama();
 
   const handleStepEnter = (d) => {
     console.log(d);
@@ -17,25 +18,32 @@ export const initializeScroll = (data) => {
     }
     chapterSelector(d, 'data-step-buying-power', drawBuyingPower);
     chapterSelector(d, 'data-step-rounding', drawRounding);
-  
-    //when i enter a section, delete everything
-    if (d.element.classList.contains('erase')) {
-      select('.svg')
-        .attr('opacity', 1)
-        .transition()
-        .duration(500)
-        .attr('opacity', 0)
-        .remove();
-    }
   }
   
-  scroller
+  scroller_buying_power
     .setup({
       step: '.step',
-      container: '.scroll_container',
+      container: '#container_buying_power',
       graphic: '.sticky_graphic'
     })
     .onStepEnter(handleStepEnter)
+
+  scroller_rounding
+    .setup({
+      step: '.step',
+      container: '#container_rounding',
+      graphic: '.sticky_graphic'
+    })
+    .onStepEnter(handleStepEnter)
+
+
+
+
+
+
+
+
+
     // .onStepExit(handleStepExit)
     // .onContainerEnter(handleContainerEnter)
     // .onContainerExit(handleContainerExit);

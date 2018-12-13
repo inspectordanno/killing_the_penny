@@ -6,14 +6,14 @@ export const graphicDimensions = {
   height: document.querySelector('.graphic_container').clientHeight
 }
 
-export const root_svg = select('.graphic_container')
+export const generateSVG = (containerID, svgID) => {
+  const root_svg = select(`${containerID} > .graphic_container`)
   .append('svg')
   .attr('width', graphicDimensions.width * .98) //svg 90% width of container
   .attr('height',graphicDimensions.width * .98 * .60) //svg 66% height of container
   .style('font-family', `'Source Sans Pro', sans-serif`)
-  .attr('class', 'svg');
+  .attr('class', 'svg')
+  .attr('id', svgID);
 
-export const svgDimensions = {
-    width: document.querySelector('.svg').clientWidth,
-    height: document.querySelector('.svg').clientHeight
-  }
+  return root_svg;
+}
