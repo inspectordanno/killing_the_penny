@@ -1,0 +1,3601 @@
+pre_tax_amount,tax,post_tax_amount,amount_tendered,change_due,state
+23,0,23,30,7,Georgia
+1.29,0.09,1.38,2,0.62,South Carolina
+10,0,10,20,10,Virginia
+1.29,0.06,1.35,1.35,0,Virginia
+1.98,0.14,2.12,2.12,0,North Carolina
+9.51,0.28,1,1,0,Virginia
+4.29,0,4.29,10,5.71,Pennsylvania
+0.79,0.04,0.83,0.83,0,South Carolina
+10,0,10,10,0,Georgia
+0.99,0.09,1.08,1.25,0.17,Virginia
+19,0,50,50,0,Virginia
+0.85,0.02,0.87,5,4.13,Virginia
+39.02,0,39.02,39.02,0,South Carolina
+4.08,0.29,4.37,4.37,0,North Carolina
+50,0,50,50,0,Virginia
+3.18,0.16,3.34,3.34,0,South Carolina
+21.05,0,21.05,21.05,0,Pennsylvania
+12.21,0.14,0.35,0.35,0,North Carolina
+6,0,6,6,0,North Carolina
+48,0,48,48,0,Alabama
+3.53,0.19,3.72,20,16.28,North Carolina
+30.01,0,30.01,30.01,0,Georgia
+15,0,15,15,0,Virginia
+0.49,0.04,0.53,1,0.47,Alabama
+2.89,0.2,3.09,3.1,0.01,North Carolina
+1.99,0.14,2.13,2.13,0,South Carolina
+2.68,0.19,2.87,3.02,0.15,North Carolina
+3.88,0.21,1,1,0,South Carolina
+2.78,0.19,2.97,20,17.03,Georgia
+1.19,0,1.19,2,0.81,Pennsylvania
+31.22,0,31.22,31.22,0,South Carolina
+0.89,0.08,0.97,1,0.03,Alabama
+3.56,0.07,3.63,20,16.37,Georgia
+4.16,0.12,4.28,5,0.72,Georgia
+5,0.41,5.41,10,4.59,Tennessee
+1.29,0.09,1.38,20.03,18.65,North Carolina
+5.58,0.5,6.08,10,3.92,Alabama
+2,0,2,2,0,South Carolina
+22.07,0,22.07,22.07,0,North Carolina
+2.49,0.23,2.72,3,0.28,Tennessee
+28.6,0,28.6,28.6,0,South Carolina
+29.83,0.2,30.03,50.03,20,Virginia
+15.31,0.21,15.52,100,84.48,Georgia
+22.99,1.61,24.6,25,0.4,Georgia
+50,0,50,50,0,Georgia
+40.11,0,40.11,40.11,0,Georgia
+15.02,0,15.02,15.02,0,North Carolina
+31.78,0.21,31.99,31.99,0,South Carolina
+1.98,0.1,2.08,3,0.92,South Carolina
+1.49,0.03,1.52,1.52,0,North Carolina
+9.99,0.6,10.59,10.59,0,Georgia
+2.97,0.21,3.18,4,0.82,South Carolina
+4.87,0.1,4.97,5,0.03,North Carolina
+22.67,0,22.67,25,2.33,South Carolina
+4,0,4,4,0,Pennsylvania
+10,0,10,10,0,South Carolina
+43,0,43,43,0,Georgia
+1.19,0.11,1.3,1.3,0,Tennessee
+25,0,25,25,0,Virginia
+15.45,0,15.45,20,4.55,North Carolina
+1.99,0.05,2.04,5,2.96,Virginia
+20,0,20,20,0,Georgia
+20,0,20,20,0,North Carolina
+20.05,0,20.05,20.25,0.2,South Carolina
+10,0,10,10,0,Pennsylvania
+1.29,0.09,1.38,5,3.62,North Carolina
+7,0,7,20,13,Virginia
+2.84,0.26,3.1,3.1,0,Alabama
+5.23,0.21,5.44,10,4.56,Virginia
+45,0,45,100,55,Virginia
+13.75,0,13.75,13.75,0,South Carolina
+11.99,0.14,12.13,13,0.87,North Carolina
+19.3,0,19.3,19.3,0,South Carolina
+25,0,25,25,0,South Carolina
+7.99,0.56,8.55,9,0.45,Georgia
+20,0,20,20,0,North Carolina
+12.58,0.23,12.81,20,7.19,Alabama
+9.98,0.7,10.68,10.75,0.07,Georgia
+25.32,0,25.32,25.32,0,Georgia
+0.69,0.02,0.71,1,0.29,Georgia
+3.47,0.24,3.71,5,1.29,South Carolina
+11.47,0.57,12.04,20.1,8.06,South Carolina
+33,0,33,33,0,Georgia
+31.61,0.51,32.12,40,7.88,North Carolina
+29.03,0.84,9.87,20,10.13,Pennsylvania
+22,0.06,22.06,23,0.94,Georgia
+15,0,15,20,5,Georgia
+0.99,0.07,1.06,1.26,0.2,Georgia
+5.48,0.27,5.75,6,0.25,South Carolina
+2.99,0.28,3.27,5.5,2.23,Tennessee
+4.16,0.29,4.45,4.45,0,South Carolina
+11.34,1.05,12.39,15,2.61,Tennessee
+4.2,0.38,4.58,5,0.42,Alabama
+3.16,0.09,78.25,100,21.75,Georgia
+49.79,0,49.79,49.79,0,South Carolina
+0.99,0.07,1.06,2,0.94,North Carolina
+15.5,0,15.5,50,34.5,Tennessee
+10,0,10,20,10,Virginia
+37.57,0,37.57,37.57,0,South Carolina
+3.27,0.19,3.46,5,1.54,North Carolina
+29.79,0,29.79,30,0.21,Alabama
+12,0,12,12,0,Virginia
+10.99,0.09,11.08,11.08,0,Alabama
+35,0,35,35,0,North Carolina
+0.79,0.06,0.85,1,0.15,North Carolina
+1.19,0.06,1.25,1.25,0,South Carolina
+13.88,0.16,14.04,15,0.96,Virginia
+1,0,1,1,0,South Carolina
+11.88,0.09,11.97,20,8.03,North Carolina
+5.69,0,5.69,20,14.31,Pennsylvania
+26,0,26,26,0,South Carolina
+2.19,0.15,2.34,5,2.66,North Carolina
+1.59,0.05,1.64,2,0.36,Georgia
+2.18,0.15,2.33,3,0.67,Georgia
+37,0,37,37,0,Georgia
+5.55,0.39,5.94,6,0.06,North Carolina
+10,0,10,10,0,Virginia
+1.29,0.03,1.32,1.32,0,Georgia
+0.79,0.06,0.85,1,0.15,North Carolina
+0.99,0.07,1.06,2,0.94,Georgia
+2,0,2,2,0,North Carolina
+11.98,0.09,12.07,15.27,3.2,North Carolina
+4.02,0,30,30,0,South Carolina
+5.85,0.53,6.38,20,13.62,Alabama
+21.99,0.18,22.17,22.17,0,Tennessee
+3.18,0.06,3.24,5.25,2.01,Georgia
+0.99,0.09,1.08,1.08,0,Alabama
+1.98,0.11,2.09,3,0.91,Virginia
+4.75,0.43,5.18,5.18,0,Alabama
+1.19,0.07,1.26,20,18.74,North Carolina
+1.19,0.04,1.23,1.25,0.02,Georgia
+5.08,0.29,5.37,6,0.63,Georgia
+1.69,0.05,1.74,1.74,0,Georgia
+0.99,0.07,1.06,1.06,0,Georgia
+1.09,0.08,1.17,2,0.83,South Carolina
+0.89,0.03,0.92,1,0.08,Georgia
+1.98,0.12,2.1,3,0.9,Pennsylvania
+10,0.7,10.7,10.7,0,North Carolina
+5,0.25,5.25,10.25,5,South Carolina
+1.19,0.08,1.27,2,0.73,North Carolina
+0.79,0.06,0.85,1,0.15,North Carolina
+3.24,0.16,3.4,3.4,0,South Carolina
+5.98,0.34,6.32,7,0.68,Georgia
+36.86,0,36.86,36.86,0,South Carolina
+15.01,0,15.01,15.01,0,Virginia
+7,0.1,7.1,10.1,3,South Carolina
+1.5,0,5,5,0,Virginia
+23.17,0,23.17,23.17,0,Georgia
+12.04,0.1,12.14,21,8.86,North Carolina
+9.06,0.63,9.69,10,0.31,North Carolina
+1.59,0.11,1.7,1.75,0.05,North Carolina
+11.29,0.12,11.41,11.41,0,Alabama
+7,0,7,7,0,North Carolina
+1.19,0.08,1.27,1.27,0,South Carolina
+1.98,0.14,2.12,5,2.88,North Carolina
+37.04,0,37.04,37.04,0,Pennsylvania
+20,0,20,20,0,Virginia
+9.01,0,9.01,9.01,0,South Carolina
+1.84,0.07,1.91,2,0.09,North Carolina
+5,0.25,5.25,20,14.75,South Carolina
+1.09,0.07,1.16,1.16,0,Georgia
+0.25,0.01,0.26,0.26,0,North Carolina
+1.29,0.04,1.33,5,3.67,Georgia
+50,0,50,50,0,Georgia
+2.38,0.12,2.5,3,0.5,Virginia
+10,0,10,10,0,North Carolina
+10,0,10,10,0,Virginia
+9.37,0.4,9.77,20,10.23,North Carolina
+22.99,1.61,24.6,25,0.4,Georgia
+5,0.35,5.1,5.1,0,North Carolina
+0.5,0.04,0.54,1,0.46,Georgia
+2.49,0.05,2.54,3,0.46,North Carolina
+35.01,0,35.01,35.01,0,South Carolina
+10,0,10,10,0,Virginia
+15,0,15,15,0,North Carolina
+11.87,0.83,12.7,15,2.3,North Carolina
+1.49,0.09,1.58,2,0.42,Georgia
+1.98,0.14,2.12,10,7.88,South Carolina
+1.99,0.18,2.17,2.25,0.08,Alabama
+1.09,0.1,1.19,2,0.81,Virginia
+17.68,0.42,18.1,20,1.9,Virginia
+15.18,0.22,15.4,16,0.6,South Carolina
+10,0,10,10,0,North Carolina
+4.28,0,4.28,5,0.72,Virginia
+0.99,0.06,1.05,2,0.95,Georgia
+7,0,7,7,0,Georgia
+5.95,0.35,6.3,10,3.7,North Carolina
+3,0,3,5,2,Virginia
+23,0,23,23,0,Pennsylvania
+21.2,0.08,21.28,40,18.72,North Carolina
+1.29,0.09,1.38,2,0.62,South Carolina
+3.58,0.25,3.83,5,1.17,North Carolina
+0.69,0.02,0.71,1,0.29,Georgia
+32.6,0,32.6,35,2.4,North Carolina
+2.99,0.15,3.14,3.25,0.11,Virginia
+5,0,5,5,0,Georgia
+5.5,0.36,5.86,10,4.14,North Carolina
+36.6,0,36.6,36.6,0,South Carolina
+0.99,0.09,1.08,1.1,0.02,Tennessee
+1.38,0.1,1.48,2,0.52,North Carolina
+2,0,2,2,0,South Carolina
+7,0,7,7,0,South Carolina
+3.49,0.24,3.73,10,6.27,Georgia
+1,0,1,1,0,Tennessee
+2,0,2,2,0,Georgia
+10,0,10,10,0,North Carolina
+5,0,5,10,5,Virginia
+5.01,0,5.01,6,0.99,Georgia
+20,0,20,20,0,North Carolina
+20,0,20,20,0,Pennsylvania
+7,0,7,7,0,Virginia
+5.01,0,5.01,10.01,5,South Carolina
+10,0,10,10,0,North Carolina
+2.19,0.13,2.32,2.32,0,Pennsylvania
+10,0,10,10,0,Georgia
+4.95,0.35,5.3,5.3,0,Georgia
+5.41,0.29,5.7,6,0.3,Georgia
+5.01,0,5.01,5.01,0,North Carolina
+16.85,0,16.85,20,3.15,Alabama
+1.19,0.03,1.22,1.22,0,Virginia
+15,0,15,15,0,Georgia
+4.27,0.13,4.4,4.4,0,North Carolina
+10.48,0.52,8.55,8.55,0,Virginia
+10,0,10,20,10,Georgia
+4.55,0,4.55,5,0.45,North Carolina
+15.45,0.23,15.68,50,34.32,Tennessee
+2.63,0.16,2.79,20,17.21,South Carolina
+10,0,10,10,0,Virginia
+8.05,0.15,8.2,10,1.8,South Carolina
+5,0,5,5,0,Tennessee
+13.25,0,13.25,13.25,0,Virginia
+35.51,0,35.51,35.51,0,South Carolina
+3.44,0.24,3.68,5,1.32,North Carolina
+1.19,0.11,1.3,1.3,0,Alabama
+2,0,2,5,3,South Carolina
+36,0,13,20,7,Virginia
+49.45,0.18,49.63,50,0.37,Georgia
+1.25,0,1.25,2,0.75,North Carolina
+36.75,0,36.75,36.75,0,Georgia
+2.97,0.21,3.18,3.18,0,North Carolina
+5.97,0.15,6.12,7,0.88,Virginia
+3.19,0.16,3.35,3.35,0,Virginia
+2.76,0.08,2.84,3,0.16,Georgia
+19.19,0.39,19.58,19.58,0,Tennessee
+153.99,0,-1.7,0,1.7,Virginia
+22.11,0,22.11,22.11,0,Georgia
+1.99,0.14,2.13,5,2.87,Georgia
+22.99,1.61,24.6,24.6,0,Georgia
+20,0,20,20,0,North Carolina
+39.12,0,39.12,39.12,0,Georgia
+4.28,0.21,4.49,5,0.51,Virginia
+20,0,20,20,0,North Carolina
+3.83,0.27,4.1,5,0.9,South Carolina
+1.98,0.04,2.02,2.02,0,North Carolina
+27.04,0,27.04,27.04,0,Virginia
+1.29,0.04,1.33,2,0.67,Georgia
+0.99,0.07,1.06,1.06,0,North Carolina
+16.58,0.08,16.66,17,0.34,Georgia
+2.47,0.12,2.59,50,47.41,Georgia
+1.49,0.1,1.59,1.6,0.01,North Carolina
+1.98,0.1,2.08,10.25,8.17,Georgia
+1.88,0.07,1.95,2,0.05,North Carolina
+2.38,0.07,2.45,2.45,0,Georgia
+5.8,0,5.8,6,0.2,Virginia
+25,0.13,25.13,25.13,0,Virginia
+3.98,0.28,4.26,5.01,0.75,South Carolina
+1.39,0.1,1.49,2,0.51,South Carolina
+29.49,1.47,30.96,30.96,0,Virginia
+6.59,0.46,7.05,10,2.95,South Carolina
+24.01,0,24.01,24.01,0,Georgia
+9.68,0.87,10.55,21,10.45,Alabama
+32.84,0.16,33,40,7,Virginia
+29.34,0,29.34,29.34,0,South Carolina
+2.84,0.14,2.98,20,17.02,South Carolina
+1.19,0.06,1.25,1.25,0,Virginia
+1.49,0.04,1.53,2,0.47,Virginia
+6.78,0.38,7.16,7.16,0,North Carolina
+203.46,0,203.46,203.46,0,Pennsylvania
+0.99,0.05,1.04,1.04,0,South Carolina
+35,0,35,35,0,Georgia
+1.09,0.07,1.16,1.26,0.1,Pennsylvania
+29,0,29,40,11,Tennessee
+57,0,57,57,0,Tennessee
+1.19,0.11,1.3,2,0.7,Alabama
+10,0,10,20,10,South Carolina
+11.28,0.35,11.63,14,2.37,South Carolina
+1.79,0.05,1.84,10,8.16,Georgia
+10,0,10,10,0,Georgia
+25.83,0,25.83,25.83,0,Virginia
+0.25,0.02,0.27,0.27,0,Virginia
+26,0,26,26,0,Pennsylvania
+20,0,20,20,0,Alabama
+5,0,5,20,15,Georgia
+10,0,10,20,10,North Carolina
+1.58,0.09,1.67,2,0.33,South Carolina
+2.28,0.05,2.33,5,2.67,Georgia
+6.99,0.35,7.34,20,12.66,South Carolina
+3.37,0.08,3.45,5,1.55,Virginia
+24.05,0,24.05,24.05,0,Virginia
+2,0,2,2,0,North Carolina
+0.8,0,0.8,1,0.2,South Carolina
+5,0,5,5,0,South Carolina
+1.98,0.1,2.08,3,0.92,South Carolina
+15.22,0.37,15.59,20,4.41,Georgia
+1.19,0.08,1.27,2,0.73,North Carolina
+1.49,0.07,1.56,1.56,0,Virginia
+6,0,6,6,0,Virginia
+6.06,0.29,6.35,6.35,0,Virginia
+11.28,0.31,11.59,20,8.41,Virginia
+1.99,0.14,2.13,5,2.87,North Carolina
+1.44,0.09,1.53,1.53,0,North Carolina
+2.38,0.14,2.52,3,0.48,South Carolina
+1.19,0.08,1.27,1.27,0,South Carolina
+44.5,0,44.5,44.5,0,North Carolina
+2.68,0.06,2.74,5,2.26,Pennsylvania
+1.05,0.07,1.12,20,18.88,South Carolina
+0.5,0,0.5,1,0.5,Pennsylvania
+14.04,0.98,15.02,15.02,0,North Carolina
+0.99,0.09,1.08,5,3.92,Alabama
+15,0,15,15,0,Tennessee
+1.19,0.02,1.21,20,18.79,North Carolina
+10,0,10,10,0,North Carolina
+6.86,0.48,7.34,8,0.66,North Carolina
+4.04,0.28,4.32,20,15.68,North Carolina
+10,0,10,10,0,South Carolina
+0,0,10,20,10,Virginia
+22.3,0,22.3,22.3,0,Virginia
+10,0,10,10,0,North Carolina
+14.01,0,14.01,14.01,0,Georgia
+1.99,0.06,2.05,2.05,0,Georgia
+1.69,0,1.69,2,0.31,Pennsylvania
+1.48,0.09,1.57,2,0.43,South Carolina
+20,0,20,20,0,Virginia
+36.57,0,36.57,100.57,64,Virginia
+16.5,0,16.5,16.5,0,Georgia
+0.99,0.03,1.02,5.05,4.03,Georgia
+10,0.7,10.7,20.7,10,Georgia
+2.64,0.05,2.69,2.69,0,North Carolina
+53.97,2.74,53.71,55,1.29,Virginia
+1.19,0.03,1.22,1.22,0,Virginia
+22.14,0,22.14,22.14,0,Virginia
+22.01,0,22.01,25.01,3,Virginia
+13.68,0.26,13.94,20,6.06,North Carolina
+1.98,0.05,2.03,10.03,8,Virginia
+2.49,0.21,2.7,5,2.3,Tennessee
+26.74,0,26.74,26.74,0,Georgia
+50,0,50,60,10,Georgia
+5,0,5,5,0,Virginia
+131.59,0,131.59,131.59,0,North Carolina
+8,0,8,20,12,Georgia
+50,0,50,50,0,Georgia
+1.29,0.09,1.38,10,8.62,South Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+4.15,0.36,4.51,10,5.49,Tennessee
+6.38,0.32,6.7,6.7,0,Virginia
+15.17,0.91,16.08,20,3.92,Pennsylvania
+48.15,0,48.15,48.15,0,Georgia
+4.54,0.27,4.81,5,0.19,Pennsylvania
+0.85,0.02,0.87,1,0.13,North Carolina
+31,0,31,31,0,Georgia
+0.99,0.05,1.04,1.25,0.21,South Carolina
+27.05,0.27,-5.5,0,5.5,Virginia
+8,0,8,20,12,North Carolina
+28,0,28,40,12,Virginia
+7.75,0.54,8.29,20,11.71,North Carolina
+5.02,0,5.02,5.02,0,Georgia
+3.44,0.21,3.65,10,6.35,North Carolina
+22.49,1.57,2,2,0,North Carolina
+25.71,0,25.71,25.71,0,North Carolina
+56.5,0,56.5,56.5,0,Georgia
+0.99,0.03,1.02,1.02,0,Georgia
+6.01,0,6.01,6.01,0,South Carolina
+80,5.6,85.6,85.75,0.15,North Carolina
+69.6,0.09,69.69,100,30.31,South Carolina
+2.68,0.19,2.87,5,2.13,South Carolina
+27.35,0,27.35,30,2.65,Virginia
+3.84,0.35,4.19,5,0.81,Alabama
+4.89,0.34,5.23,6,0.77,South Carolina
+7.05,0,7.05,7.05,0,Virginia
+1.99,0.05,2.04,10,7.96,Virginia
+11.99,0.14,12.13,20,7.87,North Carolina
+50.34,3.31,53.65,60.65,7,Georgia
+0.99,0.07,1.06,1.25,0.19,North Carolina
+32.11,0,32.11,32.11,0,South Carolina
+20,0,20,20,0,Pennsylvania
+20.01,0,20.01,21,0.99,South Carolina
+3.98,0.34,4.32,5,0.68,Tennessee
+3.28,0.03,3.31,5,1.69,Virginia
+3,0.25,3.25,4,0.75,Tennessee
+4.98,0.15,5.13,5.13,0,Georgia
+2,0,2,2,0,Georgia
+7.74,0.14,7.88,10,2.12,Virginia
+1.59,0.13,1.72,2,0.28,Tennessee
+0.99,0,0.99,1,0.01,Pennsylvania
+32.41,0,32.41,32.41,0,Tennessee
+23.8,0,23.8,23.8,0,Virginia
+19.99,0.09,20.08,100.1,80.02,Alabama
+2.18,0.05,2.23,5,2.77,Pennsylvania
+0.94,0.02,0.96,20,19.04,North Carolina
+14.4,0,14.4,15,0.6,South Carolina
+0.3,0.01,0.31,5,4.69,Virginia
+5,0,5,5,0,Tennessee
+31.5,0,31.5,31.5,0,Alabama
+18.36,0.21,18.57,20,1.43,Virginia
+20.05,0,20.05,20.05,0,Alabama
+50,0,50,50,0,South Carolina
+7.86,0.33,8.19,9,0.81,Virginia
+5.29,0.37,5.66,6,0.34,North Carolina
+22,0,22,22,0,Virginia
+23.75,0,23.75,23.75,0,Georgia
+9.01,0.03,9.04,9.04,0,Georgia
+1.59,0.11,1.7,2,0.3,South Carolina
+5.78,0.48,6.26,10.26,4,Tennessee
+11.6,0,11.6,11.6,0,North Carolina
+1,0.03,1.03,1.03,0,Georgia
+23.21,0,23.21,23.21,0,Tennessee
+0.99,0.07,1.06,5,3.94,South Carolina
+6.27,0.44,6.71,7,0.29,North Carolina
+0.59,0.05,0.64,0.64,0,Tennessee
+1.09,0.1,1.19,1.25,0.06,Alabama
+35,0,35,40,5,North Carolina
+5,0,5,5,0,Virginia
+49.01,0,49.01,49.01,0,South Carolina
+6.96,0.49,7.45,20,12.55,South Carolina
+0.99,0.02,1.01,1.01,0,Virginia
+1.19,0.08,1.27,2,0.73,Georgia
+2.85,0.2,3.05,3.05,0,North Carolina
+42.01,0,42.01,42.01,0,South Carolina
+4.72,0.33,5.05,6,0.95,North Carolina
+2.04,0.05,2.09,10,7.91,Virginia
+20.36,0,20.36,20.36,0,Alabama
+23,0,23,23,0,Pennsylvania
+1.09,0.07,1.16,2,0.84,Georgia
+3.99,0.28,4.27,5.27,1,South Carolina
+2.94,0.21,3.15,10.15,7,North Carolina
+28.9,0.17,29.07,100,70.93,South Carolina
+36.59,0.23,35.13,40,4.87,Pennsylvania
+15,0,15,15,0,Virginia
+0.99,0.07,1.06,1.06,0,South Carolina
+5.77,0.52,6.29,20,13.71,Alabama
+34.68,0.23,20,20,0,South Carolina
+16,0,16,16,0,Virginia
+2.09,0.15,2.24,2.3,0.06,North Carolina
+5.29,0.09,5.38,6,0.62,North Carolina
+16.13,0,16.13,16.13,0,Georgia
+7.01,0,7.01,7.01,0,Alabama
+29.95,0,29.95,29.95,0,South Carolina
+3.04,0.15,3.19,20,16.81,Virginia
+19.15,0,19.15,19.15,0,Virginia
+1.09,0.08,1.17,2,0.83,Georgia
+20,0,20,20,0,Georgia
+41.67,0,41.67,41.67,0,North Carolina
+29,0,29,29,0,Pennsylvania
+0.89,0.03,0.92,1,0.08,Georgia
+7.72,0.46,8.18,10,1.82,Pennsylvania
+10,0,10,20,10,South Carolina
+22.64,0.12,22.76,23,0.24,North Carolina
+9,0,9,20,11,Tennessee
+9.87,0.24,10.11,10.11,0,Georgia
+10.01,0,10.01,10.01,0,North Carolina
+30.85,0,30.85,30.85,0,Georgia
+4,0,4,5,1,Georgia
+20,0,20,20,0,North Carolina
+46,0,46,46,0,North Carolina
+10,0,10,20,10,Georgia
+3.48,0,3.48,3.48,0,North Carolina
+31.69,0.14,31.83,35,3.17,Tennessee
+10,0,10,10,0,South Carolina
+32.01,0,32.01,32.01,0,Virginia
+5,0,5,5,0,South Carolina
+19,0,19,19,0,Virginia
+1.99,0.1,2.09,3,0.91,Virginia
+3.53,0.19,3.72,3.72,0,North Carolina
+8.24,0.58,8.82,20,11.18,South Carolina
+2.28,0.11,2.39,2.39,0,Georgia
+1.09,0.07,1.16,2,0.84,Pennsylvania
+3.04,0.15,3.19,20,16.81,South Carolina
+10,0,10,20,10,Virginia
+2.28,0.16,2.44,3,0.56,South Carolina
+4.57,0.25,4.82,5,0.18,South Carolina
+20,0,20,20,0,Virginia
+0.89,0.06,0.95,1,0.05,South Carolina
+2.07,0.12,2.19,3,0.81,Pennsylvania
+5,0,5,20,15,North Carolina
+41,0,41,41,0,Georgia
+5.83,0.35,6.18,20,13.82,Pennsylvania
+2.88,0.24,3.12,4,0.88,Tennessee
+2.89,0.07,2.96,10,7.04,Virginia
+2.87,0.26,3.13,3.13,0,Alabama
+1.98,0.14,2.12,5.12,3,North Carolina
+20,0,20,20,0,South Carolina
+4.89,0.24,5.13,5.13,0,South Carolina
+0.99,0.07,1.06,1.1,0.04,South Carolina
+23.03,0,23.03,23.03,0,Georgia
+1.29,0,1.29,5,3.71,Pennsylvania
+15.5,0,15.5,15.5,0,Virginia
+33,0,33,33,0,Georgia
+29,0,29,29,0,North Carolina
+13.7,0,13.7,13.7,0,South Carolina
+28.96,0,28.96,28.96,0,Georgia
+12.02,0,12.02,12.02,0,South Carolina
+0.55,0,0.55,0.55,0,North Carolina
+3.24,0.16,3.4,20,16.6,Virginia
+42.79,0.15,42.94,100,57.06,South Carolina
+7.64,0.33,7.97,8,0.03,Georgia
+24.86,0.15,25.01,25.01,0,Georgia
+30.53,0,30.53,30.53,0,Pennsylvania
+7,0,7,7,0,Virginia
+9,0,9,9,0,Alabama
+49,0,49,49,0,Georgia
+3,0,3,5,2,North Carolina
+11.3,0,11.3,11.3,0,South Carolina
+5,0,5,5,0,North Carolina
+1.19,0.08,1.27,2,0.73,North Carolina
+2.85,0.2,3.05,5,1.95,North Carolina
+6.49,0.45,6.94,10,3.06,North Carolina
+3.47,0.15,3.62,20,16.38,Georgia
+20.53,0,20.53,20.53,0,Tennessee
+5.26,0.37,5.63,6,0.37,South Carolina
+6.23,0.21,6.44,50,43.56,South Carolina
+7.01,0.09,7.1,7.1,0,North Carolina
+0.99,0,0.99,1,0.01,Pennsylvania
+5,0,5,5,0,Virginia
+27,0,20,20,0,South Carolina
+9.19,0.28,9.47,20,10.53,Virginia
+50,0,50,50,0,North Carolina
+15.01,0,15.01,20.05,5.04,Georgia
+0.39,0.01,0.4,1,0.6,Georgia
+1.19,0.08,1.27,2,0.73,South Carolina
+1.99,0.16,2.15,3,0.85,Tennessee
+1.29,0.11,1.4,2,0.6,Tennessee
+11.55,0.46,12.01,12.01,0,North Carolina
+0.99,0.07,1.06,1.06,0,South Carolina
+3.69,0.26,3.95,4,0.05,North Carolina
+48,0,48,48,0,North Carolina
+0.85,0.02,0.87,1,0.13,North Carolina
+76,0,76,76,0,Pennsylvania
+16,0,16,16,0,Alabama
+21.47,0,21.47,21.47,0,Virginia
+40.5,0,40.5,100,59.5,Virginia
+18.99,1.33,20.32,20.37,0.05,Georgia
+1.98,0.06,2.04,10.04,8,Georgia
+27.5,0,27.5,27.5,0,Virginia
+22,0,22,22,0,Georgia
+2.47,0.22,2.69,3,0.31,Alabama
+2.88,0.06,2.94,5,2.06,Virginia
+2.47,0.12,2.59,2.59,0,Georgia
+3,0,3,3,0,Tennessee
+50,0,50,50,0,South Carolina
+4.35,0.22,4.57,5,0.43,North Carolina
+2.47,0.18,2.65,3,0.35,South Carolina
+21.99,1.54,19.53,20,0.47,Georgia
+5.15,0.36,5.51,6,0.49,South Carolina
+1.59,0.11,1.7,2,0.3,North Carolina
+0.99,0.07,1.06,1.1,0.04,South Carolina
+39,0,39,39,0,Georgia
+13.5,0,13.5,13.5,0,Pennsylvania
+4.53,0.27,4.8,4.8,0,Georgia
+2.78,0.07,2.85,2.85,0,Virginia
+24.92,0,24.92,24.92,0,Virginia
+2.19,0.15,2.34,20,17.66,Georgia
+10.49,0.52,11.01,20.01,9,South Carolina
+1.19,0.07,1.26,20,18.74,Pennsylvania
+15.01,0,15.01,15.01,0,North Carolina
+50.19,0.18,0.37,0.37,0,Tennessee
+0.75,0.02,0.77,0.77,0,Virginia
+22.01,0,22.01,22.01,0,Georgia
+8,0,8,8,0,South Carolina
+2.94,0.21,3.15,3.15,0,North Carolina
+18.99,1.33,20.32,21,0.68,South Carolina
+8,0,8,8,0,Georgia
+12.55,0.63,2,2,0,South Carolina
+2.98,0.15,3.13,3.13,0,South Carolina
+7.99,0.4,8.39,20,11.61,Virginia
+27,0,27,27,0,South Carolina
+9,0,9,9,0,Georgia
+10,0.25,10.25,10.25,0,Virginia
+12.16,0.85,13.01,13.01,0,Georgia
+17.15,0,17.15,17.15,0,Alabama
+5,0,5,5,0,Virginia
+2.14,0.09,2.23,2.23,0,North Carolina
+50,0,50,50,0,South Carolina
+1.49,0.04,1.53,5,3.47,Georgia
+1.39,0.03,1.42,1.42,0,North Carolina
+5.38,0.24,5.62,5.62,0,Virginia
+0.99,0.07,1.06,1.06,0,South Carolina
+1,0.07,1.07,1.07,0,North Carolina
+31.85,0,31.85,31.85,0,Alabama
+11,0.06,11.06,20.06,9,Georgia
+2.19,0.07,2.26,2.26,0,Georgia
+10.98,0.66,11.64,20,8.36,Pennsylvania
+37,0,37,37,0,North Carolina
+0.25,0.02,0.27,1,0.73,Tennessee
+2.28,0.07,2.35,3,0.65,Georgia
+21.3,0,21.3,21.3,0,Tennessee
+10.03,0,10.03,20,9.97,Georgia
+2.08,0.19,2.27,3,0.73,Alabama
+5,0,5,10,5,Virginia
+43.35,0,43.35,43.35,0,Alabama
+17,0,17,17,0,Alabama
+20.01,0,20.01,20.01,0,Virginia
+0.99,0.07,1.06,1.25,0.19,North Carolina
+7.9,0.27,8.17,100,91.83,Tennessee
+11.5,0,11.5,11.5,0,Georgia
+17.97,0.9,18.87,20,1.13,South Carolina
+23.95,1.68,25.63,30.75,5.12,Georgia
+2.85,0.2,3.05,5.1,2.05,North Carolina
+1.98,0.1,2.08,10.08,8,South Carolina
+6.38,0.32,6.7,6.7,0,Virginia
+3.59,0.32,3.91,5,1.09,Alabama
+23.01,0,23.01,50.05,27.04,Tennessee
+20.02,0,20.02,20.02,0,Virginia
+500.69,0,500.69,501,0.31,North Carolina
+36,0,36,36,0,South Carolina
+5.58,0.5,6.08,6.08,0,Alabama
+6.96,0,6.96,6.96,0,Alabama
+5.58,0.28,5.86,10,4.14,South Carolina
+4.29,0.11,4.4,7,2.6,Virginia
+0.79,0.02,0.81,1,0.19,North Carolina
+17,0,17,17,0,Virginia
+30.97,0,30.97,31,0.03,Virginia
+30,0,30,50,20,South Carolina
+21,0,21,21,0,Georgia
+25.02,0,25.02,25.02,0,Virginia
+2.18,0.15,2.33,20,17.67,South Carolina
+1.29,0.09,1.38,20,18.62,South Carolina
+25.5,0,25.5,25.5,0,Virginia
+6.19,0.18,6.37,6.37,0,North Carolina
+4.84,0.24,5.08,10.1,5.02,South Carolina
+4.83,0.28,5.11,6,0.89,Georgia
+21.59,0,21.59,21.59,0,Georgia
+32.45,0,32.45,32.45,0,South Carolina
+6.12,0.07,6.19,6.19,0,North Carolina
+0.89,0.03,0.92,0.92,0,Georgia
+37,0,37,37,0,North Carolina
+2.38,0.21,2.59,5,2.41,Alabama
+30.01,0,30.01,30.01,0,Virginia
+20,0,20,20,0,North Carolina
+8.19,0.1,8.29,20,11.71,North Carolina
+20,0,20,20,0,South Carolina
+0.59,0.01,0.6,1,0.4,Georgia
+0.59,0.04,0.63,0.63,0,Georgia
+3.08,0.14,3.22,5,1.78,Georgia
+22.56,0,22.56,22.56,0,Georgia
+11,0,11,11,0,North Carolina
+37.7,0,37.7,37.7,0,Georgia
+2.14,0.12,2.26,20,17.74,Virginia
+1.59,0.08,1.67,5,3.33,Virginia
+1.98,0.14,2.12,3,0.88,South Carolina
+39,0,39,50,11,North Carolina
+23.58,0,23.58,23.58,0,Georgia
+10,0,10,10,0,Alabama
+48,0,48,48,0,Tennessee
+1.98,0.14,2.12,10.25,8.13,North Carolina
+1.69,0.06,1.75,5,3.25,Georgia
+22.5,0,22.5,22.5,0,Georgia
+3.34,0.08,3.42,5,1.58,Virginia
+2.58,0.08,2.66,5,2.34,Georgia
+1.98,0.04,2.02,3,0.98,North Carolina
+50,0,50,50,0,South Carolina
+2.09,0.17,2.26,3,0.74,Tennessee
+16,0,16,16,0,Georgia
+2.89,0.17,3.06,5.1,2.04,Georgia
+20.01,0,20.01,21,0.99,Georgia
+4.87,0.34,5.21,10,4.79,North Carolina
+39.29,0,39.29,39.29,0,North Carolina
+2.29,0.05,2.34,5,2.66,North Carolina
+11.02,0,11.02,20.05,9.03,Virginia
+49.3,0,49.3,49.3,0,South Carolina
+25,0,25,25,0,North Carolina
+56.86,0.15,57.01,60,2.99,Georgia
+4.46,0.13,4.59,5,0.41,Georgia
+20,0,20,20,0,South Carolina
+1.99,0.1,2.09,2.09,0,South Carolina
+2.38,0.12,2.5,5,2.5,Georgia
+15.01,0,15.01,15.01,0,Alabama
+4.26,0.21,4.47,5,0.53,South Carolina
+7.47,0.22,7.69,100,92.31,Georgia
+2.69,0.19,2.88,3,0.12,North Carolina
+37,0,37,37,0,Alabama
+4.69,0.42,5.11,5.11,0,Alabama
+1.09,0.07,1.16,2,0.84,Georgia
+46.59,0.14,46.73,47,0.27,Alabama
+1,0,1,1,0,Georgia
+19.01,0,19.01,20.01,1,Tennessee
+36.36,0,36.36,36.36,0,Georgia
+1.15,0.03,1.18,2,0.82,Virginia
+7,0,7,7,0,North Carolina
+5.58,0.28,5.86,10,4.14,South Carolina
+40.5,0,40.5,40.5,0,Georgia
+50,0,50,50,0,Pennsylvania
+4.08,0.24,4.32,4.32,0,North Carolina
+6.49,0,6.49,20,13.51,Pennsylvania
+50,0,50,50,0,Virginia
+12.01,0,12.01,20.01,8,Virginia
+10,0.5,10.5,10.5,0,South Carolina
+2.99,0.07,3.06,3.25,0.19,Virginia
+2.28,0.21,2.49,5,2.51,Alabama
+1.39,0.1,1.49,2,0.51,Georgia
+20,0,20,20,0,Virginia
+1,0.07,1.07,1.07,0,North Carolina
+41.01,0,41.01,41.01,0,South Carolina
+1.19,0.11,1.3,1.3,0,Tennessee
+10,0,10,10,0,Virginia
+9.92,0.69,10.61,20.61,10,South Carolina
+17.76,0,17.76,17.76,0,Pennsylvania
+4.49,0.4,4.89,10,5.11,Tennessee
+31.04,0,31.04,31.04,0,North Carolina
+6,0,6,6,0,Virginia
+13,0,13,13,0,Virginia
+4.58,0.41,4.99,5,0.01,Alabama
+4.63,0.41,5.04,5.04,0,Tennessee
+1.79,0.05,1.84,2,0.16,Georgia
+4.23,0.3,4.53,5,0.47,Georgia
+17,0,17,17,0,Virginia
+1.49,0.03,1.52,2,0.48,North Carolina
+0.5,0.04,0.54,0.55,0.01,South Carolina
+3.87,0.32,4.19,4.19,0,Tennessee
+4.67,0.3,4.97,10,5.03,North Carolina
+5,0,5,5,0,South Carolina
+70.24,0.23,70.47,70.47,0,Georgia
+0.59,0.02,0.61,0.61,0,Georgia
+50,0,50,50,0,Georgia
+5,0,5,10,5,Georgia
+2,0,2,2,0,Georgia
+10.03,0,10.03,10.03,0,South Carolina
+5,0,5,10,5,Virginia
+2.74,0.07,2.81,3,0.19,Virginia
+2.38,0.06,2.44,5,2.56,Virginia
+6.15,0.29,6.44,20,13.56,Georgia
+25,0,25,25,0,Virginia
+20.99,0.08,21.07,22,0.93,Tennessee
+14.23,0.18,14.41,20,5.59,Virginia
+1.99,0.14,2.13,3,0.87,North Carolina
+1.98,0.14,2.12,2.12,0,North Carolina
+9.35,0.65,10,20,10,South Carolina
+10.99,0.77,11.76,20,8.24,North Carolina
+52.4,0.41,52.81,55.01,2.2,Virginia
+24.99,1.35,26.34,27,0.66,Pennsylvania
+10,0,10,20,10,South Carolina
+9.56,0.86,10.42,20,9.58,Alabama
+8.49,0.17,8.66,20,11.34,Virginia
+23.99,1.68,25.67,40.67,15,North Carolina
+27.75,0,27.75,28,0.25,Georgia
+23.99,1.44,25.43,25.43,0,Pennsylvania
+3.98,0.22,4.2,10,5.8,North Carolina
+2.67,0.08,2.75,3,0.25,Georgia
+18,0,18,18,0,Alabama
+12.98,1.17,14.15,20,5.85,Alabama
+19,0,19,19,0,Virginia
+6,0,6,6,0,Pennsylvania
+23.56,0,23.56,23.56,0,Georgia
+8,0,8,24,16,Georgia
+10,0,10,20,10,North Carolina
+6.25,0.2,6.45,20,13.55,North Carolina
+17.07,0,17.07,17.07,0,South Carolina
+5.3,0,5.3,10.3,5,North Carolina
+4.76,0.33,5.09,20,14.91,North Carolina
+5,0,5,5,0,Alabama
+3.04,0.15,3.19,5,1.81,South Carolina
+16.4,0,16.4,16.4,0,South Carolina
+25,0,25,25,0,Tennessee
+1.39,0.1,1.49,2,0.51,North Carolina
+41.5,0,41.5,42,0.5,South Carolina
+1.19,0.08,1.27,5,3.73,South Carolina
+6.34,0.14,6.48,6.48,0,Pennsylvania
+1.5,0,-3.5,0,3.5,Virginia
+30,0,30,30,0,Georgia
+11.69,0.02,11.71,20,8.29,Virginia
+4.78,0.33,5.11,6,0.89,South Carolina
+1.49,0.04,1.53,2,0.47,Georgia
+32,0,32,40,8,South Carolina
+30.99,1.55,4,4,0,Virginia
+2.89,0.2,3.09,20.25,17.16,North Carolina
+10,0,10,10,0,Georgia
+100,0,100,100,0,Georgia
+0.5,0,0.5,1,0.5,Virginia
+10.96,0.9,11.86,20,8.14,Tennessee
+20.55,0,20.55,20.55,0,Georgia
+48.53,0,48.53,48.53,0,Georgia
+3.99,0.2,4.19,5,0.81,South Carolina
+2.93,0.17,3.1,3.1,0,Georgia
+15,0,15,15,0,Georgia
+10.01,0,10.01,10.01,0,Alabama
+19.02,0.14,19.16,20,0.84,South Carolina
+10.01,0,10.01,10.01,0,Georgia
+1.49,0.03,1.52,2,0.48,Georgia
+4.77,0.24,5.01,5.01,0,South Carolina
+49.99,4.5,54.49,55,0.51,Alabama
+4.4,0.27,4.67,5,0.33,North Carolina
+15,0,15,15,0,Tennessee
+3.28,0.16,3.44,3.44,0,North Carolina
+2.08,0.15,2.23,20.25,18.02,South Carolina
+4.24,0.3,4.54,20,15.46,North Carolina
+15,0,15,15,0,South Carolina
+28.32,0,28.32,28.32,0,North Carolina
+15.48,0.86,16.34,20,3.66,Georgia
+1.29,0.04,1.33,2,0.67,Georgia
+50,0,50,50,0,North Carolina
+26.98,0.41,27.39,27.39,0,North Carolina
+16.48,0,16.48,20.5,4.02,Virginia
+1.15,0.03,1.18,1.25,0.07,Virginia
+26.01,0,26.01,26.01,0,Georgia
+7.03,0.2,7.23,20,12.77,Pennsylvania
+20,0,20,20,0,Virginia
+2,0,2,2,0,South Carolina
+0.89,0.03,0.92,1,0.08,Georgia
+1.59,0.05,1.64,2,0.36,Georgia
+0.59,0.04,0.63,1,0.37,North Carolina
+10.04,0,10.04,10.04,0,Georgia
+1.99,0.12,2.11,2.11,0,Georgia
+2.88,0.14,3.02,4,0.98,Georgia
+29.04,0,29.04,30,0.96,South Carolina
+6.82,0.36,7.18,10,2.82,South Carolina
+2.08,0.07,2.15,2.25,0.1,Pennsylvania
+11.95,0.84,12.79,20,7.21,South Carolina
+57.83,0,57.83,60,2.17,South Carolina
+16,0,16,16,0,Virginia
+6.38,0.32,6.7,20,13.3,Virginia
+5.99,0.09,6.08,10,3.92,Virginia
+30.5,0,30.5,40.5,10,Virginia
+11.45,0,11.45,11.45,0,Georgia
+4.43,0.31,4.74,20,15.26,South Carolina
+9.82,0.88,10.7,11,0.3,Alabama
+7.47,0.35,7.82,20,12.18,Virginia
+20,0,20,20,0,Georgia
+3.37,0.13,3.5,10,6.5,North Carolina
+0.6,0.04,0.64,0.65,0.01,South Carolina
+1.25,0.08,1.33,1.35,0.02,South Carolina
+20.27,1.22,21.49,21.5,0.01,Pennsylvania
+40,0,40,40,0,Georgia
+4.88,0.34,5.22,5.25,0.03,North Carolina
+0.59,0.04,0.63,1,0.37,South Carolina
+26.64,0,26.64,27,0.36,South Carolina
+46,0,46,46,0,Pennsylvania
+5.79,0.29,6.08,10,3.92,South Carolina
+14.18,0.99,15.17,20,4.83,North Carolina
+6,0,6,6,0,South Carolina
+1.29,0.06,1.35,2,0.65,Virginia
+33.58,0.19,33.77,35,1.23,Georgia
+0.79,0.02,0.81,1,0.19,Georgia
+2.99,0.21,3.2,5,1.8,Georgia
+6.17,0.15,6.32,20,13.68,Virginia
+40.05,0,40.05,40.05,0,South Carolina
+19.74,0,19.74,19.74,0,Georgia
+2.09,0.1,2.19,3,0.81,North Carolina
+48.9,0,48.9,48.9,0,Georgia
+32.4,0,32.4,32.4,0,Virginia
+2.38,0.07,2.45,20,17.55,Georgia
+23.01,0,40,40,0,Pennsylvania
+22,0,22,22,0,Virginia
+3.17,0.16,3.33,5,1.67,South Carolina
+3.59,0.25,3.84,5,1.16,North Carolina
+20,0,20,20,0,Virginia
+3.57,0.18,3.75,20,16.25,South Carolina
+15,0,15,15,0,Tennessee
+46.46,0,46.46,100,53.54,Georgia
+23,0,23,23,0,Virginia
+6.39,0.16,6.55,10,3.45,Virginia
+4.34,0.14,4.48,10,5.52,North Carolina
+2.38,0.17,2.55,2.55,0,North Carolina
+16.99,1.02,18.01,18.01,0,Pennsylvania
+45.01,0,45.01,45.01,0,Georgia
+20.55,0,20.55,20.55,0,Alabama
+1.29,0.11,1.4,2,0.6,Tennessee
+2,0.04,0.04,0.04,0,Georgia
+4.73,0.2,4.93,10,5.07,Virginia
+2,0,2,100,98,Alabama
+1.19,0.04,1.23,2,0.77,Georgia
+10,0,10,10,0,Tennessee
+28.39,0,28.39,28.39,0,South Carolina
+5,0,5,5,0,Virginia
+9.94,0.67,10.61,10.61,0,Virginia
+15.06,0.75,15.81,15.81,0,Virginia
+30,0,-10,0,10,South Carolina
+2.18,0,2.18,20,17.82,Pennsylvania
+0.59,0.04,0.63,0.75,0.12,South Carolina
+60,0,60,60,0,Tennessee
+2.89,0.2,3.09,5.1,2.01,North Carolina
+3.79,0.23,4.02,4.02,0,North Carolina
+0.5,0.02,0.52,1,0.48,Georgia
+4.95,0.12,5.07,6,0.93,Virginia
+3.36,0.24,3.6,4,0.4,North Carolina
+1.09,0.08,1.17,1.25,0.08,North Carolina
+7.92,0.55,8.47,10.5,2.03,North Carolina
+4,0,4,4,0,Georgia
+6.78,0.04,6.82,20,13.18,Georgia
+4.19,0.29,4.48,10,5.52,Georgia
+5.37,0.27,5.64,10,4.36,South Carolina
+26.02,0,26.02,26.02,0,Virginia
+3.98,0.28,4.26,5,0.74,North Carolina
+3.97,0.22,4.19,4.25,0.06,South Carolina
+41.6,0,41.6,41.6,0,Georgia
+24,0,24,24,0,Georgia
+2,0,2,150,148,Alabama
+204.59,0.14,204.73,210,5.27,South Carolina
+2.38,0.12,2.5,2.5,0,South Carolina
+1.78,0.05,1.83,2,0.17,Georgia
+2.1,0,2.1,2.1,0,North Carolina
+1.29,0.03,1.32,2,0.68,Georgia
+30.06,0,30.06,30.06,0,Pennsylvania
+37.36,0,37.36,37.36,0,North Carolina
+4.54,0.27,4.81,20.01,15.2,Pennsylvania
+9.29,0.09,9.38,20,10.62,North Carolina
+1.78,0,1.78,2,0.22,Pennsylvania
+10,0,10,10,0,Virginia
+15.5,0,15.5,15.5,0,Pennsylvania
+10.49,0.27,10.76,20,9.24,South Carolina
+32.01,0,32.01,32.01,0,Tennessee
+1.99,0.14,2.13,3,0.87,North Carolina
+1.29,0.12,1.41,2,0.59,Alabama
+3.39,0.17,3.56,10,6.44,Virginia
+17.99,1.26,19.25,20,0.75,South Carolina
+20,0,20,20,0,Virginia
+5.58,0.28,5.86,5.86,0,South Carolina
+8.39,0.17,8.56,10,1.44,Virginia
+17.88,0,17.88,17.88,0,South Carolina
+29.01,0,29.01,29.01,0,South Carolina
+0.69,0.06,0.75,20,19.25,Alabama
+6,0,6,6,0,Virginia
+23.18,0,23.18,23.18,0,Georgia
+42.58,1.92,44.5,50,5.5,Georgia
+2.77,0.12,2.89,2.89,0,Georgia
+38.5,0,40,40,0,South Carolina
+2,0,2,2,0,Virginia
+10.22,0,10.22,10.22,0,Pennsylvania
+160,0,160,160,0,South Carolina
+2.38,0.12,2.5,10,7.5,South Carolina
+23,0,23,23,0,South Carolina
+26.15,0,26.15,26.15,0,South Carolina
+3.68,0.18,3.86,10,6.14,South Carolina
+27.01,0,27.01,27.01,0,Georgia
+28.2,0,28.2,28.2,0,South Carolina
+22.08,1.55,23.63,40,16.37,North Carolina
+35,0,35,35,0,Alabama
+3.17,0.14,3.31,3.31,0,Georgia
+0.89,0.07,0.96,1,0.04,Tennessee
+20,0,20,20,0,North Carolina
+0.99,0.02,1.01,1.05,0.04,Georgia
+1.99,0,1.99,1.99,0,Pennsylvania
+1.69,0.05,1.74,2,0.26,Georgia
+8,0,8,8,0,South Carolina
+10,0,10,10,0,Alabama
+50,0,50,50,0,North Carolina
+9.81,0.29,10.1,10.1,0,Georgia
+3.57,0.29,3.86,4,0.14,Tennessee
+18.6,0,18.6,18.6,0,South Carolina
+1.29,0.09,1.38,2,0.62,Georgia
+4.5,0,4.5,4.5,0,North Carolina
+20,0,20,20,0,Virginia
+25.02,0,25,25,0,South Carolina
+5.87,0.29,6.16,20,13.84,South Carolina
+2.9,0.27,3.17,4,0.83,Tennessee
+3.73,0.11,3.84,10,6.16,Virginia
+0.59,0.04,0.63,0.63,0,Georgia
+12.38,0.12,12.5,13,0.5,South Carolina
+35,0,-5,0,5,Pennsylvania
+14.59,0.13,14.72,20,5.28,South Carolina
+10,0,10,10,0,South Carolina
+1.88,0.13,2.01,2.01,0,North Carolina
+31.6,0,31.6,31.6,0,North Carolina
+2.88,0.14,3.02,3.02,0,South Carolina
+27.4,0,27.4,27.4,0,Pennsylvania
+1,0,1,1,0,Tennessee
+2.18,0.15,2.33,2.35,0.02,North Carolina
+16.67,0,16.67,16.67,0,Virginia
+25.21,0,25.21,25.21,0,Georgia
+0.99,0.07,1.06,1.25,0.19,Georgia
+2.58,0.08,2.66,3,0.34,Georgia
+32.79,0,32.79,32.79,0,Georgia
+5.01,0,5.01,5.01,0,Virginia
+6.27,0.24,6.51,10,3.49,Georgia
+2.29,0.07,2.36,5,2.64,Georgia
+9.98,0.34,2,2,0,North Carolina
+1,0,1,20,19,Georgia
+0.5,0.04,0.54,1,0.46,South Carolina
+3.19,0.22,3.41,5.51,2.1,Georgia
+18.99,0.45,19.44,20,0.56,South Carolina
+3.96,0.25,4.21,4.21,0,Georgia
+5,0,5,5,0,North Carolina
+3.96,0.28,4.24,5,0.76,North Carolina
+16.09,0,16.09,16.09,0,South Carolina
+8.29,0.16,8.45,20,11.55,Virginia
+32.9,0,32.9,32.9,0,North Carolina
+0.79,0.04,0.83,0.83,0,Virginia
+8,0,8,20,12,Pennsylvania
+0,0,-40,0,40,Georgia
+1.09,0.06,1.15,2,0.85,Georgia
+1.29,0.08,1.37,2,0.63,Pennsylvania
+3.14,0.16,3.3,5,1.7,South Carolina
+4.77,0.24,5.01,20,14.99,South Carolina
+1.28,0.05,1.33,1.33,0,North Carolina
+25,0,25,25,0,Tennessee
+10.01,0,10.01,10.01,0,Alabama
+4,0,4,20,16,South Carolina
+2.48,0.11,2.59,3,0.41,North Carolina
+21.51,0,21.51,21.51,0,Virginia
+20,0,20,20,0,North Carolina
+38,0,38,38,0,Alabama
+30,0,30,30,0,Virginia
+5.36,0.38,5.74,5.8,0.06,North Carolina
+10.39,0.07,10.46,20,9.54,South Carolina
+28.28,0,28.28,28.28,0,South Carolina
+3.38,0.17,3.55,20,16.45,North Carolina
+2.64,0.1,2.74,5,2.26,Virginia
+0.89,0.03,0.92,1,0.08,Georgia
+1.29,0.11,1.4,1.4,0,Tennessee
+4.43,0.19,4.62,10.02,5.4,Virginia
+0.3,0.02,0.32,1,0.68,South Carolina
+4.97,0.27,5.24,10,4.76,South Carolina
+3.88,0.19,4.07,20,15.93,South Carolina
+0.99,0.07,1.06,5.06,4,North Carolina
+15.21,0,15.21,15.21,0,Virginia
+3.17,0.16,3.33,5,1.67,South Carolina
+3.96,0.36,4.32,20,15.68,Tennessee
+4.38,0.26,4.64,5,0.36,Virginia
+4.45,0.21,4.66,10,5.34,Georgia
+20,0,20,20,0,Georgia
+11.58,0.53,12.11,20.11,8,Virginia
+29,0,29,29,0,North Carolina
+13.23,0,-6.77,0,6.77,Pennsylvania
+28.72,0,28.72,28.72,0,Georgia
+12.58,0,12.58,12.58,0,Pennsylvania
+1.79,0.17,1.96,2,0.04,Tennessee
+1,0,1,1,0,Alabama
+25,0,25,40,15,South Carolina
+1.99,0.09,2.08,3,0.92,North Carolina
+7.99,0.24,8.23,10.25,2.02,Georgia
+1.98,0.08,2.06,2.06,0,Virginia
+3.37,0.08,3.45,5,1.55,Virginia
+58.47,0,58.47,58.47,0,North Carolina
+5.02,0,5.02,5.02,0,South Carolina
+40.49,0.04,40.53,41,0.47,Georgia
+11.36,0.8,12.16,20,7.84,South Carolina
+10.63,0.74,11.37,20,8.63,South Carolina
+25,0,25,25,0,Alabama
+1.29,0.09,1.38,2,0.62,South Carolina
+45,0,45,45,0,North Carolina
+2.44,0.17,2.61,3,0.39,North Carolina
+1.69,0.12,1.81,2.01,0.2,South Carolina
+34.49,0.08,34.57,34.57,0,North Carolina
+23,0,23,23,0,Georgia
+1.99,0.1,2.09,5,2.91,South Carolina
+18.01,0,18.01,18.01,0,Alabama
+34,0,34,40,6,Tennessee
+6.27,0.54,6.81,6.81,0,Tennessee
+2.19,0.13,2.32,5,2.68,Pennsylvania
+1.98,0.14,2.12,2.12,0,North Carolina
+0.79,0.04,0.83,0.83,0,South Carolina
+71.78,0.05,71.83,71.83,0,Georgia
+0,0,10,10,0,Virginia
+3.37,0.1,3.47,4,0.53,Georgia
+9.45,0.47,9.92,20,10.08,Virginia
+27.77,0,27.77,40.07,12.3,Georgia
+11.07,0,11.07,11.12,0.05,North Carolina
+13.01,0,13.01,20.25,7.24,South Carolina
+9.57,0.67,10.24,20.25,10.01,North Carolina
+49.66,0,49.66,49.66,0,Georgia
+6.63,0.4,7.03,8,0.97,Pennsylvania
+1.97,0,1.97,1.97,0,Virginia
+3.18,0.26,3.44,4,0.56,Tennessee
+43.7,0,43.7,43.7,0,North Carolina
+1.29,0.04,1.33,20.33,19,Georgia
+44,0,44,44,0,Georgia
+33.01,0,33.01,33.01,0,Pennsylvania
+5.86,0.41,6.27,20.5,14.23,South Carolina
+65,0,65,65,0,South Carolina
+27.92,0,27.92,27.92,0,South Carolina
+8.02,0,8.02,8.02,0,South Carolina
+2.18,0.2,2.38,3,0.62,Alabama
+2.78,0.19,2.97,10,7.03,Georgia
+40,0,40,40,0,South Carolina
+11.2,0,11.2,11.2,0,Pennsylvania
+1.49,0.13,1.62,2.02,0.4,Alabama
+18.32,0.92,1,1,0,South Carolina
+51.79,0.62,52.41,100.41,48,Tennessee
+1,0,1,1,0,Georgia
+14.76,0,14.76,15,0.24,Pennsylvania
+1.59,0.04,1.63,2,0.37,Georgia
+0.59,0.04,0.63,20,19.37,Georgia
+0.89,0.08,0.97,1,0.03,Tennessee
+2.25,0.11,2.36,20,17.64,South Carolina
+3.04,0.27,3.31,3.4,0.09,Alabama
+50,0,50,50,0,Georgia
+6.99,0.1,7.09,8,0.91,South Carolina
+16,0,16,16,0,South Carolina
+3.78,0.18,3.96,5,1.04,Virginia
+30,0,30,30,0,Virginia
+7.95,0.56,8.51,20,11.49,North Carolina
+1.29,0.09,1.38,20,18.62,Georgia
+2.99,0.09,3.08,20,16.92,Georgia
+16.97,1.19,18.16,20,1.84,North Carolina
+5.77,0.4,6.17,7,0.83,South Carolina
+3,0,3,3,0,Virginia
+20,0,20,20,0,Virginia
+1.79,0.11,1.9,2,0.1,Pennsylvania
+12,0,12,12,0,North Carolina
+3,0,3,3,0,Virginia
+2.88,0.03,2.91,3,0.09,Virginia
+10,0,10,10,0,Georgia
+22.65,0,22.65,22.65,0,Georgia
+11.97,0.6,12.57,12.57,0,Virginia
+29.5,0,29.5,29.5,0,South Carolina
+0.95,0.07,1.02,5.02,4,North Carolina
+1.98,0.06,2.04,2.1,0.06,Georgia
+2,0.04,2.04,3,0.96,Georgia
+10,0.93,10.93,10.93,0,Tennessee
+33.5,0,33.5,33.5,0,Georgia
+0.99,0.05,1.04,2,0.96,South Carolina
+11.97,0.72,12.69,13,0.31,Pennsylvania
+20,0,20,20,0,Georgia
+47,0,60,60,0,Georgia
+1.19,0.08,1.27,5,3.73,South Carolina
+2.39,0.17,2.56,5.01,2.45,South Carolina
+1.19,0.11,1.3,2,0.7,Alabama
+21.25,0,21.25,21.25,0,Virginia
+20.99,1.47,19.46,20,0.54,North Carolina
+22.51,0,22.51,22.51,0,South Carolina
+18,0,18,18,0,Alabama
+129.25,0,129.25,150,20.75,South Carolina
+44,0,44,44,0,South Carolina
+13.09,0,13.09,13.09,0,North Carolina
+50,0,50,50,0,Georgia
+18.35,0,18.35,18.35,0,Virginia
+2.18,0.2,2.38,3,0.62,Tennessee
+15,0,15,15,0,Alabama
+7,0,7,7,0,Virginia
+4.88,0.15,5.03,10.03,5,Georgia
+62.04,4.34,66.38,66.38,0,South Carolina
+6.13,0.27,6.4,6.4,0,Pennsylvania
+1.39,0.1,1.49,2,0.51,North Carolina
+20,0,20,20,0,Virginia
+46.01,1.82,47.83,50,2.17,Georgia
+16.93,1.19,18.12,19,0.88,North Carolina
+1.19,0.08,1.27,1.27,0,South Carolina
+1.09,0.07,1.16,1.16,0,Georgia
+10,0.7,10.7,100.7,90,South Carolina
+2.68,0.13,2.81,3,0.19,South Carolina
+3.01,0,3.01,5.01,2,South Carolina
+1.29,0.09,1.38,2,0.62,Georgia
+0.79,0.06,0.85,0.85,0,North Carolina
+2,0,2,2,0,South Carolina
+39.08,0,39.08,39.08,0,North Carolina
+22,0.35,22.35,25,2.65,North Carolina
+35.85,0,35.85,35.85,0,Virginia
+10,0,10,10,0,Virginia
+17.58,0,17.58,17.58,0,Georgia
+10.1,0,10.1,20.1,10,Virginia
+15,0,15,20,5,Pennsylvania
+30.26,0,30.26,30.26,0,South Carolina
+6.18,0.43,6.61,20,13.39,North Carolina
+22.28,0,22.28,22.28,0,Virginia
+2.94,0.21,3.15,3.15,0,North Carolina
+3,0.06,3.06,3.1,0.04,Georgia
+57.29,0.03,57.32,60,2.68,Georgia
+1.09,0.1,1.19,1.19,0,Tennessee
+40.01,0,40.01,40.01,0,South Carolina
+0.99,0.03,1.02,1.02,0,Georgia
+0.3,0.01,0.31,1,0.69,Georgia
+1.59,0.11,1.7,1.7,0,North Carolina
+20,0,20,20,0,Alabama
+4.48,0.13,4.61,5,0.39,Georgia
+31,0,31,31,0,Georgia
+29,0,29,29,0,Virginia
+15.93,0.27,16.2,17,0.8,Pennsylvania
+4,0,4,4,0,Georgia
+5.69,0.4,6.09,10,3.91,North Carolina
+8.48,0.59,9.07,10,0.93,North Carolina
+2,0,2,2,0,South Carolina
+0.85,0.02,0.87,1,0.13,Virginia
+10,0,10,10,0,Georgia
+1.29,0.08,1.36,1.36,0,Pennsylvania
+8.58,0.19,8.77,10,1.23,Tennessee
+3.01,0,3.01,5.01,2,Virginia
+7,0,7,7,0,South Carolina
+15,0,15,20,5,Georgia
+10,0,10,10,0,North Carolina
+3.38,0.17,3.55,20,16.45,Virginia
+1.78,0.1,1.88,20,18.12,Georgia
+27,0,27,27,0,South Carolina
+4.38,0.22,4.6,20,15.4,Virginia
+5,0.25,5.25,10,4.75,South Carolina
+8.2,0.76,5,5,0,Tennessee
+5.61,0.48,6.09,6.09,0,Tennessee
+2.97,0.21,3.18,20,16.82,North Carolina
+3.27,0.2,3.47,4,0.53,North Carolina
+6,0,6,10,4,South Carolina
+2.24,0.11,2.35,2.35,0,South Carolina
+35.6,0,40,40,0,Virginia
+1.69,0.1,1.79,5,3.21,Pennsylvania
+1,0.06,1.06,1.06,0,Pennsylvania
+21.84,0,21.84,21.84,0,South Carolina
+1.88,0.07,1.95,1.95,0,Pennsylvania
+11.19,0.08,11.27,11.27,0,North Carolina
+18.83,0,18.83,18.83,0,Virginia
+1.04,0.04,1.08,1.25,0.17,Georgia
+10,0,10,20,10,South Carolina
+10,0,10,10,0,Virginia
+17.98,0,17.98,17.98,0,Georgia
+33.92,0,33.92,33.92,0,North Carolina
+0.25,0.01,0.26,0.26,0,North Carolina
+12,0.1,12.1,20.1,8,South Carolina
+1.29,0.09,1.38,1.38,0,Georgia
+2.88,0.14,3.02,3.02,0,South Carolina
+16.01,0,16.01,17,0.99,Georgia
+21,0,21,21,0,Alabama
+4.38,0.11,4.49,10,5.51,Virginia
+31.2,1.87,33.07,40,6.93,Pennsylvania
+0.25,0.02,0.27,0.27,0,Georgia
+19.83,0,19.83,20,0.17,Georgia
+3.99,0.1,4.09,20,15.91,Virginia
+9.99,0.92,10.91,20,9.09,Tennessee
+0.99,0.07,1.06,1.06,0,Georgia
+4.18,0.13,4.31,5,0.69,Pennsylvania
+10,0,10,10,0,North Carolina
+33.69,0,33.69,33.69,0,Virginia
+0.99,0.09,1.08,1.08,0,Virginia
+5.46,0.31,5.77,5.77,0,North Carolina
+26.5,0,26.5,26.5,0,Georgia
+8.17,0.41,8.58,10,1.42,Virginia
+20,0,20,20,0,Pennsylvania
+7,0,7,7,0,Tennessee
+27.58,0,27.58,27.58,0,Georgia
+2.34,0.16,2.5,3,0.5,Georgia
+50.01,0,50.01,50.01,0,Georgia
+1.79,0.13,1.92,2,0.08,South Carolina
+12.28,0.86,13.14,13.25,0.11,North Carolina
+1.19,0.11,1.3,1.3,0,Tennessee
+1.19,0.08,1.27,1.27,0,Georgia
+15.01,0,15.01,16,0.99,Georgia
+3.18,0.19,3.37,3.37,0,Pennsylvania
+34.29,0.09,34.38,34.38,0,South Carolina
+5,0,5,5,0,North Carolina
+4.28,0.12,4.4,20,15.6,North Carolina
+15,0.35,15.35,16,0.65,North Carolina
+30.43,0,30.43,31,0.57,Virginia
+71.47,1.04,72.51,80.01,7.5,Tennessee
+39.67,0,39.67,39.67,0,Virginia
+5.22,0.47,5.69,10,4.31,Alabama
+0.99,0.09,1.08,2,0.92,Tennessee
+0.89,0,0.89,1,0.11,Pennsylvania
+7.97,0.11,8.08,8.08,0,North Carolina
+5.96,0.18,6.14,10,3.86,Georgia
+20,0,20,20,0,North Carolina
+3.49,0.17,3.66,5,1.34,Virginia
+13,0,13,20,7,Virginia
+9.5,0,9.5,9.5,0,Virginia
+2.34,0.16,2.5,5,2.5,Georgia
+13.35,0.59,13.94,20,6.06,Georgia
+1.68,0.12,1.8,2,0.2,South Carolina
+2.58,0.13,2.71,5,2.29,Virginia
+25.02,0,25.02,25.02,0,Georgia
+34.9,0,34.9,34.9,0,Virginia
+2.38,0,2.38,3,0.62,Pennsylvania
+1.58,0.11,1.69,2,0.31,South Carolina
+2.89,0.14,3.03,3.03,0,Virginia
+31.32,0.31,11.63,20,8.37,Virginia
+1.98,0.14,2.12,5,2.88,North Carolina
+1.19,0.07,1.26,1.26,0,Pennsylvania
+28.16,2.55,3,3,0,Tennessee
+4.44,0,4.44,4.44,0,Alabama
+9.14,0.46,9.6,9.6,0,South Carolina
+8,0,8,8,0,Virginia
+1.15,0.02,1.17,1.17,0,North Carolina
+3.19,0.22,3.41,4,0.59,Georgia
+0.99,0.05,1.04,1.04,0,Virginia
+30.14,0,30.14,30.14,0,South Carolina
+8.21,0,8.21,8.21,0,Georgia
+9,0,9,9,0,Alabama
+28.68,0,28.68,28.68,0,Georgia
+29.01,0,29.01,30.01,1,Georgia
+10,0,10,10,0,Virginia
+3.04,0.15,3.19,4,0.81,Virginia
+17.99,1.26,19.25,20,0.75,South Carolina
+5,0,5,5,0,Georgia
+28.75,0,28.75,28.75,0,North Carolina
+8,0,8,100,92,Tennessee
+16.25,1.14,17.39,20,2.61,South Carolina
+5,0.25,5.25,5.25,0,South Carolina
+14.99,0.35,15.34,20.35,5.01,North Carolina
+8.13,0.33,8.46,8.46,0,Virginia
+0.59,0.04,0.63,0.63,0,South Carolina
+59.7,0.08,59.78,59.78,0,Pennsylvania
+0.99,0.02,1.01,1.01,0,Virginia
+26,0,5,5,0,South Carolina
+18.94,0,18.94,18.94,0,Pennsylvania
+3.78,0.26,4.04,20,15.96,North Carolina
+2.78,0.14,2.92,3,0.08,Georgia
+40.21,0,40.21,40.21,0,Georgia
+5,0,5,5,0,North Carolina
+0.79,0.07,0.86,5,4.14,Virginia
+95,0,95,100,5,Alabama
+26.84,0,26.84,26.84,0,South Carolina
+5.85,0.02,5.87,5.87,0,North Carolina
+1.19,0.11,1.3,5,3.7,Alabama
+10,0,10,10,0,Virginia
+10,0,10,10,0,North Carolina
+5.98,0.42,6.4,7,0.6,South Carolina
+1,0,1,1,0,South Carolina
+0.59,0.05,0.64,1,0.36,Tennessee
+21.8,0.2,22,22,0,North Carolina
+6.29,0.09,6.38,10,3.62,North Carolina
+11.68,0,11.68,11.68,0,Pennsylvania
+8.02,0.24,8.26,9,0.74,Georgia
+3.44,0.17,3.61,5,1.39,Virginia
+27.31,0,27.31,27.31,0,South Carolina
+0.89,0.06,0.95,1,0.05,South Carolina
+10.02,0,10.02,10.02,0,Virginia
+20,0,20,20,0,Pennsylvania
+23.01,0,23.01,23.01,0,Alabama
+6.99,0.63,7.62,7.62,0,Alabama
+9.23,0.2,9.43,10,0.57,Virginia
+4.06,0.12,4.18,10,5.82,Georgia
+7,0,7,10,3,Georgia
+36.19,0.03,36.22,36.22,0,Virginia
+17.5,0,17.5,17.5,0,Georgia
+7.38,0.67,8.05,8.05,0,Tennessee
+0.99,0.07,1.06,2,0.94,South Carolina
+1.29,0.08,1.37,1.37,0,Pennsylvania
+20,0,20,20,0,South Carolina
+3.18,0.06,3.24,5.25,2.01,Georgia
+11.59,0.05,11.64,20,8.36,Georgia
+13.01,0,-6.99,0,6.99,Virginia
+2.38,0.12,2.5,5,2.5,South Carolina
+9.3,0.01,9.31,10,0.69,North Carolina
+23.21,0,23.21,23.21,0,Georgia
+50,0,50,50,0,South Carolina
+47.25,0,47.25,100,52.75,South Carolina
+1.39,0.08,1.47,5,3.53,Georgia
+3.99,0.36,4.35,10,5.65,Alabama
+0.99,0.07,1.06,1.06,0,North Carolina
+2.58,0.13,2.71,3,0.29,Virginia
+5.37,0.2,5.57,10,4.43,Georgia
+2.85,0.2,3.05,5.1,2.05,North Carolina
+30,0,30,30,0,Virginia
+8.07,0.56,8.63,20,11.37,South Carolina
+30.45,0,30.45,30.45,0,Georgia
+28,0,28,30,2,South Carolina
+2.99,0,2.99,3,0.01,Pennsylvania
+0.79,0.06,0.85,1,0.15,North Carolina
+5,0,5,5,0,Georgia
+15,0,15,20,5,North Carolina
+5,0,5,5,0,Georgia
+31.95,0,31.95,31.95,0,South Carolina
+1.48,0.1,1.58,1.58,0,South Carolina
+6.46,0.45,6.91,20,13.09,North Carolina
+1.29,0.08,1.37,5,3.63,Pennsylvania
+39,0,39,39,0,Pennsylvania
+6.28,0.57,6.85,6.85,0,Alabama
+4.56,0.32,4.88,5,0.12,North Carolina
+0.49,0.01,0.5,1,0.5,Virginia
+11.39,0.03,11.42,12,0.58,Virginia
+9.93,0.31,10.24,20,9.76,North Carolina
+0.99,0,0.99,5,4.01,Pennsylvania
+7.76,0.19,7.95,8,0.05,North Carolina
+8.1,0,8.1,8.1,0,Georgia
+1.29,0.02,1.31,1.31,0,North Carolina
+15,0,15,20,5,Georgia
+2.72,0.16,2.88,3,0.12,South Carolina
+10,0,10,10,0,Georgia
+3.93,0.2,4.13,20,15.87,South Carolina
+11.88,0.29,12.17,20,7.83,Virginia
+4.54,0.32,4.86,5,0.14,North Carolina
+37.53,0.25,37.78,37.78,0,Pennsylvania
+3.24,0.23,3.47,5,1.53,Georgia
+20,0,20,20,0,North Carolina
+23.59,0.05,23.64,23.64,0,Virginia
+2.68,0.08,2.76,2.76,0,Georgia
+20.03,0,20.03,21,0.97,Georgia
+0.59,0.05,0.64,0.64,0,Tennessee
+32.23,0.12,32.35,33,0.65,North Carolina
+20,0,20,20,0,South Carolina
+3.18,0,3.18,3.25,0.07,Pennsylvania
+4.78,0.33,5.11,6,0.89,South Carolina
+10.14,0.51,10.65,11,0.35,South Carolina
+4.68,0.23,4.91,4.91,0,Virginia
+2.58,0.18,2.76,10,7.24,South Carolina
+12.45,1.12,13.57,20,6.43,Alabama
+21.49,1.5,22.99,25,2.01,North Carolina
+2.28,0.08,2.36,10,7.64,Pennsylvania
+36.01,0,36.01,36.01,0,South Carolina
+2.78,0.19,2.97,20,17.03,North Carolina
+20,0,20,20,0,South Carolina
+15,0,15,15,0,Virginia
+28,0,28,28,0,Virginia
+3.19,0.19,3.38,3.38,0,Georgia
+20,0,20,20,0,South Carolina
+16.7,0,16.91,16.91,0,Virginia
+5,0,5,5,0,Virginia
+12.85,0.2,13.05,15.05,2,North Carolina
+20,0,20,20,0,North Carolina
+14,0,14,14,0,South Carolina
+2.99,0.06,3.05,20,16.95,Georgia
+1.69,0.05,1.74,2,0.26,Georgia
+10.1,0.71,10.81,10.81,0,North Carolina
+2.18,0.15,2.33,2.33,0,Georgia
+43.09,0.14,43.23,100,56.77,Alabama
+1.49,0.07,1.56,2,0.44,South Carolina
+1.69,0,1.69,2,0.31,Virginia
+26.75,0,26.75,26.75,0,Pennsylvania
+15,0,15,20,5,Georgia
+1.59,0.05,1.64,2,0.36,Georgia
+180.98,0,180.98,200,19.02,Virginia
+14.97,0.93,15.9,20,4.1,Georgia
+10.2,0,10.2,10.25,0.05,Tennessee
+2.58,0.08,2.66,3,0.34,Georgia
+1.28,0.04,1.32,1.35,0.03,Georgia
+11.49,0.07,11.56,20,8.44,South Carolina
+9.99,0,10,10,0,North Carolina
+1.88,0.11,1.99,2,0.01,Pennsylvania
+1.75,0.12,1.87,2,0.13,North Carolina
+2.49,0.22,2.71,3,0.29,Alabama
+3,0.15,3.15,5,1.85,South Carolina
+7.96,0.32,6.28,6.28,0,Virginia
+8.96,0,8.96,8.96,0,Virginia
+1.98,0.14,2.12,2.25,0.13,North Carolina
+11.29,0.64,11.93,20,8.07,Georgia
+5,0,5,5,0,North Carolina
+1.19,0,1.19,1.19,0,Pennsylvania
+7.28,0.36,7.64,20,12.36,Virginia
+27.95,0,27.95,27.95,0,South Carolina
+2.79,0.06,2.85,5,2.15,Georgia
+16,0,16,20,4,Georgia
+10,0,10,10,0,North Carolina
+8,0,8,8,0,Virginia
+1.98,0.09,2.07,5,2.93,North Carolina
+7.06,0.49,7.55,20,12.45,South Carolina
+30,0,30,30,0,Virginia
+1.19,0.03,1.22,2,0.78,Virginia
+6.87,0.48,7.35,10,2.65,South Carolina
+24.64,0,24.64,24.64,0,Virginia
+8.56,0.6,9.16,10,0.84,North Carolina
+22,0,22,22,0,South Carolina
+10,0,10,10,0,South Carolina
+2.58,0.1,2.68,5.7,3.02,North Carolina
+25.01,0,25.01,25.01,0,Alabama
+6.99,0.35,7.34,20,12.66,South Carolina
+2.68,0.19,2.87,2.87,0,South Carolina
+0.69,0.03,0.72,1,0.28,South Carolina
+10,0,10,20,10,Virginia
+7.87,0.35,8.22,20,11.78,Virginia
+35,0,35,35,0,Pennsylvania
+8.35,0.75,9.1,10,0.9,Alabama
+10.54,0,10.54,20,9.46,North Carolina
+49.79,1.49,5,5,0,Virginia
+6.69,0.13,6.82,10,3.18,Georgia
+55,0,55,55,0,Pennsylvania
+1,0,1,1,0,Georgia
+10.03,0,10.03,10.03,0,South Carolina
+40,0,40,40,0,South Carolina
+0.59,0.04,0.63,1,0.37,Georgia
+3.29,0.12,3.41,300,296.59,Tennessee
+9.47,0.47,9.94,9.94,0,Virginia
+25.01,0,25.01,25.01,0,Virginia
+28.06,0.07,28.13,30,1.87,South Carolina
+5.38,0.38,5.76,6,0.24,North Carolina
+0.99,0.05,1.04,1.04,0,South Carolina
+0.99,0.05,1.04,2,0.96,South Carolina
+18,0,18,18,0,Georgia
+1.19,0.08,1.27,2,0.73,Georgia
+5,0,5,5,0,South Carolina
+3.99,0.36,4.35,5,0.65,Alabama
+4.87,0.26,5.13,10,4.87,South Carolina
+1.39,0.1,1.49,2,0.51,Georgia
+1.99,0.04,2.03,3,0.97,Georgia
+1.68,0.14,1.82,5,3.18,Tennessee
+11.08,0,11.08,11.08,0,Georgia
+2,0,2,99,97,Georgia
+33.03,0,33.03,33.03,0,Georgia
+149.99,13.5,163.49,200,36.51,Alabama
+1.19,0.08,1.27,1.27,0,South Carolina
+1.99,0.06,2.05,5,2.95,Georgia
+15,0,15,15,0,Virginia
+42,0,42,42,0,Alabama
+18.39,0,18.39,18.39,0,Georgia
+36.05,0,36.05,36.05,0,North Carolina
+25,0,25,25,0,Virginia
+17.08,0,17.08,17.08,0,Alabama
+14.12,0,14.12,14.12,0,Virginia
+40,0,40,40,0,North Carolina
+10,0,10,20,10,Georgia
+5.85,0.23,6.08,10,3.92,Georgia
+27.75,0,27.75,27.75,0,Pennsylvania
+43.03,0,43.03,43.03,0,Georgia
+50,0,50,50,0,North Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+20.01,0,20.01,20.01,0,South Carolina
+18.25,0,18.25,40,21.75,South Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+0.25,0.02,0.27,1,0.73,Georgia
+39.48,1.47,40.95,50,9.05,South Carolina
+28.87,0,28.87,28.87,0,Pennsylvania
+20.02,0,20.02,20.02,0,Georgia
+1.38,0.03,1.41,1.41,0,North Carolina
+18.45,0.89,19.34,20,0.66,Pennsylvania
+0.99,0.09,1.08,20,18.92,Virginia
+2.13,0,2.13,2.13,0,North Carolina
+1.59,0.08,1.67,2,0.33,South Carolina
+31.62,0,31.62,31.62,0,Georgia
+30,0,30,100,70,Virginia
+0.99,0.09,1.08,5,3.92,Virginia
+22.45,0,22.45,23,0.55,North Carolina
+2.38,0.21,2.59,10,7.41,Alabama
+0.99,0.06,1.05,1.05,0,Pennsylvania
+6.99,0.49,7.48,10,2.52,North Carolina
+10,0,10,10,0,South Carolina
+0.99,0.07,1.06,20,18.94,North Carolina
+33.46,0,33.46,33.46,0,North Carolina
+44,0,44,50,6,South Carolina
+26,0,26,50,24,South Carolina
+4.15,0.12,4.27,4.27,0,Georgia
+2,0,2,2,0,South Carolina
+2.58,0.13,2.71,2.75,0.04,Virginia
+31.52,0,31.52,31.52,0,Alabama
+2,0,2,2,0,Virginia
+19.99,1.2,21.19,30,8.81,Pennsylvania
+32.95,0,32.95,32.95,0,South Carolina
+48.4,0,48.4,60,11.6,South Carolina
+43.36,0,43.36,43.36,0,South Carolina
+20,0,20,20,0,Virginia
+25,0,25,25,0,Virginia
+52.96,0,52.96,52.96,0,Pennsylvania
+2.89,0.2,3.09,20,16.91,North Carolina
+2.38,0.12,2.5,3,0.5,Georgia
+15.88,1.11,16.99,20,3.01,South Carolina
+11.05,0.55,11.6,12,0.4,South Carolina
+13.26,0.4,13.66,20,6.34,Georgia
+0.99,0.07,1.06,2,0.94,Georgia
+25.01,0,25.01,25.01,0,Georgia
+5.47,0.18,5.65,10,4.35,Pennsylvania
+1.58,0.04,1.62,2,0.38,Virginia
+5.86,0.21,6.07,6.07,0,Pennsylvania
+0.99,0.03,1.02,1.02,0,Georgia
+1.15,0.06,1.21,2,0.79,South Carolina
+25.4,0,25.4,25.4,0,South Carolina
+1.29,0.06,1.35,2,0.65,Virginia
+13.44,0.94,14.38,20,5.62,North Carolina
+1.19,0.09,1.28,1.28,0,South Carolina
+18.04,0,18.04,18.04,0,Georgia
+7.96,0.56,8.52,20,11.48,North Carolina
+1.29,0.12,1.41,2,0.59,Alabama
+8.46,0.56,-20,0,20,Georgia
+54,0,54,100,46,Pennsylvania
+5.88,0.41,6.29,6.29,0,North Carolina
+27.5,0,27.5,40,12.5,Pennsylvania
+5,0,5,20,15,Georgia
+1.19,0.11,1.3,1.3,0,Alabama
+29.58,0.11,29.69,30,0.31,Virginia
+10,0,10,10,0,Virginia
+2.19,0.05,2.24,3,0.76,Virginia
+36.52,0,36.52,36.52,0,Georgia
+2,0,2,100,98,Georgia
+1.19,0.08,1.27,1.27,0,South Carolina
+4.88,0.12,5,5,0,Virginia
+8.66,0.44,9.1,10,0.9,Pennsylvania
+6.38,0.32,6.7,6.7,0,Virginia
+7.88,0.31,8.19,10,1.81,South Carolina
+10.61,0,35,35,0,Pennsylvania
+1.98,0.18,2.16,2.2,0.04,Virginia
+18.5,0,18.5,18.5,0,Pennsylvania
+1.09,0.08,1.17,1.17,0,Georgia
+21.17,0,21.17,21.17,0,Virginia
+2.58,0.18,2.76,5,2.24,North Carolina
+6.19,0.03,6.22,20,13.78,Virginia
+1.99,0.05,2.04,2.04,0,Virginia
+29.1,0,29.1,29.1,0,South Carolina
+2,0,2,20,18,South Carolina
+10,0,10,20,10,Virginia
+2.58,0.18,2.76,10.01,7.25,North Carolina
+10,0,10,20,10,Georgia
+2.18,0.08,2.26,3,0.74,Georgia
+0.98,0.05,1.03,2,0.97,Virginia
+30,0.41,30.41,30.41,0,Tennessee
+20,0,20,20,0,Virginia
+30.52,0,30.52,30.52,0,Georgia
+11.64,0.81,12.45,20,7.55,South Carolina
+13.27,0.88,14.15,15,0.85,North Carolina
+5,0,5,5,0,Georgia
+10,0,10,10,0,North Carolina
+0.99,0.03,1.02,1.02,0,Georgia
+51.19,0.05,51.24,100,48.76,Virginia
+13.04,0.65,13.69,20,6.31,South Carolina
+9.79,0.06,9.85,10,0.15,South Carolina
+62.75,0.08,62.83,62.83,0,Georgia
+1.19,0.06,1.25,2,0.75,South Carolina
+2.28,0.07,2.35,5,2.65,Georgia
+1.19,0.08,1.27,1.27,0,North Carolina
+3.39,0.17,3.56,5,1.44,Virginia
+1.68,0.12,1.8,5,3.2,South Carolina
+18.99,0.07,19.06,20,0.94,South Carolina
+3.88,0.27,4.15,4.15,0,North Carolina
+11.7,0.03,11.73,20,8.27,North Carolina
+4.56,0.27,4.83,20,15.17,North Carolina
+2.58,0.18,2.76,2.76,0,North Carolina
+1.09,0.07,1.16,2,0.84,Georgia
+2.48,0.17,2.65,2.65,0,North Carolina
+1.38,0.07,1.45,5,3.55,South Carolina
+1.19,0.08,1.27,2,0.73,South Carolina
+0.99,0.02,1.01,1.01,0,North Carolina
+16.25,0,16.25,16.25,0,Alabama
+0.99,0.06,1.05,2,0.95,Pennsylvania
+3.87,0.22,4.09,20,15.91,North Carolina
+2.89,0.2,3.09,4,0.91,North Carolina
+143.69,0,143.69,145,1.31,Virginia
+21.13,0,21.13,21.13,0,Virginia
+15,0,15,15,0,Virginia
+15.5,0,15.5,15.5,0,South Carolina
+5,0,5,5,0,North Carolina
+1.98,0.14,2.12,2.12,0,North Carolina
+4,0,4,4,0,South Carolina
+5.68,0.24,5.92,6,0.08,Virginia
+48.45,0,48.45,48.45,0,Alabama
+26.27,0,26.27,26.27,0,Alabama
+28.01,0,28.01,28.01,0,Virginia
+5.58,0.39,5,5,0,South Carolina
+6.27,0.37,6.64,6.64,0,Georgia
+1.19,0.03,1.22,5.25,4.03,Virginia
+32.2,0,32.2,32.2,0,Virginia
+10.67,0.53,11.2,15,3.8,South Carolina
+2.28,0.14,2.42,5,2.58,Pennsylvania
+1.49,0.03,1.52,2,0.48,North Carolina
+20,0,20,20,0,South Carolina
+29,0,29,29,0,Alabama
+1.29,0.09,1.38,5,3.62,South Carolina
+3.94,0.26,4.2,4.2,0,North Carolina
+12.99,0.91,13.9,100,86.1,South Carolina
+0.99,0.07,1.06,20.1,19.04,Georgia
+1.29,0.08,1.37,2,0.63,Georgia
+0.25,0.01,0.26,1,0.74,Virginia
+4.28,0.08,4.36,5.36,1,Pennsylvania
+3.18,0.1,3.28,10,6.72,Georgia
+10.96,0.58,11.54,20,8.46,Tennessee
+6.12,0.37,6.49,6.49,0,Georgia
+2,0,2,2,0,South Carolina
+4.62,0.22,4.84,5.85,1.01,North Carolina
+10,0,10,10,0,North Carolina
+20,0,20,20,0,Georgia
+1.25,0,1.25,5,3.75,North Carolina
+25,0,25,25,0,Virginia
+25,0,25,25,0,Virginia
+11.99,0.84,12.83,20,7.17,Georgia
+32.51,0,32.51,32.51,0,Virginia
+3.39,0.17,3.56,3.56,0,Virginia
+8.85,0.62,9.47,10,0.53,North Carolina
+24.99,1.75,1.5,1.5,0,North Carolina
+1.59,0.05,0.89,1,0.11,Georgia
+1.33,0.03,1.36,5,3.64,Virginia
+32.55,0,32.55,32.55,0,North Carolina
+25.53,1.36,26.89,27,0.11,Georgia
+9.99,0.5,10.49,10.5,0.01,Virginia
+1.54,0.11,1.65,20,18.35,South Carolina
+26.01,0,26.01,26.01,0,Georgia
+45.28,0.53,45.81,50,4.19,Alabama
+36.03,0,36.03,36.03,0,Pennsylvania
+4.49,0.4,4.89,10,5.11,Tennessee
+7.87,0.08,7.95,10,2.05,Georgia
+15.01,0,15.01,15.01,0,South Carolina
+27.47,0.31,27.78,40,12.22,Virginia
+1.09,0.02,1.11,2,0.89,Georgia
+1.29,0.09,1.38,2,0.62,Georgia
+30.23,0,30.23,30.23,0,Georgia
+7.27,0.36,7.63,10,2.37,Georgia
+11.19,0.02,11.21,12,0.79,Georgia
+2.38,0.05,2.43,2.5,0.07,North Carolina
+1.98,0.09,2.07,3,0.93,North Carolina
+31.29,0.04,31.33,32,0.67,Georgia
+15.81,1.11,16.92,20,3.08,North Carolina
+0.79,0.07,0.86,1,0.14,Virginia
+2.68,0.08,2.76,3,0.24,Georgia
+1.09,0.08,1.17,1.17,0,Georgia
+2.68,0.13,2.81,3,0.19,South Carolina
+3.86,0.27,4.13,4.13,0,South Carolina
+1.49,0.1,1.59,2,0.41,South Carolina
+0.99,0.07,1.06,1.06,0,North Carolina
+2.28,0.09,2.37,3,0.63,North Carolina
+0.99,0.09,1.08,2,0.92,Alabama
+15.01,0,15.01,15.01,0,Georgia
+2.49,0.15,2.64,2.64,0,Pennsylvania
+1.98,0.05,2.03,2.03,0,Virginia
+40,0,40,40,0,Georgia
+0.89,0.06,0.95,1,0.05,South Carolina
+5,0,5,5,0,Tennessee
+29.68,0,29.68,29.68,0,Tennessee
+4.58,0.09,4.67,20,15.33,Georgia
+22.08,0.19,22.27,23,0.73,Tennessee
+13,0,13,13,0,North Carolina
+0.79,0.02,0.81,5.01,4.2,North Carolina
+23,0,23,40,17,Alabama
+15,0,6,6,0,South Carolina
+20.35,0,20.35,20.35,0,South Carolina
+8.99,0.45,9.44,10,0.56,Virginia
+41,0,41,41,0,Georgia
+34.1,0,34.1,34.1,0,Tennessee
+20,0,20,20,0,Virginia
+35.87,0.04,35.91,40.95,5.04,Virginia
+20.02,0,20.02,21,0.98,South Carolina
+10.01,0,10.01,10.01,0,Alabama
+37,0,37,37,0,South Carolina
+25,0,25,25,0,South Carolina
+9.7,0,9.7,9.7,0,North Carolina
+4.07,0.28,4.35,5,0.65,North Carolina
+5.49,0.38,5.87,20,14.13,North Carolina
+10,0,10,20,10,South Carolina
+1.69,0.15,1.84,2,0.16,Alabama
+5,0.25,5.25,6,0.75,South Carolina
+5.01,0,5.01,6,0.99,South Carolina
+20,0,20,20,0,Virginia
+5.48,0.38,5.86,10,4.14,Georgia
+26.47,0.45,26.92,27,0.08,North Carolina
+4,0,4,4,0,Georgia
+1.19,0.06,1.25,2,0.75,Virginia
+1.33,0.03,1.36,2,0.64,Virginia
+7.57,0.45,8.02,9,0.98,Georgia
+21.39,0.11,21.5,21.5,0,Tennessee
+10.99,0.09,11.08,12,0.92,Virginia
+5,0,5,5,0,Virginia
+1.19,0.08,1.27,1.27,0,South Carolina
+2.28,0.08,2.36,5,2.64,Pennsylvania
+3.08,0.27,3.35,4,0.65,Tennessee
+0.99,0.08,1.07,1.07,0,Tennessee
+10.89,0.73,11.62,20,8.38,Georgia
+13.58,1.22,14.8,20,5.2,Alabama
+1.98,0.1,2.08,3,0.92,South Carolina
+30,0,30,100,70,Pennsylvania
+26.01,0,26.01,26.01,0,South Carolina
+37.96,2.66,40.62,40.62,0,South Carolina
+2.94,0.21,3.15,3.25,0.1,North Carolina
+38.37,0.24,38.61,39,0.39,North Carolina
+12.97,1.17,14.14,20.14,6,Alabama
+34.88,0,34.88,34.88,0,Tennessee
+5,0,5,5,0,South Carolina
+7.94,0.21,8.15,20,11.85,North Carolina
+50,0,50,50,0,South Carolina
+2.98,0.21,3.19,5,1.81,South Carolina
+6.24,0.44,6.68,6.68,0,South Carolina
+4.18,0.18,4.36,5,0.64,Virginia
+34.76,0,34.76,34.76,0,South Carolina
+1.19,0.08,1.27,1.27,0,South Carolina
+3.98,0.28,3.26,9.01,5.75,North Carolina
+11.47,0.8,12.27,12.27,0,Georgia
+10,0,10,10,0,North Carolina
+1.99,0.04,2.03,10,7.97,Georgia
+34.4,0,34.4,34.4,0,South Carolina
+55.87,3.91,59.78,59.78,0,South Carolina
+1.78,0.04,1.82,2,0.18,Georgia
+1.38,0,1.38,1.45,0.07,Pennsylvania
+27.37,0,27.37,27.37,0,South Carolina
+5,0,5,10,5,Virginia
+10,0,10,10,0,Virginia
+10.03,0,10.03,11,0.97,South Carolina
+5,0,5,5,0,Virginia
+6.38,0.29,6.67,10,3.33,Virginia
+45.1,0,45.1,45.1,0,Georgia
+35.86,0,35.86,35.86,0,Virginia
+24.63,0,24.63,24.63,0,Virginia
+5.83,0.35,6.18,10.18,4,Pennsylvania
+3.19,0.22,3.41,5,1.59,North Carolina
+2.18,0.13,2.31,5.31,3,Georgia
+10,0,10,20,10,Tennessee
+23.1,0,23.1,23.1,0,Georgia
+7.84,0.55,8.39,8.4,0.01,North Carolina
+65,0,65,65,0,North Carolina
+0.99,0.09,1.08,2,0.92,Tennessee
+0.59,0.04,0.63,1,0.37,Pennsylvania
+3.01,0,3.01,3.01,0,South Carolina
+10,0,10,10,0,Tennessee
+25,0,25,50,25,Georgia
+0.99,0.07,1.06,1.06,0,South Carolina
+31.01,0,31.01,31.01,0,Tennessee
+5.79,0.02,5.81,10,4.19,North Carolina
+26.7,0.09,26.79,30,3.21,South Carolina
+5.66,0.24,5.9,10,4.1,Pennsylvania
+6.22,0.31,6.53,6.53,0,South Carolina
+28.99,2.03,31.02,31.02,0,South Carolina
+17.08,0.19,17.27,20,2.73,Virginia
+8.87,0.29,9.16,20.16,11,Virginia
+23.3,0,23.3,23.3,0,North Carolina
+20,0,20,20,0,Alabama
+0.25,0.01,0.26,1,0.74,South Carolina
+4.57,0.18,4.75,20,15.25,South Carolina
+13,0,20,20,0,Georgia
+1.88,0.17,2.05,20,17.95,Alabama
+2.67,0.22,2.89,5,2.11,Tennessee
+17.81,0,17.81,17.81,0,Virginia
+36,0,36,36,0,South Carolina
+3,0,3,5,2,Georgia
+15.03,0,15.03,15.03,0,South Carolina
+37.01,0,37.01,37.01,0,South Carolina
+16,0,16,20,4,Alabama
+2.48,0.09,2.57,3,0.43,Virginia
+3,0,3,3,0,South Carolina
+42.82,0,42.82,42.82,0,Georgia
+1.59,0.08,1.67,2,0.33,South Carolina
+59,0,59,59,0,North Carolina
+3.83,0,3.83,3.83,0,Virginia
+1.19,0.08,1.27,2,0.73,South Carolina
+10,0,10,20,10,Georgia
+8.38,0.1,8.48,10,1.52,Georgia
+5.48,0.27,5.75,20,14.25,Virginia
+3.19,0.16,3.35,3.35,0,South Carolina
+1,0.03,1.03,1.03,0,Virginia
+15.56,0.3,15.86,15.86,0,South Carolina
+7.92,0.4,8.32,10,1.68,South Carolina
+43.22,0,43.22,43.22,0,South Carolina
+28,0,28,30,2,Tennessee
+2.29,0.16,2.45,3,0.55,South Carolina
+8,0,8,8,0,Pennsylvania
+1.19,0.06,1.25,10,8.75,South Carolina
+24.25,0,-5.75,0,5.75,Georgia
+4,0,4,4,0,South Carolina
+23.99,1.68,25.67,25.67,0,North Carolina
+0.99,0.07,1.06,1.06,0,North Carolina
+7.17,0.33,7.5,20,12.5,Virginia
+2,0,2,10,8,Virginia
+27.04,0,27.04,27.04,0,South Carolina
+18.68,0.26,18.94,29.11,10.17,North Carolina
+20,0,20,20,0,South Carolina
+0.99,0,0.99,1,0.01,Pennsylvania
+4.73,0.24,4.97,20,15.03,South Carolina
+20,0,20,20,0,Tennessee
+18.84,0.07,18.91,100,81.09,Pennsylvania
+34,0,34,34,0,North Carolina
+49.01,0,49.01,49.01,0,Tennessee
+0.25,0.02,0.27,0.27,0,North Carolina
+10.01,0,10.01,11,0.99,Tennessee
+15.01,0,15.01,20.01,5,South Carolina
+20,0,20,20,0,South Carolina
+31.08,0,31.08,31.08,0,Georgia
+1.29,0.03,1.32,2,0.68,Georgia
+7.56,0.53,8.09,20,11.91,North Carolina
+27.16,0.37,27.53,30,2.47,North Carolina
+15,0,15,15,0,North Carolina
+2.69,0.19,2.88,5,2.12,North Carolina
+5,0.1,5.1,5.1,0,Georgia
+43,0,43,43,0,South Carolina
+3.37,0,3.37,5,1.63,Pennsylvania
+20,0,20,20,0,Alabama
+48.45,0,48.45,48.45,0,Alabama
+7.45,0.18,7.63,10,2.37,Pennsylvania
+30.81,0,30.81,30.81,0,Georgia
+34.43,3.15,37.58,40,2.42,Tennessee
+3.41,0.31,3.72,4,0.28,Alabama
+1.8,0,1.8,2,0.2,South Carolina
+35.5,0,35.5,35.5,0,Georgia
+26.01,0,26.01,26.01,0,South Carolina
+24.58,2.27,26.85,40,13.15,Tennessee
+6.49,0,6.49,100,93.51,Alabama
+3.49,0.24,3.73,4,0.27,South Carolina
+1.29,0.06,1.35,2,0.65,Virginia
+4.18,0.38,4.56,20,15.44,Alabama
+21.7,0.09,1.79,20,18.21,South Carolina
+10.11,0,10.11,10.11,0,North Carolina
+11.86,0.52,12.38,15,2.62,Virginia
+50,0,50,50,0,South Carolina
+8.49,0.59,9.08,10,0.92,North Carolina
+25,0,25,25,0,South Carolina
+6,0,6,6,0,North Carolina
+6.9,0,6.9,7,0.1,Tennessee
+19.49,1.8,21.29,21.29,0,Tennessee
+20.52,0,20.52,30,9.48,South Carolina
+3.49,0.1,3.59,20,16.41,Georgia
+38,0,38,38,0,Alabama
+0.7,0.03,0.73,1,0.27,South Carolina
+14.09,0.29,14.38,14.38,0,North Carolina
+1.15,0.06,1.21,10,8.79,South Carolina
+2.78,0.19,2.97,5,2.03,South Carolina
+0.69,0.06,0.75,1,0.25,Alabama
+4.54,0.27,4.81,4.81,0,Pennsylvania
+20.64,0,20.64,20.64,0,Georgia
+12.97,0.21,13.18,13.18,0,North Carolina
+32.1,0,32.1,32.1,0,Pennsylvania
+3,0,3,5,2,Georgia
+29,0,29,29,0,Alabama
+2,0,2,2,0,Georgia
+0.89,0,0.89,1,0.11,Pennsylvania
+22,0,22,50,28,South Carolina
+13.71,0,13.71,13.71,0,Tennessee
+1.09,0.08,1.17,1.27,0.1,South Carolina
+0.89,0.08,0.97,1,0.03,Tennessee
+27.16,0,27.16,27.16,0,Alabama
+5.79,0.06,5.85,6,0.15,South Carolina
+17.47,0.95,18.42,20.02,1.6,Georgia
+0.99,0.07,1.06,1.1,0.04,North Carolina
+5,0,5,5,0,Virginia
+3.38,0.15,3.53,4,0.47,Georgia
+30,0,30,30,0,Georgia
+38,0,38,38,0,Virginia
+4.99,0.35,5.34,6,0.66,North Carolina
+0.69,0.06,0.75,1,0.25,Alabama
+50,0,50,50,0,North Carolina
+17.24,1.21,1,1,0,North Carolina
+20.59,0,20.59,20.59,0,Pennsylvania
+5.53,0.39,5.92,5.92,0,North Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+3.68,0.19,3.87,4,0.13,Georgia
+32.01,0,32.01,32.01,0,Tennessee
+8.45,0,8.45,20,11.55,Virginia
+20.72,0,20.72,20.72,0,South Carolina
+8.6,0.36,8.96,10,1.04,Georgia
+5,0,5,5,0,Georgia
+24,0,24,24,0,Georgia
+4.16,0.38,4.54,5,0.46,Tennessee
+40.47,2.17,22,22,0,Georgia
+3.39,0,3.39,10,6.61,Virginia
+15,0,15,15,0,Georgia
+1.99,0.12,2.11,5,2.89,Pennsylvania
+1.69,0.03,1.72,10,8.28,Georgia
+15.5,0,15.5,15.5,0,Pennsylvania
+2.28,0.08,2.36,2.36,0,Pennsylvania
+25.01,0,25.01,25.01,0,South Carolina
+4.27,0.3,4.57,10,5.43,South Carolina
+2.94,0.18,3.12,20,16.88,Georgia
+25.02,0,25.02,25.02,0,South Carolina
+8.98,0,8.98,8.98,0,South Carolina
+2.37,0.07,2.44,5,2.56,Pennsylvania
+3,0,3,3,0,North Carolina
+41.75,0,41.75,42,0.25,Alabama
+0,0,-5,0,5,Alabama
+1.99,0.14,2.13,3,0.87,North Carolina
+20.01,0,20.01,20.01,0,Pennsylvania
+1.29,0.12,1.41,2,0.59,Alabama
+10.01,0,10.01,50.01,40,North Carolina
+3.09,0.15,3.24,3.25,0.01,Virginia
+30,0,30,30,0,Georgia
+1.09,0.08,1.17,1.17,0,Georgia
+27.62,0,27.62,27.62,0,Virginia
+20.03,0,20.03,21,0.97,Tennessee
+20.7,0,20.7,20.7,0,South Carolina
+10,0,10,100,90,South Carolina
+1.29,0.11,1.4,1.4,0,Tennessee
+2,0,2,2,0,Georgia
+38.78,0.12,38.9,40,1.1,South Carolina
+0,0,-8,0,8,Virginia
+2,0,2,2,0,Tennessee
+8.58,0.51,9.09,20,10.91,Pennsylvania
+2,0,2,2,0,Georgia
+2,0,2,20,18,Virginia
+19,0,19,19,0,Virginia
+3.04,0.17,3.21,3.21,0,South Carolina
+3.49,0.1,3.59,10,6.41,Georgia
+12.63,0,12.63,12.63,0,North Carolina
+5.99,0.36,6.35,7,0.65,Georgia
+13.97,0,13.97,13.97,0,Georgia
+1.19,0.06,1.25,2,0.75,South Carolina
+6.37,0.45,6.82,10,3.18,North Carolina
+30.01,0,30.01,30.01,0,South Carolina
+1.98,0.09,2.07,3,0.93,North Carolina
+19.22,0,19.22,19.22,0,South Carolina
+10,0,10,10,0,Georgia
+50,0,50,50,0,Tennessee
+2.44,0.11,2.55,3,0.45,North Carolina
+5,0,5,5,0,Virginia
+8,0,8,20,12,Pennsylvania
+8,0,8,10,2,Georgia
+70.09,0,70.09,70.09,0,South Carolina
+10,0,10,10,0,Virginia
+27.13,0,27.13,27.13,0,North Carolina
+11.51,0.71,12.22,12.22,0,North Carolina
+5.96,0.3,6.26,7,0.74,South Carolina
+1.98,0.1,2.08,5,2.92,South Carolina
+3.17,0.18,3.35,5,1.65,South Carolina
+28.55,0,28.55,28.55,0,Tennessee
+1,0.02,1.02,1.02,0,North Carolina
+15,0,15,15,0,Georgia
+0.08,0,-39.92,0,39.92,Pennsylvania
+1.29,0.09,1.38,2,0.62,Georgia
+0.79,0.06,0.85,1,0.15,South Carolina
+20.25,0,20.25,20.25,0,Alabama
+47,0,47,47,0,South Carolina
+20,0,20,20,0,Georgia
+31.3,0,31.3,31.35,0.05,Georgia
+3.87,0.27,4.14,5,0.86,North Carolina
+21.48,1.38,22.86,22.86,0,Georgia
+5,0,5,5,0,South Carolina
+1.98,0.14,2.12,2.12,0,North Carolina
+3.24,0.23,3.47,4,0.53,Georgia
+0.59,0.05,0.64,1,0.36,Tennessee
+21.01,0,21.01,21.01,0,Pennsylvania
+8,0,8,20,12,Georgia
+21.3,0.04,21.34,21.34,0,Georgia
+0.99,0.09,1.08,1.08,0,Virginia
+1,0,1,1,0,Georgia
+5.49,0.38,5.87,6,0.13,North Carolina
+38,0,38,40,2,South Carolina
+25,0,25,25,0,Virginia
+28.52,0,28.52,28.52,0,Alabama
+2.78,0.08,2.86,5,2.14,Georgia
+10.01,0,10.01,20,9.99,North Carolina
+21.19,0.02,21.21,21.21,0,Georgia
+10,0,10,10,0,North Carolina
+26,0,26,26,0,Georgia
+1.38,0.03,1.41,5,3.59,Georgia
+2.49,0,2.49,5,2.51,Pennsylvania
+33.52,0,33.52,33.52,0,North Carolina
+0.99,0.07,1.06,1.06,0,North Carolina
+20,0,20,20,0,North Carolina
+1.09,0.08,1.17,20,18.83,North Carolina
+5,0.13,5.13,20,14.87,Virginia
+20,0,20,20,0,Georgia
+27.58,0,27.58,27.58,0,Virginia
+28.62,0,28.62,28.62,0,Alabama
+1.25,0,1.25,1.25,0,North Carolina
+4.58,0.18,4.76,20,15.24,South Carolina
+50,0,50,50,0,South Carolina
+25.3,0,25.3,25.3,0,Tennessee
+3.04,0,3.04,3.04,0,Georgia
+3.88,0.27,4.15,5,0.85,North Carolina
+14.09,0.42,14.51,14.51,0,Virginia
+0.99,0.05,1.04,1.1,0.06,Virginia
+4.87,0.44,5.31,5.31,0,Alabama
+0.99,0.03,1.02,1.05,0.03,Georgia
+0.99,0.02,1.01,2,0.99,Georgia
+0.99,0.07,1.06,1.1,0.04,North Carolina
+0.99,0.03,1.02,2,0.98,Georgia
+31.35,0,31.35,31.35,0,Georgia
+2.6,0.18,2.78,2.78,0,North Carolina
+1,0,1,1,0,Pennsylvania
+4.95,0,4.95,5,0.05,Tennessee
+0.59,0.04,0.63,1,0.37,Georgia
+1.98,0.14,2.12,5,2.88,South Carolina
+11.01,0,11.01,11.01,0,Virginia
+0.79,0.02,0.81,10,9.19,Virginia
+17.03,0,17.03,17.03,0,Georgia
+0.5,0.01,0.51,1,0.49,Virginia
+1.09,0.08,1.17,1.25,0.08,Georgia
+43.4,0,43.4,43.4,0,South Carolina
+63.16,0,63.16,63.16,0,Georgia
+6.19,0.03,6.22,6.22,0,Virginia
+11.38,0.08,11.46,11.46,0,North Carolina
+1.29,0.09,1.38,1.38,0,North Carolina
+46,0,46,46,0,Tennessee
+10.01,0,10.01,10.01,0,North Carolina
+11.38,0.03,11.41,20,8.59,Virginia
+4.58,0.23,4.81,5,0.19,Virginia
+12.01,0.14,12.15,13,0.85,North Carolina
+17.92,0,17.92,17.92,0,Georgia
+10,0,10,10,0,South Carolina
+1.19,0.08,1.27,1.27,0,North Carolina
+12.19,0.07,12.26,12.26,0,Georgia
+3.23,0,3.23,3.23,0,South Carolina
+1.38,0.1,1.48,1.48,0,South Carolina
+2.04,0.04,2.08,3,0.92,North Carolina
+10.01,0,10.01,10.01,0,Georgia
+20,0,20,20,0,Virginia
+3.78,0.26,4.04,5,0.96,North Carolina
+11.6,0,11.6,12,0.4,South Carolina
+1.98,0.15,2.13,3,0.87,South Carolina
+3.82,0.2,4.02,5,0.98,North Carolina
+1.98,0.14,2.12,3,0.88,South Carolina
+3.17,0.16,3.33,3.5,0.17,South Carolina
+29.61,0,29.61,29.61,0,South Carolina
+6.77,0.31,7.08,10,2.92,Virginia
+30,0,30,30,0,Virginia
+8.4,0,8.4,8.4,0,Georgia
+9.56,0.67,10.23,10.23,0,South Carolina
+1.29,0.03,1.32,2,0.68,Georgia
+27.55,0.08,27.63,40,12.37,Pennsylvania
+27,0,27,27,0,South Carolina
+10.03,0,10.03,10.03,0,Georgia
+30.81,0,30.81,30.81,0,Georgia
+3.64,0.25,3.89,3.89,0,North Carolina
+50,0,50,50,0,Virginia
+2.15,0.15,2.3,2.3,0,South Carolina
+14,0,14,14,0,Pennsylvania
+1.99,0.1,2.09,10.1,8.01,South Carolina
+10.95,0.57,11.52,20.52,9,South Carolina
+5.97,0.42,6.39,6.39,0,North Carolina
+1.49,0.04,1.53,2,0.47,Georgia
+5.16,0.36,5.52,20,14.48,South Carolina
+1.29,0.11,1.4,2,0.6,Tennessee
+1.29,0.04,1.33,2,0.67,Georgia
+30.02,0,30.02,30.02,0,North Carolina
+4.99,0.1,5.09,10,4.91,Georgia
+28.75,0,28.75,28.75,0,South Carolina
+1.83,0.05,1.88,1.88,0,Virginia
+37.99,0,37.99,40,2.01,Georgia
+8.47,0.19,8.66,20,11.34,South Carolina
+100.69,0,100.69,101,0.31,Virginia
+2.44,0.15,2.59,2.59,0,Georgia
+2.37,0.1,2.47,20,17.53,North Carolina
+1.85,0.04,1.89,2,0.11,North Carolina
+2.28,0.05,2.33,5,2.67,Georgia
+1.29,0.04,1.33,1.45,0.12,Georgia
+23.4,0,40,40,0,Alabama
+1.29,0.04,1.33,2,0.67,Georgia
+0.75,0.02,0.77,1,0.23,Georgia
+6.59,0.46,7.05,7.05,0,Georgia
+2,0,2,2,0,South Carolina
+0.99,0.07,1.06,5,3.94,North Carolina
+29.44,0,-10.56,0,10.56,South Carolina
+2.08,0.15,2.23,5,2.77,South Carolina
+7.98,0.21,8.19,8.2,0.01,North Carolina
+3.28,0.3,3.58,5,1.42,Alabama
+5,0.3,5.3,10,4.7,Pennsylvania
+37.2,0,37.2,37.2,0,Tennessee
+25,0,25,25,0,Pennsylvania
+1.69,0.05,1.74,5,3.26,Georgia
+3.58,0.25,3.83,5,1.17,North Carolina
+1.19,0.06,1.25,1.25,0,South Carolina
+61.98,0.28,62.26,62.26,0,North Carolina
+32,0,32,32,0,South Carolina
+0.69,0.06,0.75,1,0.25,Tennessee
+20.16,1.01,21.17,30,8.83,Virginia
+20,0,20,20,0,Virginia
+2.68,0.19,2.87,20,17.13,North Carolina
+1.69,0.12,1.81,5,3.19,South Carolina
+1.09,0.1,1.19,2,0.81,Virginia
+8.58,0.04,8.62,20,11.38,Virginia
+35.39,0,35.39,35.39,0,Virginia
+3.49,0.2,3.69,5,1.31,South Carolina
+18.2,0.11,18.31,20.31,2,Alabama
+2.89,0.2,3.09,5.1,2.01,North Carolina
+5.08,0.25,5.33,17,11.67,Virginia
+15.29,0.04,15.33,15.5,0.17,Georgia
+20.01,0,20.01,20.01,0,Georgia
+0.3,0.01,0.31,0.31,0,North Carolina
+38.48,0.07,38.55,100,61.45,Georgia
+50.5,0.52,1,1,0,South Carolina
+14.79,0.02,14,14,0,Virginia
+41.88,0.16,42.04,60,17.96,Tennessee
+1.29,0.12,1.41,2,0.59,Tennessee
+18.25,1.1,19.35,20,0.65,Georgia
+10,0,10,10,0,North Carolina
+12.58,0.18,12.76,20,7.24,North Carolina
+1.49,0.04,1.53,5,3.47,Virginia
+152.31,0,152.31,152.31,0,South Carolina
+3.08,0.2,3.28,4,0.72,South Carolina
+2.19,0.07,2.26,3,0.74,Pennsylvania
+10.01,0,10.01,10.01,0,North Carolina
+8,0,8,10,2,Tennessee
+30,0,30,40,10,North Carolina
+20.03,0,20.03,20.03,0,Virginia
+2.94,0.21,3.15,20,16.85,North Carolina
+26.71,0,26.71,26.71,0,South Carolina
+9.36,0.84,0.2,0.2,0,Alabama
+4,0,4,4,0,Georgia
+2.97,0.21,3.18,5,1.82,North Carolina
+21.22,0.08,21.3,21.3,0,Georgia
+3.36,0.07,3.43,4,0.57,Georgia
+20,0,20,20,0,North Carolina
+17,0,17,20,3,Georgia
+22,0,22,22,0,Pennsylvania
+19.83,1.15,20.98,20.98,0,Georgia
+50,0,50,50,0,Alabama
+24.19,0.13,24.32,25,0.68,Georgia
+3.98,0.16,4.14,4.14,0,Georgia
+4,0,4,4,0,Virginia
+25.8,0,25.8,25.8,0,Pennsylvania
+33.76,0,33.76,33.76,0,South Carolina
+3.84,0.19,4.03,5.03,1,South Carolina
+1.49,0.13,1.62,5,3.38,Alabama
+5.49,0.27,5.76,5.76,0,South Carolina
+22.78,0,22.78,50,27.22,Georgia
+4.87,0.43,5.3,6,0.7,Tennessee
+0,0,20,20,0,Virginia
+2.67,0.19,2.86,20,17.14,North Carolina
+8.58,0.43,9.01,9.01,0,Virginia
+1.29,0.04,1.33,1.33,0,Georgia
+22.01,0,22.01,22.01,0,South Carolina
+2.97,0.15,3.12,4,0.88,South Carolina
+2.38,0.12,2.5,3,0.5,South Carolina
+9.62,0.42,10.04,11,0.96,Virginia
+10,0,10,20,10,South Carolina
+2.68,0.19,2.87,2.87,0,North Carolina
+15,0,15,15,0,North Carolina
+17.99,1.08,19.07,19.07,0,Georgia
+0.59,0.04,0.63,0.75,0.12,North Carolina
+25.08,1.7,26.78,40,13.22,North Carolina
+1.49,0.13,1.62,2,0.38,Alabama
+11.96,1.08,13.04,20,6.96,Alabama
+5.58,0.28,5.86,75,69.14,Virginia
+7.62,0,7.62,7.62,0,Georgia
+1.38,0.11,1.49,2,0.51,Tennessee
+2.19,0.15,2.34,2.34,0,Georgia
+0.99,0.09,1.08,2,0.92,Alabama
+18.98,0.9,19.88,20,0.12,Pennsylvania
+9.61,0.05,9.66,20,10.34,Virginia
+34.25,0,34.25,35,0.75,Georgia
+1.29,0.03,1.32,1.32,0,Georgia
+6.26,0.37,6.63,6.63,0,North Carolina
+9,0,9,20,11,South Carolina
+65.02,0,65.02,65.02,0,Tennessee
+1.59,0.05,1.64,1.64,0,Georgia
+0.59,0.04,0.63,1,0.37,Georgia
+44.3,0,44.3,44.3,0,South Carolina
+21.78,0,24,24,0,North Carolina
+1.88,0.17,2.05,5,2.95,Alabama
+4.12,0.27,4.39,5,0.61,South Carolina
+10,0,10,10,0,Georgia
+3.68,0.26,3.94,5,1.06,North Carolina
+10,0,10,10,0,South Carolina
+31.75,0,31.75,31.75,0,South Carolina
+1.19,0.08,1.27,5,3.73,North Carolina
+5,0.13,5.13,5.15,0.02,Virginia
+42,0,42,42,0,Alabama
+1.15,0.03,1.18,2,0.82,Virginia
+0.99,0.07,1.06,10.1,9.04,South Carolina
+22.18,0.09,22.27,22.27,0,North Carolina
+2.58,0.18,2.76,2.76,0,North Carolina
+3.97,0.28,4.25,5.25,1,North Carolina
+4.77,0.27,5.04,5.04,0,Georgia
+3.04,0.15,3.19,4,0.81,Virginia
+1.59,0.05,1.64,1.64,0,Georgia
+45.01,0,45.01,45.01,0,South Carolina
+50.69,0,50.69,50.75,0.06,Tennessee
+2.28,0.07,2.35,3,0.65,Georgia
+2.58,0.08,2.66,10,7.34,Georgia
+84.01,0,84.01,84.01,0,Tennessee
+0.9,0,0.9,0.9,0,Virginia
+10,0,10,10,0,Tennessee
+17.19,0.11,17.3,20,2.7,Alabama
+11.09,0.07,11.16,20,8.84,Georgia
+27.5,0,27.5,27.5,0,Georgia
+0.89,0.06,0.95,1,0.05,South Carolina
+3.16,0,3.16,4,0.84,Pennsylvania
+12.9,0.2,13.1,13.1,0,North Carolina
+25.85,0,25.85,25.85,0,Tennessee
+1.09,0.1,1.19,1.19,0,Alabama
+1.19,0.08,1.27,5,3.73,North Carolina
+3.98,0.24,4.22,5,0.78,Georgia
+1.19,0.02,1.21,20.01,18.8,North Carolina
+5,0.25,5.25,5.25,0,South Carolina
+0.99,0.02,1.01,3.45,2.44,Virginia
+9.5,0,9.5,20,10.5,North Carolina
+20,0,20,20,0,Georgia
+23.39,0.06,23.45,25,1.55,Pennsylvania
+1.29,0.09,1.38,5,3.62,South Carolina
+20,0,20,20,0,South Carolina
+0.99,0.05,1.04,1.1,0.06,South Carolina
+5.2,0.36,5.56,5.56,0,North Carolina
+2.58,0.18,2.76,3,0.24,South Carolina
+3.19,0.22,3.41,25,21.59,Georgia
+6,0,6,6,0,Virginia
+0.69,0.05,0.74,0.74,0,North Carolina
+2,0,2,5,3,South Carolina
+6,0,6,20,14,North Carolina
+0.79,0.02,0.81,0.85,0.04,North Carolina
+5.05,0,5.05,5.05,0,Georgia
+3.24,0.23,3.47,4,0.53,Georgia
+22.15,0,22.15,30.15,8,Pennsylvania
+2.65,0.19,2.84,2.84,0,North Carolina
+30,0,30,30,0,Tennessee
+17.99,1.66,19.65,19.65,0,Tennessee
+2.48,0.06,2.54,10,7.46,Virginia
+28.7,0,28.7,28.7,0,Georgia
+0.3,0,0.3,0.3,0,Pennsylvania
+24.53,0.21,24.74,50,25.26,Georgia
+63.01,0,53,53,0,Virginia
+37.4,0,40,40,0,South Carolina
+1,0.02,1.02,1.02,0,North Carolina
+1.19,0.08,1.27,2,0.73,North Carolina
+1.18,0.02,1.2,1.2,0,Georgia
+0.99,0.07,1.06,10.06,9,South Carolina
+20.02,0,20.02,20.02,0,Tennessee
+3.57,0.15,3.72,5,1.28,Virginia
+13.01,0,13.01,13.01,0,South Carolina
+27.79,0,27.79,27.79,0,Pennsylvania
+3.89,0.1,3.99,4,0.01,Virginia
+0.75,0,0.75,1,0.25,Pennsylvania
+10.01,0,10.01,11,0.99,Georgia
+5,0,5,5,0,Tennessee
+14.01,0,14.01,20.01,6,Tennessee
+1.59,0.13,1.72,2,0.28,Tennessee
+3.17,0.29,3.46,10,6.54,Alabama
+5,0,5,5,0,Virginia
+2.94,0.18,3.12,3.12,0,Georgia
+15.33,1.07,16.4,16.4,0,North Carolina
+28.83,0,28.83,28.83,0,Pennsylvania
+2.19,0.05,2.24,2.24,0,Virginia
+3.78,0,3.78,3.78,0,Virginia
+5,0,5,5,0,Virginia
+10.05,0,10.05,10.05,0,Alabama
+27,0,27,27,0,Georgia
+2.99,0,2.99,3,0.01,Pennsylvania
+8.97,0.45,9.42,10,0.58,South Carolina
+7.25,0.36,7.61,20,12.39,South Carolina
+2.58,0.21,2.79,20,17.21,Tennessee
+0.99,0.07,0.11,0.11,0,North Carolina
+3.88,0.19,4.07,5.1,1.03,Virginia
+19.19,0.29,19.48,19.48,0,North Carolina
+21.29,0,21.29,21.29,0,Pennsylvania
+41.01,0,41.01,41.01,0,Tennessee
+33.13,0,60,60,0,North Carolina
+10,0,10,10,0,Virginia
+40.9,0,40.9,40.9,0,Virginia
+2.24,0.11,2.35,3,0.65,South Carolina
+45.68,1.28,46.96,46.96,0,South Carolina
+1.78,0.12,1.9,1.9,0,North Carolina
+2.29,0.16,2.45,5,2.55,Georgia
+20,0,20,20,0,Alabama
+1.29,0.09,1.38,2,0.62,South Carolina
+6.52,0.33,6.85,6.85,0,South Carolina
+5,0,5,5,0,South Carolina
+0.79,0.06,0.85,1,0.15,South Carolina
+1.88,0.1,1.98,2,0.02,Georgia
+2.38,0.05,2.43,2.5,0.07,North Carolina
+28.05,0,28.05,28.05,0,South Carolina
+10.02,0,10.02,10.02,0,Virginia
+8,0,8,8,0,Georgia
+36.38,0,36.38,36.38,0,South Carolina
+3.14,0.22,3.36,10,6.64,South Carolina
+25,0,25,25,0,Pennsylvania
+10,0,10,20,10,North Carolina
+5.43,0.27,5.7,6,0.3,Virginia
+0.59,0.04,0.63,0.75,0.12,South Carolina
+5,0,5,5,0,North Carolina
+1.59,0.11,1.7,1.7,0,South Carolina
+3.89,0.36,4.25,5,0.75,Tennessee
+1.29,0.04,1.33,20,18.67,Georgia
+1.09,0.08,1.17,1.17,0,Georgia
+45.39,0,45.39,45.39,0,North Carolina
+7.03,0,7,7,0,Alabama
+0.59,0.04,0.63,0.63,0,South Carolina
+13.29,0.11,2.4,3,0.6,South Carolina
+50,0,50,60,10,Alabama
+7.76,0.37,8.13,20.03,11.9,Virginia
+0,0,6,6,0,South Carolina
+1.98,0.18,2.16,2.21,0.05,Alabama
+27.35,0,27.35,30,2.65,Georgia
+19.75,0,19.75,20,0.25,Georgia
+7,0,7,20,13,Virginia
+1.18,0.08,1.26,1.26,0,South Carolina
+39.98,2.4,20,20,0,Pennsylvania
+47,0,47,47,0,North Carolina
+50,0,50,50,0,Tennessee
+32.19,0.11,32.3,35,2.7,Alabama
+1,0,1,1,0,Georgia
+21.49,1.5,22.99,23,0.01,South Carolina
+0.85,0.02,0.87,0.9,0.03,North Carolina
+1.29,0.09,1.38,10,8.62,South Carolina
+-7.49,-0.37,-7.86,0,7.86,South Carolina
+27.01,0,27.01,27.01,0,Virginia
+14.04,0.16,14.2,20,5.8,North Carolina
+4,0,4,10,6,South Carolina
+25,0,25,25,0,Pennsylvania
+56.74,0,56.74,56.74,0,Alabama
+5.84,0,5.84,5.84,0,Virginia
+5.01,0,5.01,5.01,0,Georgia
+2.64,0.18,1.82,2,0.18,North Carolina
+15,0,15,15,0,North Carolina
+40.46,0,40.46,40.46,0,North Carolina
+22.52,0,22.52,22.52,0,Virginia
+0.85,0.04,0.89,1,0.11,South Carolina
+8.94,0.8,9.74,10,0.26,Alabama
+1.19,0.03,1.22,1.22,0,Virginia
+19.99,1.2,21.19,21.19,0,Georgia
+3.88,0.35,4.23,4.23,0,Alabama
+3.37,0.1,3.47,3.62,0.15,Georgia
+4.56,0.32,4.88,20,15.12,South Carolina
+1.15,0.02,1.17,1.17,0,North Carolina
+1.59,0.11,1.7,1.75,0.05,South Carolina
+1.29,0.06,1.35,2,0.65,Virginia
+8,0,8,10,2,South Carolina
+15,0,15,20,5,South Carolina
+2.48,0.2,2.68,3,0.32,Tennessee
+24,0,24,24,0,South Carolina
+2.08,0.15,2.23,3,0.77,Georgia
+12.25,0,12.25,12.25,0,Georgia
+35.6,0,35.6,35.6,0,South Carolina
+77.97,2.16,80.13,100,19.87,Georgia
+8,0,8,10,2,North Carolina
+6.19,0.11,6.3,6.5,0.2,Alabama
+17.93,0.84,18.77,20,1.23,Georgia
+1.99,0.12,2.11,2.11,0,Georgia
+24,0,24,24,0,Alabama
+20,0,20,20,0,North Carolina
+30.1,0,30.1,30.1,0,Georgia
+22.69,0.08,22.77,23,0.23,Georgia
+5.17,0.26,5.43,6,0.57,South Carolina
+1.19,0.08,1.27,2,0.73,South Carolina
+7.38,0.52,7.9,8,0.1,North Carolina
+42.29,0,42.29,42.29,0,North Carolina
+1.78,0.11,1.89,20,18.11,South Carolina
+6.32,0.32,6.64,6.64,0,South Carolina
+6.67,0.47,7.14,10,2.86,North Carolina
+5.26,0,5.26,5.26,0,Virginia
+3.28,0.1,3.38,5,1.62,Georgia
+6.07,0.32,6.39,20,13.61,Georgia
+20.02,0,20.02,20.02,0,North Carolina
+10.01,0,10.01,10.01,0,South Carolina
+0.3,0.03,0.33,0.33,0,Tennessee
+0.69,0.01,0.7,1,0.3,North Carolina
+13.83,0.41,14.24,100.04,85.8,Georgia
+5.38,0.48,5.86,6,0.14,Alabama
+3,0,3,3,0,South Carolina
+20.02,0,20.02,20.02,0,South Carolina
+4.23,0.25,4.48,5,0.52,Virginia
+10,0,10,10,0,Georgia
+1,0,1,1,0,Virginia
+2.18,0.07,2.25,5,2.75,Georgia
+2.08,0.06,2.14,10,7.86,Georgia
+9.16,0.52,9.68,10,0.32,Georgia
+19.56,0.57,20.13,21,0.87,Virginia
+10,0,10,100,90,North Carolina
+149.23,0,149.23,149.23,0,North Carolina
+37,0,37,37,0,Pennsylvania
+14.16,0.71,14.87,20,5.13,South Carolina
+33,0,33,100,67,Tennessee
+2.49,0.17,2.66,20,17.34,South Carolina
+15,0,15,20,5,Virginia
+0.59,0.04,0.63,1,0.37,South Carolina
+16,0,16,16,0,Virginia
+10.92,0.9,11.82,20,8.18,Tennessee
+4.99,0.35,5.34,10,4.66,North Carolina
+5,0.25,5.25,20.25,15,South Carolina
+5,0,5,5,0,North Carolina
+3.96,0.2,4.16,10,5.84,Virginia
+4.25,0.11,4.36,4.36,0,Virginia
+5,0,5,5,0,North Carolina
+13.09,0.31,13.4,20.5,7.1,Georgia
+14,0,14,14,0,Tennessee
+7.88,0.55,8.43,20,11.57,Georgia
+50,0,50,50,0,Georgia
+1.78,0.08,1.86,5,3.14,Pennsylvania
+11.2,0.06,11.26,20,8.74,South Carolina
+53,0,53,53,0,North Carolina
+1.49,0.03,1.52,2,0.48,North Carolina
+5,0,5,50,45,Georgia
+1.69,0.08,1.77,2,0.23,South Carolina
+30.55,0.52,30.07,40.1,10.03,South Carolina
+10.03,0.46,10.49,11,0.51,Pennsylvania
+15,0,15,20,5,Tennessee
+16.79,0.09,16.88,20,3.12,South Carolina
+20.21,0,20.21,20.21,0,Virginia
+50,0,50,50,0,Georgia
+2.97,0.15,3.12,10,6.88,South Carolina
+20,0,20,20,0,Tennessee
+5.27,0.13,5.4,20,14.6,Virginia
+5.98,0.42,6.4,7,0.6,Georgia
+2.28,0.07,2.35,2.35,0,Georgia
+0.85,0.02,0.87,1,0.13,North Carolina
+5.77,0.3,6.07,7,0.93,Georgia
+15.59,0.08,21.17,22,0.83,South Carolina
+0.99,0.09,1.08,1.25,0.17,Virginia
+15,0,15,15,0,Virginia
+20,0,20,20,0,North Carolina
+33.02,0.03,1.32,20,18.68,North Carolina
+45.98,3.22,45.2,45.2,0,Georgia
+25,0,25,25,0,Tennessee
+0.69,0.05,0.74,1,0.26,North Carolina
+1.49,0,1.49,2,0.51,Pennsylvania
+203.13,0,203.13,203.13,0,South Carolina
+3.24,0.23,3.47,5.47,2,Georgia
+31.09,0.13,31.22,31.22,0,Virginia
+0.99,0.07,1.06,2,0.94,Georgia
+33.86,0,33.86,33.86,0,South Carolina
+42,0,42,42,0,North Carolina
+1.19,0.08,1.27,1.27,0,North Carolina
+3.95,0.28,4.23,10,5.77,Georgia
+20.01,0,0.01,0.01,0,Georgia
+32.4,0,32.4,32.4,0,Georgia
+5,0.35,5.35,5.35,0,North Carolina
+17.05,0,17.05,17.05,0,Alabama
+0.79,0.02,0.81,1,0.19,Virginia
+4,0,4,4,0,Georgia
+5.98,0.42,6.4,10,3.6,Georgia
+6.25,0,6.25,7,0.75,South Carolina
+2,0,2,2,0,South Carolina
+2.9,0.14,3.04,3.04,0,South Carolina
+8.19,0.11,8.3,10.3,2,Virginia
+4.54,0.27,4.81,5,0.19,Pennsylvania
+25.95,0,25.95,25.95,0,Virginia
+16.59,0.25,16.84,20,3.16,North Carolina
+10.01,0,10.01,11,0.99,South Carolina
+10,0.5,10.5,10.5,0,South Carolina
+26.9,0,26.9,26.9,0,South Carolina
+48.25,0,48.25,48.25,0,South Carolina
+2,0,2,2,0,North Carolina
+27,0,27,27,0,Virginia
+0.89,0.02,0.91,1,0.09,Georgia
+4.19,0.29,4.48,4.48,0,Georgia
+8.58,0.51,9.09,20,10.91,Pennsylvania
+0.79,0.04,0.83,1,0.17,South Carolina
+1,0,1,1,0,Virginia
+27.08,0,27.08,27.08,0,Pennsylvania
+7.58,0.42,8,20,12,Pennsylvania
+20.33,0,20.33,30,9.67,North Carolina
+32.76,0,32.76,32.76,0,South Carolina
+16.47,0.44,16.91,16.91,0,North Carolina
+2.28,0.07,2.35,3,0.65,Georgia
+0.99,0.02,1.01,1.01,0,North Carolina
+19.01,0,19.01,20.01,1,South Carolina
+12.58,0.88,13.46,20,6.54,North Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+2.59,0.08,2.67,5.75,3.08,Georgia
+5.78,0,5.78,20,14.22,Pennsylvania
+28.85,0,28.85,28.85,0,Georgia
+39.27,0,39.27,39.27,0,Georgia
+5.07,0.25,5.32,6,0.68,Virginia
+31.15,0,31.15,31.15,0,Georgia
+16.29,0.03,16.32,20.35,4.03,Georgia
+21.38,0,21.38,21.38,0,South Carolina
+5.83,0.35,6.18,6.18,0,Pennsylvania
+30.75,0,30.75,30.75,0,Virginia
+0.99,0.09,1.08,1.1,0.02,Virginia
+11.64,0.81,12.45,20,7.55,North Carolina
+10.01,0,10.01,11,0.99,South Carolina
+23.49,1.44,24.93,25,0.07,Georgia
+3.49,0.09,3.58,10,6.42,Virginia
+5.09,0.36,5.45,5.45,0,Georgia
+0.15,0,0.15,0.25,0.1,Pennsylvania
+23.01,0,23.01,23.01,0,North Carolina
+26,0,26,50,24,South Carolina
+5,0,5,20,15,Georgia
+1.29,0.04,1.33,5.5,4.17,Georgia
+10,0,10,10,0,South Carolina
+25,0,25,25,0,North Carolina
+31.63,0,31.63,31.63,0,Georgia
+2.19,0.15,2.34,2.34,0,North Carolina
+1.29,0.12,1.41,2,0.59,Tennessee
+1.29,0.08,1.37,2,0.63,Pennsylvania
+4.13,0.29,4.42,20,15.58,South Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+22.99,1.15,24.14,40,15.86,South Carolina
+5.01,0,5,5,0,Virginia
+2,0,2,10,8,Georgia
+20,0,20,20,0,Georgia
+-11.59,-0.81,-12.4,0,12.4,North Carolina
+15,0,15,15,0,South Carolina
+3,0.25,3.25,10,6.75,Tennessee
+2.37,0.17,2.54,3,0.46,South Carolina
+1.59,0.05,1.64,2,0.36,Georgia
+4.73,0.24,4.97,5,0.03,Virginia
+22,0,22,22,0,North Carolina
+3.19,0.1,3.29,5,1.71,Georgia
+20,0,20,20,0,Virginia
+15.17,0.27,15.44,20,4.56,Virginia
+25.99,1.82,27.81,50,22.19,South Carolina
+20,0,20,20,0,Virginia
+30.98,2.17,33.15,40,6.85,South Carolina
+4.47,0.31,4.78,10,5.22,Georgia
+0.99,0.07,1.06,1.06,0,North Carolina
+8.64,0.28,8.92,9,0.08,Virginia
+18.68,1.31,19.99,19.99,0,North Carolina
+0.25,0.02,0.27,1,0.73,North Carolina
+114,0,114,114,0,North Carolina
+2,0,2,2,0,Virginia
+20,0,20,20,0,Pennsylvania
+21.29,0.04,21.33,22,0.67,Georgia
+4.97,0.35,5.32,20.02,14.7,North Carolina
+15,0,15,15,0,Virginia
+2.84,0.16,3,3,0,North Carolina
+23.98,1.68,25.66,26,0.34,Georgia
+3.87,0.35,4.22,4.22,0,Alabama
+2,0,2,2,0,South Carolina
+1.69,0.02,1.71,5,3.29,Pennsylvania
+4.27,0.38,4.65,20,15.35,Tennessee
+1.68,0,1.68,1.68,0,Alabama
+19.16,0,19.16,19.16,0,Tennessee
+36,0,36,36,0,Virginia
+2.79,0.2,2.99,5,2.01,Georgia
+6,0,6,6,0,Virginia
+11.58,0.28,11.86,20,8.14,Virginia
+20,0,20,20,0,Georgia
+22.5,0,22.5,22.5,0,Virginia
+50,0,50,50,0,North Carolina
+20,0,20,20,0,Virginia
+12.36,0,12.36,12.36,0,South Carolina
+1.38,0.04,1.42,20,18.58,Georgia
+9.85,0.69,10.54,11,0.46,North Carolina
+40,0,40,40,0,Pennsylvania
+8.04,0,8.04,8.04,0,Georgia
+8.97,0.34,9.31,9.31,0,Virginia
+23,0,23,23,0,Pennsylvania
+2.97,0.21,3.18,3.18,0,North Carolina
+28.01,0,28.01,28.01,0,Georgia
+7.69,0.19,7.88,10,2.12,North Carolina
+11.25,0,11.25,12,0.75,Georgia
+1.98,0.1,2.08,3,0.92,South Carolina
+40.69,0,40.69,40.69,0,Virginia
+3.29,0.16,3.45,10,6.55,Virginia
+20.02,0,0.02,1,0.98,Georgia
+20,0,20,20,0,Virginia
+28.19,0.06,28.25,40,11.75,Virginia
+6.49,0,6.49,20.49,14,Georgia
+15,0,15,15,0,South Carolina
+20,0,20,20,0,Alabama
+20.09,0,20.09,20.09,0,Tennessee
+1.59,0,1.59,2,0.41,Pennsylvania
+5,0,5,5,0,Tennessee
+25,0,25,25,0,Pennsylvania
+28.27,0.19,28.46,29,0.54,North Carolina
+4.57,0.28,4.85,20,15.15,North Carolina
+4.04,0.24,4.28,10,5.72,Pennsylvania
+2.99,0.07,3.06,4,0.94,Virginia
+45.76,0,45.76,45.76,0,South Carolina
+0.05,0,0.05,0.05,0,North Carolina
+1.99,0.14,2.13,2.13,0,South Carolina
+1.78,0.09,1.87,2.02,0.15,South Carolina
+4,0,4,5,1,Virginia
+4.46,0,4.46,20,15.54,Pennsylvania
+0.59,0.04,0.63,1,0.37,South Carolina
+5,0,5,5,0,Georgia
+29.18,0.06,10,10,0,Pennsylvania
+23.2,0,23.2,23.2,0,Pennsylvania
+27.59,0,27.59,27.59,0,North Carolina
+2.99,0.21,3.2,20.2,17,Georgia
+20,0,20,20,0,North Carolina
+54.66,3.25,57.91,57.91,0,Georgia
+8.47,0.41,8.88,10,1.12,Georgia
+18,0,40,40,0,Pennsylvania
+0.69,0.05,0.74,0.74,0,South Carolina
+1.69,0.1,1.79,5,3.21,Pennsylvania
+5.98,0.42,6.4,50,43.6,Georgia
+0.99,0.02,1.01,1.01,0,Virginia
+25.06,0,25,25,0,Georgia
+5,0,5,5,0,South Carolina
+23.8,0,23.8,23.8,0,Virginia
+22.73,0,22.73,22.73,0,Pennsylvania
+8.89,0.44,9.33,10.33,1,South Carolina
+8,0,8,20,12,Georgia
+2.98,0.15,3.13,3.13,0,Virginia
+1.29,0.03,1.32,2,0.68,Georgia
+1.19,0.03,1.22,20,18.78,Virginia
+41.01,0,41,41,0,Virginia
+23.61,0,23.61,23.61,0,Georgia
+22,0,22,22,0,South Carolina
+1.54,0.11,1.65,2,0.35,South Carolina
+8,0,8,20,12,South Carolina
+17.5,0.62,18.12,19,0.88,South Carolina
+2.99,0.15,3.14,3.25,0.11,Virginia
+1.98,0.1,2.08,5.08,3,South Carolina
+4.38,0.19,4.57,4.57,0,Virginia
+30.87,0,30.87,30.87,0,Virginia
+1.19,0.08,1.27,1.27,0,Georgia
+5,0,5,10,5,North Carolina
+1.59,0.05,1.64,1.75,0.11,Georgia
+4.08,0,4.08,5.08,1,Pennsylvania
+3.09,0.22,3.31,5,1.69,Georgia
+23,0,23,23,0,Georgia
+4.48,0.31,4.79,5,0.21,South Carolina
+0.99,0.07,1.06,1.06,0,North Carolina
+20,0,20,20,0,Alabama
+25,0,25,25,0,Pennsylvania
+3.89,0.27,4.16,5,0.84,Georgia
+13.78,0.19,13.97,20,6.03,South Carolina
+3.04,0.15,3.19,3.19,0,Virginia
+1.99,0.06,2.05,20,17.95,Georgia
+1.44,0.03,1.47,2,0.53,Georgia
+40.32,0,40.32,40.32,0,Tennessee
+33.41,0,33.41,33.41,0,Virginia
+8.49,0.42,8.91,9.01,0.1,South Carolina
+2.19,0.18,2.37,3,0.63,Tennessee
+5,0.15,5.15,5.15,0,Georgia
+10,0,10,20,10,Georgia
+3.13,0.16,3.29,20,16.71,South Carolina
+11.98,0.6,11.58,12,0.42,South Carolina
+26.97,0.6,27.57,40,12.43,Alabama
+31.88,0.09,31.97,32,0.03,South Carolina
+2.08,0.15,2.23,10,7.77,South Carolina
+31,0,31,31,0,Georgia
+5.92,0.18,6.1,6.1,0,Georgia
+33,0,33,33,0,Pennsylvania
+32,0,32,32,0,Virginia
+27.99,2.52,30.51,30.51,0,Alabama
+1.98,0.04,2.02,2.02,0,North Carolina
+2.65,0.25,2.9,10,7.1,Tennessee
+42.54,0,42.54,42.54,0,Georgia
+11.78,0.47,1,1,0,South Carolina
+1.59,0.05,1.64,5.64,4,Georgia
+41,0,41,41,0,South Carolina
+20,0,20,20,0,Pennsylvania
+2.38,0.06,2.44,20,17.56,Virginia
+31.96,0,31.96,40,8.04,Virginia
+4,0,4,4,0,Alabama
+11.91,0,11.91,12,0.09,South Carolina
+1.29,0.08,1.37,1.37,0,Pennsylvania
+8.5,0,8.5,20,11.5,Virginia
+4.18,0.21,4.39,5,0.61,Georgia
+0.79,0.02,0.81,1,0.19,North Carolina
+1.98,0.14,2.12,3,0.88,North Carolina
+24.24,1.57,25.81,30,4.19,Georgia
+31,0,31,31,0,South Carolina
+1.78,0.16,1.94,2,0.06,Tennessee
+5.73,0.17,5.9,5.9,0,Georgia
+199.99,12,210,210,0,Pennsylvania
+1.99,0.04,2.03,2.05,0.02,Georgia
+41,0,41,41,0,Georgia
+12.18,0.2,12.38,20.38,8,Alabama
+60.53,2.45,62.98,65,2.02,South Carolina
+3.37,0.15,3.52,4,0.48,Georgia
+4.01,0,4.01,5,0.99,North Carolina
+5,0.13,5.13,5.25,0.12,Virginia
+81.4,0,81.4,81.4,0,Georgia
+3.59,0.07,3.66,3.66,0,North Carolina
+47.35,0,47.35,47.35,0,South Carolina
+16,0,16,33,17,Virginia
+0.59,0.05,0.64,1,0.36,Alabama
+1,0,1,1,0,Virginia
+11.2,0,11.2,11.2,0,North Carolina
+15.48,1.08,16.56,16.56,0,North Carolina
+2.24,0.16,2.4,2.5,0.1,North Carolina
+32.22,0,32.22,32.22,0,South Carolina
+45,0,45,45,0,South Carolina
+1.29,0.12,1.41,1.41,0,Alabama
+2.9,0.27,3.17,3.17,0,Tennessee
+2.04,0,2.04,3,0.96,North Carolina
+4.07,0.12,4.19,5,0.81,Georgia
+0.25,0.01,0.26,1,0.74,North Carolina
+44,0,44,44,0,North Carolina
+26.46,1.15,27.61,40,12.39,North Carolina
+10.02,0,10.02,10.05,0.03,South Carolina
+13.01,0,13.01,13.01,0,Virginia
+20,0,20,20,0,Georgia
+1.98,0.1,2.08,20,17.92,Virginia
+9.38,0.84,10.22,11,0.78,Alabama
+9.47,0.47,9.94,10,0.06,Virginia
+20,0,20,20,0,Pennsylvania
+1.99,0.14,2.13,5,2.87,North Carolina
+30,0,30,30,0,Alabama
+3.13,0.18,3.31,10,6.69,North Carolina
+15,0,15,20,5,Virginia
+3.29,0.06,3.35,3.35,0,Virginia
+3,0,3,3,0,Tennessee
+5.45,0.24,5.69,6,0.31,Pennsylvania
+2.98,0.21,3.19,10,6.81,North Carolina
+41.77,0,41.77,41.77,0,Virginia
+10,0,10,20,10,Georgia
+8.97,0.53,9.5,10,0.5,North Carolina
+1.49,0.03,1.52,1.52,0,North Carolina
+20.03,0,20.03,20.03,0,Virginia
+5.52,0.3,5.82,5.82,0,Georgia
+28.97,0,28.97,28.97,0,Georgia
+3,0.09,3.09,20,16.91,Georgia
+2.57,0.13,2.7,3,0.3,South Carolina
+19.5,0,19.5,20,0.5,Tennessee
+7.97,0.56,8.53,20,11.47,South Carolina
+5,0.13,5.13,5.13,0,Virginia
+3,0,3,3,0,North Carolina
+3.04,0.15,3.19,3.19,0,South Carolina
+1.29,0.04,1.33,1.5,0.17,Georgia
+3.89,0.27,4.16,5,0.84,Georgia
+35,0,35,40,5,Georgia
+20.25,0,20.25,20.25,0,South Carolina
+5.88,0.12,6,20,14,Georgia
+28.06,0,28.06,28.06,0,South Carolina
+10,0,10,10,0,North Carolina
+27,0,27,27,0,Virginia
+30.25,0,30.25,30.25,0,South Carolina
+48.81,0,48.81,48.81,0,Alabama
+34,0,34,34,0,South Carolina
+4.93,0.44,5.37,5.37,0,Alabama
+23.5,0,30,30,0,South Carolina
+5.3,0.27,5.57,5.57,0,South Carolina
+15.99,0.02,16.01,20.01,4,Virginia
+43.64,0.33,43.97,50,6.03,Alabama
+6.87,0.48,7.35,20,12.65,South Carolina
+5,0,5,5,0,Georgia
+24.19,0.08,24.27,25,0.73,South Carolina
+2.99,0.21,3.2,5,1.8,South Carolina
+5.35,0.45,5.8,6,0.2,Tennessee
+5.18,0.48,5.66,21,15.34,Tennessee
+7.42,0.42,7.84,10,2.16,North Carolina
+0.79,0.07,0.86,1,0.14,Virginia
+27.03,0,27.03,27.03,0,Virginia
+7.07,0.35,7.42,20,12.58,South Carolina
+32.98,0.41,33.39,33.5,0.11,North Carolina
+25,0,25,25,0,North Carolina
+7.08,0.12,7.2,8,0.8,Virginia
+1.49,0.07,1.56,2,0.44,South Carolina
+5.46,0.4,5.86,20,14.14,Virginia
+50,0,50,50,0,Virginia
+4.66,0.14,4.8,4.8,0,Georgia
+6.07,0.12,6.19,20,13.81,Virginia
+9.75,0,9.75,10,0.25,South Carolina
+32.91,0,32.91,32.91,0,Alabama
+20,0,20,20,0,Georgia
+25,0,25,25,0,Georgia
+8.07,0.35,8.42,8.42,0,Virginia
+46.34,0,46.34,46.34,0,South Carolina
+3.47,0.3,3.77,4,0.23,Tennessee
+6.49,0.32,6.81,20,13.19,South Carolina
+1.47,0.1,1.57,2,0.43,North Carolina
+31.43,0,31.43,31.43,0,South Carolina
+3.59,0.25,3.84,4,0.16,North Carolina
+4.67,0.41,5.08,5.08,0,Tennessee
+8,0,8,100,92,Pennsylvania
+2.48,0.05,2.53,3,0.47,Georgia
+38.5,0,38.5,38.5,0,South Carolina
+4.11,0,4.11,4.11,0,South Carolina
+25,0,25,25,0,Pennsylvania
+2.49,0,2.49,5,2.51,Pennsylvania
+7,0,7,10,3,South Carolina
+20,0,20,20,0,Pennsylvania
+39.57,0.43,40,50,10,Virginia
+73.94,0.53,74.47,74.47,0,Alabama
+26,0,26,26,0,South Carolina
+47.75,0,47.75,47.75,0,South Carolina
+33.01,0,33.01,33.01,0,Georgia
+45,0,45,45,0,South Carolina
+5.7,0,5.7,10,4.3,Virginia
+18,0,-2,0,2,Georgia
+0.99,0.07,1.06,1.06,0,North Carolina
+2,0,2,2,0,South Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+16.99,1.19,13.68,20,6.32,North Carolina
+1.59,0.11,1.7,1.7,0,North Carolina
+7.47,0.44,7.91,10,2.09,Georgia
+11.75,0,11.75,11.75,0,Georgia
+4,0,4,10,6,Georgia
+3.88,0.04,3.92,20,16.08,Pennsylvania
+26.2,0,26.2,26.2,0,Georgia
+0.99,0.09,1.08,1.1,0.02,Virginia
+0.2,0.02,0.22,0.25,0.03,Alabama
+1.29,0.09,1.38,2,0.62,South Carolina
+50,0,50,50,0,Virginia
+20.01,0,20.01,21,0.99,South Carolina
+52.5,0,55,55,0,Georgia
+12.66,0.33,12.99,12.99,0,Pennsylvania
+1.29,0.09,1.38,2,0.62,North Carolina
+1.19,0.03,1.22,1.22,0,Virginia
+1.69,0.02,1.71,2,0.29,Pennsylvania
+33.8,0,33.8,33.8,0,Georgia
+1.39,0.1,1.49,20,18.51,South Carolina
+50,0,50,100,50,Pennsylvania
+0.99,0.07,1.06,5,3.94,North Carolina
+15.5,0,15.5,20,4.5,Virginia
+16.16,0.71,16.87,20.87,4,Virginia
+17.49,1.22,16.71,20,3.29,North Carolina
+20,0,20,20,0,Virginia
+8.45,0.59,9.04,10,0.96,South Carolina
+1.29,0.06,1.35,1.35,0,South Carolina
+48.84,0,48.84,48.84,0,Georgia
+15.01,0,15.01,20.01,5,South Carolina
+27.77,0,27.77,27.77,0,North Carolina
+6,0,6,6,0,Virginia
+11.04,0.71,11.75,12,0.25,Georgia
+10,0,10,10,0,South Carolina
+11.75,0.53,12.28,13,0.72,Virginia
+2.78,0.19,2.97,3,0.03,South Carolina
+25.88,0,25.88,25.88,0,Georgia
+12.19,0.11,12.3,20,7.7,Virginia
+18.41,0,18.67,18.67,0,Georgia
+1,0,1,1,0,Georgia
+2.9,0.27,3.17,4,0.83,Tennessee
+1.59,0.13,1.72,10.02,8.3,Tennessee
+27,0,27,40,13,North Carolina
+8,0,8,20,12,Georgia
+32.88,0.09,32.97,40,7.03,Georgia
+0.79,0.06,0.85,1,0.15,Georgia
+32,0,32,32,0,North Carolina
+5,0,5,5,0,Virginia
+28.08,2.58,30.66,40,9.34,Tennessee
+70.82,0,70.82,70.82,0,South Carolina
+2.98,0.09,3.07,20,16.93,Georgia
+4.75,0.1,4.85,5,0.15,Georgia
+1.69,0.02,1.71,2,0.29,Pennsylvania
+2.28,0.09,2.37,3,0.63,North Carolina
+28.66,0,28.66,28.66,0,Georgia
+5.18,0.36,5.54,20,14.46,North Carolina
+15.5,0,15.5,20,4.5,North Carolina
+3.78,0.1,3.88,4,0.12,Georgia
+2.99,0.15,3.14,3.25,0.11,Virginia
+2.89,0.2,3.09,10.1,7.01,North Carolina
+2.48,0.09,2.57,2.57,0,Georgia
+1.78,0.05,1.83,100,98.17,Georgia
+1.75,0,1.75,1.75,0,South Carolina
+1.69,0.05,1.74,2,0.26,North Carolina
+10,0,10,100,90,Alabama
+3.64,0,3.64,3.64,0,Alabama
+15,0,15,15,0,North Carolina
+50,0,50,50,0,Pennsylvania
+68.71,0,68.71,68.71,0,Pennsylvania
+1.49,0.04,1.53,1.75,0.22,Georgia
+3.19,0.22,3.41,5.31,1.9,South Carolina
+1,0,1,1,0,Georgia
+27.4,0,27.4,27.4,0,Pennsylvania
+6.38,0.16,6.54,6.54,0,Virginia
+2,0,2,2,0,Virginia
+1.29,0.06,1.35,20,18.65,Virginia
+2.58,0.18,2.76,2.76,0,North Carolina
+1.29,0.12,1.41,1.41,0,Alabama
+33.99,1.33,33.32,100.35,67.03,Georgia
+3.89,0.19,4.08,5.25,1.17,South Carolina
+28,0,50,60,10,South Carolina
+10,0,10,10,0,South Carolina
+5,0,5,5,0,Georgia
+2.27,0.07,2.34,2.34,0,Pennsylvania
+36,0,36,36,0,Virginia
+30.5,0,30.5,30.5,0,Virginia
+50,0,50,50,0,South Carolina
+19.5,0,19.5,20,0.5,South Carolina
+26.09,0,26.09,51.1,25.01,South Carolina
+1.09,0.08,1.17,2,0.83,South Carolina
+3.99,0.12,4.11,5.11,1,Georgia
+1.58,0.08,1.66,2,0.34,South Carolina
+1.78,0.04,1.82,2,0.18,Virginia
+23.7,0,23.7,23.7,0,South Carolina
+1.87,0.17,2.04,10.25,8.21,Alabama
+9.78,0.33,5.11,6,0.89,Georgia
+17.16,1.03,18.19,20,1.81,Pennsylvania
+5.89,0,5.89,6,0.11,Virginia
+4.75,0,4.75,4.75,0,Virginia
+3,0,3,3,0,Georgia
+28.5,0,28.5,28.5,0,South Carolina
+0.25,0.02,0.27,1,0.73,Georgia
+1.59,0.11,1.7,5,3.3,South Carolina
+10,0,10,20,10,South Carolina
+4.93,0.3,5.23,6,0.77,North Carolina
+12.79,0.14,12.93,12.93,0,Virginia
+4.17,0.21,4.38,50,45.62,South Carolina
+2.38,0.13,2.51,2.51,0,Georgia
+20.01,0,20.01,20.01,0,South Carolina
+3.96,0.28,4.24,5,0.76,North Carolina
+10,0,10,10,0,South Carolina
+1.49,0.08,1.57,2,0.43,North Carolina
+4.87,0.2,5.07,6,0.93,Virginia
+10,0,10,10,0,Alabama
+60.04,1.43,61.47,101.47,40,Virginia
+30,0,30,30,0,Virginia
+1.78,0.1,1.88,1.88,0,Georgia
+3.87,0.32,4.19,5,0.81,Tennessee
+27.5,0,27.5,28,0.5,Alabama
+0.99,0.07,1.06,2,0.94,North Carolina
+5,0.25,5.25,5.25,0,South Carolina
+17.79,0.14,17.93,20,2.07,South Carolina
+5.88,0.29,6.17,6.17,0,Virginia
+1.82,0.11,1.93,2,0.07,North Carolina
+3.17,0.22,3.39,5,1.61,South Carolina
+24.45,0,24.45,25,0.55,Virginia
+0.79,0.02,0.81,1,0.19,North Carolina
+79.09,0,79.09,79.09,0,Virginia
+1.39,0.07,1.46,2,0.54,South Carolina
+23.99,1.2,20.19,21,0.81,Virginia
+20.02,0,20.02,50.02,30,Alabama
+0.99,0.07,1.06,2,0.94,North Carolina
+19.92,0,40,40,0,Virginia
+27.49,1.37,28.86,28.86,0,Virginia
+50,3.5,53.5,53.5,0,North Carolina
+2.65,0.19,2.84,20,17.16,North Carolina
+1.98,0.14,2.12,3,0.88,North Carolina
+1.99,0.18,2.17,10,7.83,Tennessee
+38.5,0,38.5,38.5,0,Tennessee
+28,0,28,40,12,North Carolina
+55.57,0.35,55,55,0,Georgia
+0.99,0.07,1.06,1.1,0.04,South Carolina
+18.66,0,18.66,20,1.34,North Carolina
+5.67,0.22,5.89,20,14.11,North Carolina
+14.43,0,14.43,14.43,0,South Carolina
+5.3,0.49,5.79,10,4.21,Tennessee
+0.79,0.06,0.85,1,0.15,North Carolina
+2.19,0.05,2.24,3,0.76,Virginia
+1.19,0.08,1.27,10.02,8.75,North Carolina
+14.17,0.29,14.46,20,5.54,South Carolina
+23.24,1.58,24.82,25,0.18,Georgia
+20,0,20,20,0,Pennsylvania
+3,0,3,3,0,Virginia
+33.61,0,33.61,33.61,0,South Carolina
+5.3,0.37,5.67,20,14.33,North Carolina
+10,0.5,10.5,10.5,0,South Carolina
+25.98,0.15,26.13,26.13,0,Virginia
+15,0,15,15,0,Alabama
+12.25,0,12.25,12.25,0,Georgia
+7,0,7,20,13,Virginia
+4.27,0.16,4.43,10,5.57,North Carolina
+4.56,0.08,4.64,20,15.36,Pennsylvania
+3,0,3,3,0,South Carolina
+52,0,52,52,0,Georgia
+9.09,0.45,9.54,10,0.46,South Carolina
+3,0,3,5,2,Virginia
+52.99,1.47,54.46,54.46,0,North Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+30,0,30,30,0,Tennessee
+1.99,0.1,2.09,2.09,0,South Carolina
+1.98,0.1,2.08,10,7.92,Virginia
+1.98,0.11,2.09,2.09,0,Virginia
+12.59,0.05,12.64,20,7.36,Georgia
+10.58,0.14,10.72,10.72,0,Virginia
+8,0,8,20,12,Georgia
+0.99,0.03,1.02,1.02,0,Georgia
+30,2.1,32.1,40,7.9,North Carolina
+1.19,0.07,1.26,10,8.74,Pennsylvania
+22.17,0,22.17,22.17,0,North Carolina
+20,0,20,20,0,Virginia
+3.57,0.07,3.64,3.75,0.11,Georgia
+2.49,0.07,2.56,2.6,0.04,Georgia
+44.25,0,44.25,44.25,0,Alabama
+60.02,0,60.02,60.02,0,Virginia
+2.76,0.08,2.84,20,17.16,Georgia
+38,0,38,50,12,North Carolina
+10,0,10,10,0,South Carolina
+15.48,0.38,15.86,100,84.14,Georgia
+44.37,0,44.37,44.37,0,South Carolina
+1.09,0.08,1.17,2,0.83,South Carolina
+3.57,0.11,3.68,4,0.32,Georgia
+7.44,0.45,7.89,20,12.11,Pennsylvania
+10.01,0,10.01,10.01,0,North Carolina
+5.01,0,5.01,5.01,0,Georgia
+5.79,0.29,6.08,7,0.92,South Carolina
+0.69,0.05,0.74,0.75,0.01,North Carolina
+47.1,0,47.1,47.1,0,South Carolina
+3,0,3,3,0,Georgia
+1.98,0.1,2.08,3,0.92,South Carolina
+4.19,0.21,4.4,4.4,0,Virginia
+1.29,0.04,1.33,2,0.67,Georgia
+29,0,29,29,0,Virginia
+1,0,1,5,4,Pennsylvania
+6.78,0.61,7.39,20,12.61,Alabama
+30,0,30,30,0,Georgia
+23,0,23,23,0,Virginia
+12.97,0.52,13.49,15,1.51,Virginia
+18.01,0,18.01,18.01,0,South Carolina
+25,0,25,25,0,Virginia
+4.15,0.08,4.23,10,5.77,Georgia
+30.02,0,30.02,30.02,0,North Carolina
+1.59,0.1,1.69,10,8.31,Pennsylvania
+1.15,0.06,1.21,1.26,0.05,South Carolina
+7.64,0.18,1,1,0,North Carolina
+4,0,4,4,0,Virginia
+33.86,0,33.86,40,6.14,Georgia
+5.04,0,5.04,5.04,0,Virginia
+4.8,0.24,5.04,5.04,0,South Carolina
+5.79,0.14,5.93,10,4.07,Virginia
+0.69,0.06,0.75,1,0.25,Tennessee
+0.99,0.07,1.06,2,0.94,South Carolina
+2,0,2,2,0,South Carolina
+3.53,0.2,3.73,10,6.27,Georgia
+17,0,17,17,0,South Carolina
+2.79,0.14,2.93,3,0.07,South Carolina
+2.97,0.21,3.18,3.18,0,North Carolina
+12.25,0.61,12.86,12.86,0,South Carolina
+1.19,0.06,1.25,1.25,0,South Carolina
+1.69,0.15,1.84,2,0.16,Alabama
+41,0,41,50,9,South Carolina
+2.99,0.15,3.14,3.25,0.11,South Carolina
+1.19,0.08,1.27,2,0.73,North Carolina
+2.67,0.08,2.75,3,0.25,Pennsylvania
+6.13,0.29,6.42,50,43.58,Virginia
+4.93,0.26,3.69,3.69,0,North Carolina
+0.99,0.09,1.08,2,0.92,Tennessee
+30,0,30,30,0,Georgia
+4.68,0.33,5.01,6,0.99,Georgia
+14.88,0.95,15.83,20,4.17,North Carolina
+16.58,0.28,16.86,20,3.14,South Carolina
+35.31,0,35.31,35.31,0,South Carolina
+38.98,3.55,42.53,100,57.47,Tennessee
+20.01,0,20.01,20.01,0,North Carolina
+43.06,0,43.06,43.06,0,Virginia
+42.8,0,-17.2,0,17.2,Georgia
+3.79,0.11,3.9,4,0.1,Georgia
+20,0,20,20,0,Alabama
+3.57,0.21,3.78,20,16.22,Georgia
+0.99,0.09,1.08,2,0.92,Alabama
+26.45,0,26.45,26.45,0,North Carolina
+23.3,0,23.3,23.3,0,Pennsylvania
+33.63,0,33.63,33.63,0,South Carolina
+3.98,0.28,4.26,5,0.74,North Carolina
+2.68,0.12,2.8,5,2.2,Georgia
+25,0,25,30,5,Alabama
+4.56,0.14,4.7,5,0.3,Georgia
+1.19,0.08,1.27,5,3.73,North Carolina
+25,0,25,25,0,Virginia
+20.02,0,20.02,20.02,0,South Carolina
+24.6,0,24.6,24.6,0,Georgia
+2.18,0.11,2.29,3,0.71,South Carolina
+1.39,0.04,1.43,2,0.57,Georgia
+4.13,0.29,4.42,5,0.58,North Carolina
+3,0,3,5,2,Georgia
+2.58,0.21,2.79,20,17.21,Tennessee
+1.98,0.04,2.02,2.02,0,North Carolina
+30.02,0,30.02,30.02,0,Pennsylvania
+25.25,0,25.25,25.25,0,Virginia
+6.99,0.17,7.16,8,0.84,Virginia
+1.69,0.12,1.81,5,3.19,Georgia
+23.53,0.22,23.75,25,1.25,Virginia
+25,0,25,25,0,Virginia
+2.88,0.2,3.08,20,16.92,South Carolina
+38,0,38,38,0,Virginia
+1.98,0.04,2.02,2.02,0,North Carolina
+20,0,20,20,0,Virginia
+18.76,0,18.76,20,1.24,Virginia
+4.68,0.2,4.88,20,15.12,Virginia
+50,0,50,50,0,Virginia
+0.25,0.02,0.27,0.27,0,Georgia
+8.49,0.59,9.08,20,10.92,North Carolina
+2.18,0.07,2.25,20,17.75,Georgia
+7.64,0.33,7.97,7.97,0,Alabama
+0.99,0.05,1.04,10,8.96,South Carolina
+2.57,0.1,2.67,3,0.33,Georgia
+3.44,0.17,3.61,10,6.39,Virginia
+1.98,0.14,2.12,3,0.88,South Carolina
+1.98,0.1,2.08,3,0.92,South Carolina
+1.19,0.03,1.22,1.22,0,Virginia
+20.01,0,20.01,20.01,0,South Carolina
+10.01,0,10.01,10.01,0,North Carolina
+5.59,0.11,5.7,6,0.3,North Carolina
+18.5,0,18.5,18.5,0,Georgia
+5.01,0,5.01,5.01,0,Virginia
+12,0,12,15,3,Alabama
+1.29,0.03,1.32,5,3.68,North Carolina
+1.09,0.07,1.16,1.16,0,Pennsylvania
+19,0,19,19,0,North Carolina
+31.45,0,31.45,31.45,0,Georgia
+1.29,0.09,1.38,1.38,0,North Carolina
+1.54,0.03,1.57,2,0.43,Georgia
+5,0,5,5,0,Virginia
+10,0.5,10.5,10.5,0,South Carolina
+1.98,0.14,2.12,2.12,0,North Carolina
+26.4,0,26.4,27,0.6,South Carolina
+3.96,0.2,4.16,5,0.84,South Carolina
+6.98,0.49,7.47,20,12.53,North Carolina
+1.5,0,1.5,2,0.5,Pennsylvania
+29.01,0,29.01,50.01,21,Virginia
+50,0,50,50,0,South Carolina
+10,0,10,10,0,North Carolina
+20.07,0,20.07,20.07,0,Georgia
+2.38,0.06,2.44,3,0.56,Virginia
+32.35,0,32.35,32.35,0,South Carolina
+4,0,4,4,0,Georgia
+24.31,0,24.31,24.31,0,Georgia
+5.68,0.17,5.85,20,14.15,Georgia
+10.02,0,10.02,11,0.98,South Carolina
+3.04,0.15,3.19,10,6.81,South Carolina
+10.63,0.21,10.84,11,0.16,Georgia
+1.68,0.12,1.8,2,0.2,South Carolina
+3.75,0.11,3.86,4,0.14,Georgia
+0.69,0.03,0.72,1,0.28,Virginia
+4,0,4,4,0,Virginia
+48,0,48,48,0,South Carolina
+0.89,0.06,0.95,1,0.05,South Carolina
+0.79,0.06,0.85,1,0.15,North Carolina
+2.16,0,2.16,3,0.84,Alabama
+50,0,50,50,0,South Carolina
+50,0,50,50,0,South Carolina
+8,0,8,20,12,Georgia
+1.49,0.07,1.56,2,0.44,South Carolina
+53.44,1.68,55.12,70.12,15,North Carolina
+21.97,0,21.97,21.97,0,Alabama
+1.59,0,1.59,2,0.41,Pennsylvania
+54,0,54,60,6,Georgia
+0.89,0.02,0.91,1,0.09,Georgia
+8,0,8,20,12,South Carolina
+33,0,33,33,0,Georgia
+4.18,0.29,4.47,10,5.53,Georgia
+27.31,0,27.31,27.31,0,Virginia
+23.39,0.24,23.63,24,0.37,South Carolina
+15,0,15,15,0,North Carolina
+21.7,0.04,21.74,30,8.26,Virginia
+21.99,1.54,23.53,30,6.47,Georgia
+13.18,0.79,13.97,15,1.03,Georgia
+20.99,0.07,21.06,22,0.94,North Carolina
+20,0,20,20,0,Virginia
+20.25,0,20.25,21,0.75,Alabama
+5.58,0.28,5.86,20,14.14,South Carolina
+2.89,0.17,3.06,4,0.94,Georgia
+5.02,0.25,5.27,20,14.73,South Carolina
+8,0,8,10,2,Virginia
+32.45,0,32.45,32.45,0,North Carolina
+0,0,20.02,20.02,0,Alabama
+17.99,1.26,19.25,19.25,0,Georgia
+6,0,6,10,4,Virginia
+2.38,0.07,2.45,100,97.55,Georgia
+7.29,0.07,7.36,20,12.64,Georgia
+0.99,0.07,1.06,1.06,0,Georgia
+27.5,0,27.5,27.5,0,Pennsylvania
+2.19,0.05,2.24,2.24,0,Virginia
+20.01,0,20.01,20.01,0,Pennsylvania
+20.13,0,20.13,20.13,0,North Carolina
+8.04,0,8.04,9,0.96,Virginia
+6.02,0,10,10,0,Virginia
+3.39,0.17,3.56,5,1.44,Virginia
+1.78,0.04,1.82,2,0.18,North Carolina
+2.08,0.11,2.19,2.25,0.06,North Carolina
+0.99,0.07,1.06,5.06,4,North Carolina
+1.29,0.09,1.38,1.38,0,North Carolina
+30,0,30,30,0,South Carolina
+32.29,0,32.29,32.29,0,Tennessee
+1.69,0.08,1.77,1.77,0,South Carolina
+18,0,18,18,0,Alabama
+6.59,0.54,7.13,10,2.87,Tennessee
+3.18,0.1,3.28,4,0.72,Georgia
+45.01,0,45.01,45.01,0,North Carolina
+14.04,0,14.04,14.04,0,Tennessee
+6.74,0,6.74,6.74,0,Virginia
+27.44,0,27.44,27.44,0,Alabama
+15.09,0,15.09,15.09,0,Pennsylvania
+39.69,0,39.69,39.69,0,Pennsylvania
+2.68,0.24,2.92,5,2.08,Tennessee
+15.19,0.38,15.57,16,0.43,Virginia
+2.88,0.17,3.05,3.05,0,Pennsylvania
+19.05,1.67,20.72,50,29.28,Tennessee
+15,0,15,20,5,Pennsylvania
+1,0,1,1,0,Georgia
+0.85,0.04,0.89,0.89,0,South Carolina
+0.79,0.06,0.85,1,0.15,North Carolina
+1.29,0.09,1.38,2,0.62,South Carolina
+5.5,0.48,5.98,10.98,5,Tennessee
+18.37,0.08,12.56,12.56,0,Virginia
+8,0,8,100,92,Pennsylvania
+11.03,0.91,11.94,50,38.06,Tennessee
+8.11,0.31,8.42,20,11.58,South Carolina
+12,0,12,12,0,South Carolina
+2.88,0.25,3.13,5,1.87,Tennessee
+1.49,0.13,1.62,5,3.38,Alabama
+0.99,0.07,1.06,1.06,0,North Carolina
+27.01,0,0.01,0.01,0,South Carolina
+1.19,0.08,1.27,2,0.73,North Carolina
+1.29,0.03,1.32,2,0.68,Georgia
+3,0,3,3,0,Georgia
+22.77,0,22.77,25,2.23,South Carolina
+18.13,0,18.13,18.13,0,Virginia
+30.92,0.27,31.19,31.19,0,Tennessee
+19.49,1.8,19.29,20,0.71,Tennessee
+5.47,0.38,5.85,10,4.15,Georgia
+20,0,20,20,0,Virginia
+4.19,0.35,4.54,4.54,0,Tennessee
+5,0.25,5.25,10,4.75,South Carolina
+0.59,0.04,0.63,0.63,0,Georgia
+37,0,37,37,0,South Carolina
+1.89,0.04,1.93,2,0.07,Georgia
+19.75,0,19.75,19.75,0,North Carolina
+38.89,0,38.89,38.89,0,North Carolina
+23.59,0,23.59,23.59,0,South Carolina
+59,0,59,59,0,Alabama
+33,0,33,33,0,Alabama
+42.91,0.43,43.34,43.35,0.01,Tennessee
+21,0,21,21,0,Tennessee
+3.57,0.31,3.88,5,1.12,Tennessee
+25.7,0,25.7,25.7,0,Georgia
+2.9,0.27,3.17,5,1.83,Tennessee
+5.49,0.27,5.76,6,0.24,South Carolina
+0.99,0.09,1.08,2,0.92,Virginia
+44.02,0.59,44.61,44.61,0,North Carolina
+4.88,0.34,2,2,0,North Carolina
+13,0,13,13,0,South Carolina
+1.19,0.06,1.25,1.25,0,South Carolina
+5.01,0,5.01,5.05,0.04,South Carolina
+2.89,0.06,2.95,5,2.05,North Carolina
+5.49,0.38,5.87,10,4.13,North Carolina
+23,0,23,23,0,Virginia
+3.18,0.14,3.32,5,1.68,Georgia
+27.85,0,27.85,27.85,0,Pennsylvania
+4.43,0.22,4.65,10,5.35,South Carolina
+11.5,0,11.5,11.5,0,South Carolina
+67.47,4.72,2,2,0,North Carolina
+1.09,0.07,1.16,1.16,0,Georgia
+4.94,0.23,5.17,6,0.83,Georgia
+10,0,10,20,10,Georgia
+6.66,0.29,6.95,10,3.05,Virginia
+30,0,30,30,0,Alabama
+0.89,0,0.89,0.89,0,South Carolina
+2,0,2,2,0,Virginia
+23.08,0,23.08,24,0.92,South Carolina
+50,0,50,50,0,South Carolina
+0.99,0.07,1.06,5.1,4.04,South Carolina
+7.09,0,7.09,7.09,0,Pennsylvania
+8.98,0.45,9.43,9.43,0,South Carolina
+22,0.18,22.18,22.18,0,Virginia
+7.66,0.42,8.08,20,11.92,North Carolina
+29.5,0,29.5,29.5,0,South Carolina
+1.38,0.1,1.48,1.48,0,North Carolina
+6.67,0.43,7.1,7.1,0,North Carolina
+11.25,0,11.25,12,0.75,Georgia
+88,0,88,88,0,North Carolina
+28.77,0,28.77,28.77,0,Pennsylvania
+10,0,10,20,10,Virginia
+5,0,5,5,0,North Carolina
+10.06,0,10.06,20.06,10,Georgia
+12.51,0.7,13.21,20,6.79,Pennsylvania
+19.3,0.04,19.34,19.34,0,Georgia
+14.19,0.21,14.4,20,5.6,South Carolina
+1.98,0.05,2.03,5.03,3,Virginia
+39.92,0,39.92,39.92,0,North Carolina
+5,0,5,5,0,Virginia
+20,0,20,20,0,Georgia
+5.16,0.36,5.52,6,0.48,South Carolina
+15,0,15,15,0,South Carolina
+3,0.21,3.21,4,0.79,South Carolina
+20,0,20,20,0,Alabama
+3.08,0.08,3.16,5,1.84,Virginia
+13.78,0.96,14.74,20,5.26,Georgia
+21.47,0,21.47,21.47,0,Georgia
+16.09,0.4,16.49,16.49,0,Pennsylvania
+10,0.9,10.9,10.9,0,Alabama
+4.16,0.38,4.54,5,0.46,Tennessee
+42.02,0,42.02,42.02,0,South Carolina
+1.59,0.13,1.72,1.72,0,Tennessee
+2.9,0.14,3.04,20,16.96,South Carolina
+5,0,5,20,15,North Carolina
+27.71,0,27.71,27.71,0,Alabama
+20,0,20,20,0,Georgia
+24.35,0,24.35,24.35,0,North Carolina
+10.5,0.04,10.54,20,9.46,Virginia
+2.43,0.1,2.53,3,0.47,North Carolina
+9.14,0.64,9.78,9.78,0,North Carolina
+2.18,0.15,2.33,3,0.67,South Carolina
+1.29,0.08,1.37,2,0.63,Pennsylvania
+34,0,34,34,0,Virginia
+1.98,0.05,2.03,2.05,0.02,Virginia
+2.34,0.12,2.46,3,0.54,South Carolina
+1.39,0.08,1.47,2,0.53,Pennsylvania
+7.07,0.49,7.56,20,12.44,North Carolina
+2.67,0,2.67,10,7.33,Pennsylvania
+51.14,0,51.14,51.14,0,Georgia
+1.79,0.05,1.84,2,0.16,Georgia
+34.99,0,34.99,34.99,0,South Carolina
+2.99,0.06,3.05,4,0.95,Georgia
+0.79,0.06,0.85,1,0.15,North Carolina
+2.58,0.18,2.76,3,0.24,North Carolina
+36,0,36,36,0,Pennsylvania
+11.51,0,11.51,11.51,0,South Carolina
+12.85,0.2,13.05,13.05,0,North Carolina
+5.61,0.26,5.87,20,14.13,North Carolina
+2.67,0.15,2.82,3,0.18,North Carolina
+20,0,20,20,0,Virginia
+2.28,0.12,2.4,5,2.6,Georgia
+23.01,0,23.01,40.01,17,South Carolina
+6.15,0.25,6.4,20,13.6,Georgia
+1.59,0.12,1.71,1.71,0,South Carolina
+1.88,0.09,1.97,20,18.03,South Carolina
+1.58,0.11,1.69,2,0.31,North Carolina
+3,0,3,5,2,Georgia
+5,0,5,5,0,North Carolina
+11.26,0.79,12.05,20,7.95,South Carolina
+0.98,0.09,1.07,2,0.93,Alabama
+252.87,0.13,1,1,0,South Carolina
+25,0,25,25,0,North Carolina
+8,0,8,20,12,Georgia
+5,0,5,5,0,Virginia
+1.19,0.06,1.25,2,0.75,South Carolina
+31.49,0,31.49,31.49,0,Georgia
+60.5,2.88,63.38,100,36.62,Georgia
+9.04,0.22,9.26,10,0.74,South Carolina
+36.42,0,36.42,36.42,0,South Carolina
+10.01,0,10.01,20.01,10,Tennessee
+3.68,0.21,3.89,3.89,0,North Carolina
+1.99,0.12,2.11,2.11,0,Pennsylvania
+15.09,0,15.09,15.09,0,Pennsylvania
+1.69,0.05,1.74,2,0.26,Georgia
+1.19,0.06,1.25,2,0.75,South Carolina
+4.4,0.31,4.71,5.71,1,South Carolina
+21.02,0,21.02,21.02,0,Virginia
+3.78,0.19,3.97,5,1.03,South Carolina
+10.01,0,10.01,10.01,0,Georgia
+27.48,1.37,28.85,40,11.15,South Carolina
+27.48,0,27.48,27.48,0,South Carolina
+6,0,6,6,0,Georgia
+16.75,0,16.75,16.75,0,Georgia
+2.57,0.22,2.79,5,2.21,Tennessee
+10,0,10,20,10,Georgia
+6.67,0,6.67,6.67,0,Pennsylvania
+4.69,0.23,4.92,10,5.08,South Carolina
+47.2,0.29,47.49,60,12.51,Alabama
+2.28,0.16,2.44,5.05,2.61,South Carolina
+2.83,0.2,3.03,20.03,17,North Carolina
+0.79,0.02,0.81,1.01,0.2,Georgia
+4.36,0.11,4.47,4.47,0,Virginia
+1.59,0.14,1.73,10,8.27,Tennessee
+14.2,0,14.2,14.2,0,Virginia
+20,0,20,20,0,Alabama
+5.48,0.27,5.75,20,14.25,Virginia
+15,0,15,15,0,Virginia
+1.19,0.08,1.27,1.27,0,North Carolina
+1.39,0.1,1.49,1.5,0.01,North Carolina
+35.06,0,35.06,35.06,0,Pennsylvania
+10,0,10,10,0,South Carolina
+15.84,0.48,16.32,20,3.68,Georgia
+25.9,0,25.9,25.9,0,North Carolina
+5.08,0.32,5.4,6,0.6,North Carolina
+3.93,0.2,4.13,20,15.87,Virginia
+2.58,0.18,2.76,2.76,0,North Carolina
+45,0,45,45,0,Georgia
+15,0,15,20,5,Georgia
+7.78,0.54,8.32,10,1.68,Georgia
+2.93,0.15,3.08,5,1.92,South Carolina
+6.71,0,33,33,0,South Carolina
+6,0,6,6,0,Virginia
+6,0,6,6,0,Alabama
+10,0,10,20,10,Alabama
+1.38,0.1,1.48,2,0.52,South Carolina
+11.49,0.57,12.06,20.26,8.2,South Carolina
+1.29,0.09,1.38,2,0.62,South Carolina
+15,0,15,15,0,Pennsylvania
+25,0,25,30,5,Alabama
+9.46,0.19,9.65,10,0.35,Georgia
+7.76,0.23,7.99,20,12.01,Georgia
+3.69,0,3.69,3.69,0,North Carolina
+14.08,0.7,14.78,20,5.22,Virginia
+5,0.25,5.25,6,0.75,South Carolina
+3.4,0.17,3.57,4,0.43,Virginia
+5.32,0.16,5.48,20,14.52,Georgia
+2,0,2,2,0,Georgia
+10,0,10,20,10,Virginia
+7.65,0.54,8.19,20,11.81,South Carolina
+26.26,0,26.26,26.26,0,Georgia
+31,0,31,31,0,South Carolina
+2.79,0.2,2.99,5,2.01,North Carolina
+5,0.13,5.13,5.13,0,Virginia
+20.02,0,20.02,20.02,0,Virginia
+0.99,0.07,1.06,1.06,0,Georgia
+22,0,22,22,0,North Carolina
+20.02,0,20.02,21,0.98,South Carolina
+22.05,0,22.05,22.05,0,Virginia
+8,0,8,20,12,North Carolina
+0.45,0,0.45,0.5,0.05,Pennsylvania
+10.01,0,10.01,10.01,0,Alabama
+35.01,0,35.01,40.01,5,South Carolina
+18.7,0,18.7,20,1.3,Georgia
+44.39,0,44.39,44.39,0,Georgia
+48.31,0,48.31,48.31,0,North Carolina
+2.74,0.14,2.88,20,17.12,Virginia
+2.89,0.06,2.95,5,2.05,Georgia
+1.29,0.09,1.38,2,0.62,Georgia
+5,0,5,5,0,South Carolina
+1.29,0.06,1.35,2,0.65,Virginia
+45.28,0,45.28,45.28,0,Georgia
+50,0,50,50,0,Georgia
+2.19,0.15,2.34,3,0.66,North Carolina
+1.79,0.13,1.92,20,18.08,South Carolina
+1,0,1,1,0,Virginia
+5.28,0.32,5.6,20,14.4,Georgia
+1.5,0.04,1.54,2,0.46,Virginia
+28.46,0,28.46,28.46,0,North Carolina
+30.25,0,30.25,30.25,0,South Carolina
+2.48,0.07,2.55,5,2.45,Georgia
+1.29,0.08,1.37,2,0.63,Pennsylvania
+1.59,0.03,1.62,5,3.38,Georgia
+18,0,18,20,2,Virginia
+9.99,0.7,10.69,11,0.31,South Carolina
+2.99,0.21,3.2,5,1.8,South Carolina
+28.26,1.41,2,2,0,South Carolina
+10,0,10,10,0,Virginia
+8,0,8,8,0,North Carolina
+6.22,0.31,6.53,10,3.47,Virginia
+9.47,0.41,9.88,10,0.12,Georgia
+50,0,50,50,0,North Carolina
+12.5,0,12.5,20,7.5,South Carolina
+23.37,0.1,23.47,25,1.53,Georgia
+7.31,0.35,7.66,20,12.34,Georgia
+23.3,0,23.3,23.3,0,Georgia
+4.88,0.34,3.22,3.22,0,North Carolina
+11.68,0.15,11.83,20,8.17,Alabama
+5.27,0.07,5.34,10,4.66,Georgia
+5.99,0.15,6.14,10,3.86,Virginia
+2.97,0.15,3.12,3.12,0,Virginia
+10,0,10,10,0,Virginia
+14.35,0,14.35,20,5.65,Georgia
+25,0,25,25,0,Virginia
+27.5,0,27.5,27.5,0,Tennessee
+18.76,0,18.76,18.76,0,South Carolina
+1.49,0.07,1.56,1.56,0,South Carolina
+0.99,0.03,1.02,1.02,0,Georgia
+5.38,0.38,5.76,20,14.24,North Carolina
+29.71,0,29.71,29.71,0,Georgia
+18.24,0,18.24,18.24,0,North Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+4.08,0.29,4.37,5,0.63,North Carolina
+7.26,0.26,7.52,10,2.48,Virginia
+40.01,0,40.01,50.01,10,South Carolina
+5.01,0,5.01,5.01,0,South Carolina
+135.4,7.79,140,140,0,Georgia
+7.29,0.09,7.38,7.38,0,North Carolina
+0.59,0.04,0.63,1,0.37,Georgia
+4.99,0.25,5.24,5.25,0.01,South Carolina
+2.64,0.18,2.82,3,0.18,North Carolina
+18,0,18,20,2,Georgia
+3.19,0.16,3.35,3.5,0.15,North Carolina
+17.49,0.04,7,7,0,Georgia
+25.6,0,25.6,25.6,0,Georgia
+26.25,0,26.25,40,13.75,South Carolina
+1.59,0.05,1.64,2,0.36,Georgia
+1.64,0.08,1.72,2,0.28,North Carolina
+49.52,0,49.52,49.52,0,Georgia
+2.01,0,2.01,2.01,0,Virginia
+21,0,21,21,0,Georgia
+21.5,0.04,21.54,22,0.46,Georgia
+10.76,0.75,5,5,0,North Carolina
+4.58,0.08,4.66,4.66,0,Georgia
+55.25,0,55.25,55.25,0,Georgia
+1.69,0.12,1.81,5,3.19,South Carolina
+10,0.3,10.3,10.3,0,Georgia
+1.69,0.16,1.85,2,0.15,Tennessee
+1.29,0.09,1.38,1.38,0,Georgia
+3.79,0.27,4.06,5.1,1.04,South Carolina
+43.36,0,43.36,43.36,0,South Carolina
+1.59,0.03,1.62,5,3.38,Georgia
+2,0,2,2,0,Georgia
+15,0,15,15,0,Alabama
+10,0,10,10,0,Georgia
+10,0,10,10,0,Georgia
+11.92,0.34,12.26,20,7.74,North Carolina
+20,0,20,20,0,South Carolina
+1,0.07,1.07,1.1,0.03,South Carolina
+14.37,0.22,14.59,15,0.41,South Carolina
+3.98,0.12,4.1,4.1,0,Georgia
+14.56,0.23,14.79,20,5.21,South Carolina
+1.19,0.03,1.22,10,8.78,Virginia
+25.01,0,25.01,25.01,0,North Carolina
+10,0,10,20,10,Georgia
+1.19,0.06,1.25,1.25,0,Virginia
+9.45,0.58,10.03,28.03,18,Georgia
+28.51,0,28.51,28.51,0,Georgia
+476.97,0.31,477.28,480,2.72,Virginia
+2.58,0.18,2.76,5,2.24,North Carolina
+1.29,0.06,1.35,20,18.65,Virginia
+15.06,0,15.06,15.06,0,Virginia
+16.3,0.04,16.34,16.35,0.01,Georgia
+4.95,0.35,5.3,5.35,0.05,Georgia
+44.23,0,44.23,44.23,0,Tennessee
+38.01,0,28,28,0,South Carolina
+2.99,0.15,3.14,3.14,0,Virginia
+34,0,34,34,0,Virginia
+5,0,5,10,5,Georgia
+20,0,20,20,0,North Carolina
+40.55,0,40.55,40.55,0,North Carolina
+4,0,4,10,6,Virginia
+14.45,0,14.45,14.45,0,Tennessee
+1.19,0.08,1.27,1.27,0,Georgia
+2.24,0.12,2.36,3,0.64,South Carolina
+20,0,20,20,0,South Carolina
+14.47,0.87,15.34,20,4.66,Georgia
+4.53,0.27,4.8,5,0.2,Georgia
+7.18,0.1,7.28,20,12.72,Georgia
+2,0,2,2,0,South Carolina
+23.94,1.28,25.22,26,0.78,Georgia
+1,0,1,1,0,South Carolina
+0.99,0.05,1.04,1.04,0,South Carolina
+54.96,0.2,55.16,60.01,4.85,South Carolina
+0.45,0,0.45,0.45,0,Georgia
+6.19,0.12,6.31,6.31,0,Virginia
+11.28,0.26,9.54,10,0.46,Virginia
+2.89,0.17,3.06,10,6.94,Georgia
+20,0,40,40,0,Georgia
+42.75,0,42.75,42.75,0,Georgia
+29.1,0,29.1,29.1,0,Georgia
+0.99,0.05,1.04,1.04,0,Virginia
+50,0,50,50,0,South Carolina
+0,0,2,2,0,North Carolina
+1.59,0.11,1.7,20,18.3,North Carolina
+28.01,0,28.01,28.01,0,South Carolina
+20.99,1.47,18.46,18.46,0,North Carolina
+0.99,0.07,1.06,2,0.94,South Carolina
+34.01,0,34.01,100.01,66,South Carolina
+25.61,0,25.61,25.61,0,South Carolina
+2.03,0.1,2.13,3,0.87,South Carolina
+11,0,11,11,0,Alabama
+27.36,1.64,29,29,0,Pennsylvania
+8.19,0.06,8.25,20,11.75,South Carolina
+18.03,0,18.03,18.03,0,Georgia
+34.24,0,34.24,34.24,0,South Carolina
+12.95,0.87,13.82,20,6.18,Georgia
+44.4,0,44.4,44.4,0,North Carolina
+5.58,0.28,5.86,5.86,0,South Carolina
+18,0,18,18,0,Virginia
+9.01,0.47,9.48,9.48,0,South Carolina
+31.04,0,31.04,31.04,0,Georgia
+3.18,0.16,3.34,5,1.66,South Carolina
+1.19,0.08,1.27,1.27,0,Georgia
+0.89,0.06,0.95,1,0.05,South Carolina
+2.89,0.2,3.09,3.1,0.01,North Carolina
+0.99,0.09,1.08,1.08,0,Virginia
+47.84,0.12,47.96,47.96,0,South Carolina
+5,0.13,5.13,5.13,0,Virginia
+5.98,0.36,6.34,6.34,0,Georgia
+10,0,10,10,0,Virginia
+0.99,0.09,1.08,1.1,0.02,Virginia
+1.59,0.05,1.64,2,0.36,Georgia
+39.6,0,39.6,39.6,0,South Carolina
+2.97,0.18,0.15,1,0.85,Pennsylvania
+5.01,0,5.01,5.01,0,Virginia
+1.78,0.04,1.82,2,0.18,Georgia
+1.09,0.07,1.16,2,0.84,Pennsylvania
+5.3,0.49,3,3,0,Tennessee
+13,0,13,20,7,Virginia
+2.99,0.21,1.45,2,0.55,Georgia
+58,0,58,58,0,Virginia
+23.5,0,23.5,23.5,0,Georgia
+9.99,0.5,10.49,20,9.51,Virginia
+1.59,0.11,1.7,2,0.3,South Carolina
+25.97,0.8,6.77,20,13.23,South Carolina
+2,0,2,5,3,Georgia
+0.99,0.07,1.06,1.25,0.19,South Carolina
+11.48,0.04,11.52,11.52,0,Virginia
+35.38,0,35.38,35.38,0,South Carolina
+7,0,7,50,43,South Carolina
+28.15,0.19,28.34,28.34,0,North Carolina
+64.88,0.12,65,100,35,Alabama
+12.71,0.89,13.6,20,6.4,South Carolina
+0.79,0.07,0.86,0.86,0,Virginia
+7.49,0.52,8.01,8.01,0,North Carolina
+0.7,0.01,0.71,1,0.29,North Carolina
+10,0,10,10,0,Georgia
+3.87,0.32,4.19,5,0.81,Tennessee
+0.99,0.07,1.06,10,8.94,Georgia
+3.14,0.16,3.3,5,1.7,Virginia
+2.28,0.07,2.35,20,17.65,Georgia
+83,0,83,83,0,Pennsylvania
+1.59,0.11,1.7,2,0.3,South Carolina
+47.98,3.36,48.34,48.34,0,North Carolina
+3.48,0.3,3.78,3.78,0,Tennessee
+2.18,0.05,2.23,20,17.77,Virginia
+10.26,0.72,10.98,11,0.02,North Carolina
+8.73,0.44,9.17,50,40.83,South Carolina
+26.22,0,26.22,26.22,0,Pennsylvania
+20,0,-20,0,20,Georgia
+27.35,0,27.35,27.35,0,Georgia
+2.39,0.17,2.56,5,2.44,North Carolina
+4.36,0.16,4.52,5,0.48,North Carolina
+8.77,0.61,9.38,20,10.62,South Carolina
+5,0,5,5,0,Virginia
