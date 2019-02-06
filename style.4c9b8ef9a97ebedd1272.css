@@ -380,4 +380,6 @@ html, body {
 
 .paragraph {
   padding-bottom: 75%; }
+  .paragraph p {
+    margin-top: 10%; }
 
