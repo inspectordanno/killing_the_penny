@@ -334,27 +334,32 @@ html, body {
   height: 100%; }
 
 .scroll_container {
+  background-color: #f9f9f9;
   display: flex; }
 
 .graphic_container {
   flex: 5;
   position: -webkit-sticky;
   position: sticky;
-  top: 50;
+  top: 10vh;
   align-self: start;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-content: center; }
 
 .text {
+  background: #4d4d4d;
   flex: 2;
   grid-area: text;
   position: relative; }
 
 .step {
+  color: #f2f2f2;
   padding-left: 10%;
   padding-right: 20%; }
 
 .section_title {
+  color: #f2f2f2;
   padding-top: 10%; }
 
 .intro {
