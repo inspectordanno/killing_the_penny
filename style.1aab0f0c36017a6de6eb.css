@@ -363,10 +363,10 @@ html, body {
   padding-top: 10%; }
 
 .intro {
-  padding-top: 30%; }
+  padding-top: 20%; }
 
 .paragraph {
-  padding-bottom: 75%; }
+  padding-bottom: 50%; }
   .paragraph p {
     margin-top: 10%; }
 
@@ -598,4 +598,10 @@ html, body {
 
 .no_rounding {
   color: #b9bab9; }
+
+.item_blue {
+  color: #99cfff; }
+
+.transaction_lavender {
+  color: #bcbcf2; }
 
