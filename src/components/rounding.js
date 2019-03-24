@@ -454,7 +454,7 @@ const drawRounding = (data_step_attribute, data) => {
       if (d3.select('#g1').select('image').empty()) {
         d3.select('#g1')
           .append('image')
-          .attr('xlink:href', './images/rounding_overview.svg')
+          .attr('xlink:href', './images/rounding_overview.png')
           .attr('width', svgDimensions.width)
           .attr('height', svgDimensions.height);
       }

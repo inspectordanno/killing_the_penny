@@ -43,7 +43,7 @@ const drawseigniorage = (data_step_attribute) => {
     if (d3.select(`#g_${data_step_attribute}`).select('image').empty()) {
       d3.select(`#g_${data_step_attribute}`)
         .append('image')
-        .attr('xlink:href', './images/composition.svg')
+        .attr('xlink:href', './images/composition.png')
         .attr('width', svgDimensions.width)
         .attr('height', svgDimensions.height);
     }
