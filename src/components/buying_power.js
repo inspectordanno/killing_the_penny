@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
-import Fraction from 'fraction.js';
 import {generateSVG} from './utils.js';
+import numeral from 'numeral';
 
 //initial object of items
 
@@ -45,11 +45,7 @@ let prefilteredItems = [
 
 prefilteredItems = prefilteredItems.map((d,i) => { 
   d.buying_power = Math.round((.01 / d.price) * 1000) / 1000;
-  d.toFraction = d.buying_power;
-  const lastDigit = d.buying_power.toString().split('').pop()
-  if (lastDigit == 3) {
-    d.toFraction = d.buying_power + '(3)'; //3 repeating which will convert to 1/3
-  }
+  d.percent = numeral(d.buying_power).format('0.0%').replace('.0', '') //formats to percent, removes .0
   return d;
 })
 
@@ -116,7 +112,8 @@ function drawBuyingPower(item) {
     .style('font-size', '1.5em');
   
   yearText.append('tspan')
-    .text(`How far does one penny go when buying a `);
+    .text(`How far does one penny go when buying a `)
+    .style('fill', 'var(--copper)');
   
   yearText.append('tspan')
     .text(`${item}?`)
@@ -159,8 +156,9 @@ function drawBuyingPower(item) {
     //find the item corresponding to the year, and make a fraction out of the buying power using fraction.js
     function displayBuyingPower() {
       const found = filteredItems.find(d => d.year === parseInt(year));
-      const fraction = new Fraction(found.toFraction).toFraction(true);
-      return fraction;
+      // const fraction = new Fraction(found.toFraction).toFraction(true);
+      // return fraction;
+      return found.percent;
     }
 
     function displayCost() {
@@ -177,7 +175,7 @@ function drawBuyingPower(item) {
       .attr('y', svgDimensions.height * .20)
       .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
-      .style('fill', 'var(--black)')
+      .style('fill', 'var(--copper)')
       .style('font-size', '2em');
     
     //appending year
@@ -188,7 +186,7 @@ function drawBuyingPower(item) {
       .attr('y', svgDimensions.height * .3)
       .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
-      .style('fill', 'var(--black)')
+      .style('fill', 'var(--copper)')
       .style('font-size', '1em');
     
     const itemText = content_g.append('text')
@@ -197,7 +195,7 @@ function drawBuyingPower(item) {
       .attr('y', svgDimensions.height * .33)
       .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
-      .style('fill', `var(--black)`)
+      .style('fill', `var(--copper)`)
       .style('font-size', '1em');
     
     itemText.append('tspan')
@@ -214,7 +212,7 @@ function drawBuyingPower(item) {
       .attr('y', svgDimensions.height * .992)
       .attr('text-anchor', 'middle')
       // .style('font-family', 'Dosis, sans-serif')
-      .style('fill', `var(--black)`)
+      .style('fill', `var(--copper)`)
       .style('font-size', '1em');  
 
     costText.append('tspan')
@@ -248,7 +246,7 @@ function drawBuyingPower(item) {
     .attr('y', svgDimensions.height * .95)
     .attr('width', barWidth)
     .attr('height', 0)
-    .style('fill', 'black')
+    .style('fill', 'var(--copper)')
     .transition()
     .duration(500)
     .attr('y', d => {

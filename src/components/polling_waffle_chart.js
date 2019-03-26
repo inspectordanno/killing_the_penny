@@ -30,7 +30,7 @@
 
     d3.selectAll(`[data-ground = 'leave_on_ground']`)
       .style('filter', 'grayscale(100%)')
-      .style('opacity', .35);  
+      // .style('opacity', .);  
 
     d3.selectAll(`[data-ground = 'not_sure']`)
       .style('filter', 'blur(3px)');
