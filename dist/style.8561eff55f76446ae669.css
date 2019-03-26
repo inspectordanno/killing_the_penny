@@ -307,7 +307,8 @@ template {
 
 :root {
   --black: #272727;
-  --buyingPowerSilver: #7f7f7f; }
+  --buyingPowerSilver: #7f7f7f;
+  --copper: #8d5433; }
 
 html {
   font-size: 16px; }
@@ -597,7 +598,6 @@ html, body {
 #ground {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  opacity: .35;
   grid-row: 3;
   grid-column: 2; }
 
