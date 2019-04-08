@@ -38,7 +38,6 @@ html, body {
 .text {
   background: lighten($color: black, $amount: 30%);
   flex: 2;
-  grid-area: text;
   position: relative;
 }
 
@@ -62,6 +61,27 @@ html, body {
 
   p {
     margin-top: 10%;
+  }
+}
+
+//responsive
+
+@media (min-width: 768px) {
+  .scroll_container {
+    background-color: transparent;
+    display: block;
+    position: relative;
+  }
+
+  .graphic_container {
+    width: 100%;
+  }
+
+  .text {
+    background: gray;
+    margin: 0 auto;
+    position: relative;
+    // width: 100%;
   }
 }
 
