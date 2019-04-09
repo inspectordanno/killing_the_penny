@@ -351,7 +351,6 @@ html, body {
 .text {
   background: #4d4d4d;
   flex: 2;
-  grid-area: text;
   position: relative; }
 
 .step {
@@ -370,6 +369,18 @@ html, body {
   padding-bottom: 50%; }
   .paragraph p {
     margin-top: 10%; }
+
+@media (min-width: 768px) {
+  .scroll_container {
+    background-color: transparent;
+    display: block;
+    position: relative; }
+  .graphic_container {
+    width: 100%; }
+  .text {
+    background: gray;
+    margin: 0 auto;
+    position: relative; } }
 
 .heading {
   background: #4d4d4d;
