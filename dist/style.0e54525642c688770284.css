@@ -412,7 +412,6 @@ html, body {
   font-family: 'Crimson Text', serif;
   font-size: 2em;
   justify-content: center;
-  margin-bottom: 5%;
   padding: 5% 20% 5% 20%; }
 
 @-webkit-keyframes rotate {
@@ -466,7 +465,8 @@ html, body {
 .polling {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  margin: 2.5% auto; }
   .polling p {
     margin: 1% 30%;
     font-family: 'Crimson Text', serif;
@@ -482,6 +482,7 @@ html, body {
 
 .polling_header {
   font-size: 1.25em;
+  margin-bottom: 1%;
   text-align: center; }
 
 .polling_bar_chart {
@@ -635,9 +636,6 @@ html, body {
 
 .step {
   font-family: 'Crimson Text', serif; }
-
-#container_rounding {
-  margin-top: 5%; }
 
 .one_cent_red {
   color: #e4a19d; }
