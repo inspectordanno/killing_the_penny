@@ -418,13 +418,13 @@ html, body {
   0% {
     -webkit-transform-origin: center;
             transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-            transform: rotate3d(0, 0, 1, 0deg); }
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
   50% {
     -webkit-transform-origin: center;
             transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 360deg);
-            transform: rotate3d(0, 0, 1, 360deg); }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
   50% {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
@@ -436,13 +436,13 @@ html, body {
   0% {
     -webkit-transform-origin: center;
             transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-            transform: rotate3d(0, 0, 1, 0deg); }
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
   50% {
     -webkit-transform-origin: center;
             transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, 360deg);
-            transform: rotate3d(0, 0, 1, 360deg); }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
   50% {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
