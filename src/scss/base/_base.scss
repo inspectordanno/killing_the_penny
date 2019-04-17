@@ -45,7 +45,7 @@ html, body {
 .step {
   color: lighten($color: black, $amount: 95%);
   padding-left: 10%;
-  padding-right: 20%;
+  padding-right: 10%;
 }
 
 .section_title {
@@ -84,17 +84,11 @@ html, body {
     position: relative;   
   }
 
-  .step  {
-
-    padding-left: 10%;
-    padding-right: 10%;
-
-    p {
+  .step p {
       background: gray;
       padding: 2%;
       margin-top: 2%;
     }
-  }
 }
 
 
