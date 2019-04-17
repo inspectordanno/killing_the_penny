@@ -40,7 +40,7 @@ export const initializeScroll = (data) => {
     instance
       .setup({
         step: `${container} .paragraph`,
-        offset: .5
+        offset: .65
       })
       .onStepEnter(handleStepEnter)
       .onStepExit(handleStepExit)

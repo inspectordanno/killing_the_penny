@@ -22,6 +22,7 @@ html, body {
 .scroll_container {
   background-color: lighten($color: black, $amount: 97.5%);
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .graphic_container {
@@ -38,7 +39,7 @@ html, body {
 .text {
   background: lighten($color: black, $amount: 30%);
   flex: 2;
-  position: relative;
+  // position: relative;
 }
 
 .step {
@@ -64,25 +65,36 @@ html, body {
   }
 }
 
-//responsive
+// responsive
 
-// @media (min-width: 768px) {
-//   .scroll_container {
-//     background-color: transparent;
-//     display: block;
-//     position: relative;
-//   }
+@media (max-width: 768px) {
+  .scroll_container {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+  }
 
-//   .graphic_container {
-//     width: 100%;
-//   }
+  .graphic_container {
+    width: 100%;
+  }
 
-//   .text {
-//     background: gray;
-//     margin: 0 auto;
-//     position: relative;
-//     // width: 100%;
-//   }
-// }
+  .text {
+    background: none;
+    margin: 0 auto;
+    position: relative;   
+  }
+
+  .step  {
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    p {
+      background: gray;
+      padding: 2%;
+      margin-top: 2%;
+    }
+  }
+}
 
 
