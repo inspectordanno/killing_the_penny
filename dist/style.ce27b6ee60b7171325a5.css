@@ -336,7 +336,8 @@ html, body {
 
 .scroll_container {
   background-color: #f9f9f9;
-  display: flex; }
+  display: flex;
+  flex-direction: row-reverse; }
 
 .graphic_container {
   flex: 5;
@@ -350,13 +351,12 @@ html, body {
 
 .text {
   background: #4d4d4d;
-  flex: 2;
-  position: relative; }
+  flex: 2; }
 
 .step {
   color: #f2f2f2;
   padding-left: 10%;
-  padding-right: 20%; }
+  padding-right: 10%; }
 
 .section_title {
   color: #f2f2f2;
@@ -369,6 +369,22 @@ html, body {
   padding-bottom: 50%; }
   .paragraph p {
     margin-top: 10%; }
+
+@media (max-width: 768px) {
+  .scroll_container {
+    background-color: transparent;
+    display: inline-block;
+    position: relative; }
+  .graphic_container {
+    width: 100%; }
+  .text {
+    background: none;
+    margin: 0 auto;
+    position: relative; }
+  .step p {
+    background: gray;
+    padding: 2%;
+    margin-top: 2%; } }
 
 .heading {
   background: #4d4d4d;
