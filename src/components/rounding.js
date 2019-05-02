@@ -339,16 +339,11 @@ const drawRounding = (data_step_attribute, data) => {
         .attr('y', (d,i) => {
           switch (i) {
             case 0: return svgDimensions.height * .03;
-            case 1: return svgDimensions.height * .05;
-            case 2: return svgDimensions.height * .85;
-            case 3: return svgDimensions.height * .87;
-            case 4: return svgDimensions.height * .89;
+            case 1: return svgDimensions.height * .06;
+            case 2: return svgDimensions.height * .92;
+            case 3: return svgDimensions.height * .95;
+            case 4: return svgDimensions.height * .98;
           }
-          // if (i === 0 || i === 1) {
-          //   return svgDimensions.height * .03 + i*20 //pin first two to top of svg
-          // } else if (i >= 2 && i <= 4) {
-          //   return svgDimensions.height * .85 + i*20 //pin the rest to botton of svg
-          // }
         }) 
         .style('fill', d => d3.color(colorScale(d.remainder)).darker())
         .text(d => {
