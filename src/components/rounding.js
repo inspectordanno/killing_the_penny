@@ -9,11 +9,7 @@ import capitalize from 'lodash/capitalize';
 import orderBy from 'lodash/orderBy';
 import meanBy from 'lodash/meanBy';
 import colors from './colors';
-
-//mathjs custom bundle
-const core = require('mathjs/core');
-const math = core.create();
-math.import(require('mathjs/lib/function/statistics/std'));
+import { std } from 'mathjs';
 
 const colorScale = d3.scaleLinear()
   .domain([-0.02, 0, 0.02])
@@ -148,12 +144,12 @@ const drawRounding = (data_step_attribute, data) => {
 
     lombraStatistics.mean = meanBy(griddedLombraData.nodes(), 'remainder');
     lombraStatistics.meanRounded = round(lombraStatistics.mean, 2).toFixed(2);
-    lombraStatistics.std = math.std(griddedLombraData.nodes().map(d => d.remainder));
+    lombraStatistics.std = std(griddedLombraData.nodes().map(d => d.remainder));
     lombraStatistics.standardError = lombraStatistics.std / Math.sqrt(griddedLombraData.nodes().length);
    
     whaplesStatistics.mean = meanBy(griddedWhaplesData.nodes(), 'remainder');
     whaplesStatistics.meanRounded = round(whaplesStatistics.mean, 2).toFixed(2);
-    whaplesStatistics.std = math.std(griddedWhaplesData.nodes().map(d => d.remainder));
+    whaplesStatistics.std = std(griddedWhaplesData.nodes().map(d => d.remainder));
     whaplesStatistics.standardError = whaplesStatistics.std / Math.sqrt(griddedWhaplesData.nodes().length);
 
     console.log(lombraStatistics);

@@ -2,18 +2,12 @@ import * as d3 from 'd3';
 import { generateSVG } from './utils.js';
 import { zincData, seigniorageData } from './seigniorage_data';
 
-console.log(zincData);
-console.log(seigniorageData);
-
 generateSVG('#container_seigniorage', 'svg_seigniorage');
 
 const svgDimensions = {
   width: document.querySelector('#svg_seigniorage').clientWidth,
   height: document.querySelector('#svg_seigniorage').clientHeight
 }
-
-console.log(svgDimensions.width);
-console.log(svgDimensions.height);
 
 const doesGExist = (data_step_attribute) => {
   const empty = d3.select(`#g_${data_step_attribute}`).empty();
@@ -214,10 +208,6 @@ const drawseigniorage = (data_step_attribute) => {
     circles
       .exit()
       .remove();
-
-    console.log(
-      lineData.map(d => d.year)
-    );
 
     d3.select('.zero_line')
       .datum(lineData)

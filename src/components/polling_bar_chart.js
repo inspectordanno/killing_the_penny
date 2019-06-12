@@ -21,8 +21,6 @@ const drawBarChart = () => {
     .node()
     .getBoundingClientRect()
     .height;
-
-    console.log(chartHeight);
   
   const scaleY = d3.scaleLinear()
     .domain([0, 100])
