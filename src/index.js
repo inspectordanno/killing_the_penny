@@ -13,10 +13,6 @@ if (process.env.NODE_ENV === 'development') {
 
 const dataFiles = [`${devOrProd}data/lombra_sample.csv`,`${devOrProd}data/whaples_sample.csv`]
 
-// console.log(dataFiles);
-
-// console.log(process.env.NODE_ENV);
-
 const promises = dataFiles.map(url => csv(url));
 
 Promise.all(promises).then(data => {

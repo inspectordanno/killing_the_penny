@@ -53,6 +53,40 @@
   padding: 5% 20% 5% 20%;
 }
 
+//responsive 
+
+@media (max-width: 768px) {
+  .heading {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "titles"
+    "heading__image";
+  }
+
+  .heading__image {
+    grid-area: heading__image;
+    justify-self: center;
+  }
+
+  .titles {
+    grid-area: titles;
+    align-items: center;
+  }
+
+  .titles__headlines {
+    text-align: center;
+  }
+
+  #penny_img {
+    margin-top: 20%;
+    width: 200px;
+    height: 200px;
+  }
+  
+
+
+}
+
 //penny animation
 
 @keyframes rotate {

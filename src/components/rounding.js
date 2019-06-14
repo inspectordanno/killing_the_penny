@@ -151,10 +151,6 @@ const drawRounding = (data_step_attribute, data) => {
     whaplesStatistics.meanRounded = round(whaplesStatistics.mean, 2).toFixed(2);
     whaplesStatistics.std = std(griddedWhaplesData.nodes().map(d => d.remainder));
     whaplesStatistics.standardError = whaplesStatistics.std / Math.sqrt(griddedWhaplesData.nodes().length);
-
-    console.log(lombraStatistics);
-    console.log(whaplesStatistics);
-  
   }
 
   //these are the "globals" of the drawRounding function
