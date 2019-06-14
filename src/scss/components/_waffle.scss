@@ -125,6 +125,43 @@
   grid-column: 3;
 }
 
+//responsive
+
+@media (max-width: 768px) {
+  .waffle {
+    grid-template-areas: 
+    "legend"
+    "chart";
+  }
+
+  .waffle_chart {
+    grid-area: chart;
+  }
+
+  .waffle_legend {
+    grid-area: legend;
+    grid-column-gap: 15px;
+  }
+
+  .waffle_chart {
+    display: none;
+  }
+
+  .waffle_subheader {
+    display: none;
+  }
+
+  .percent {
+    font-size: 1.5em;
+  }
+
+  .opinion {
+    font-size: 1em;
+  }
+}
+
+
+
 
 
 
