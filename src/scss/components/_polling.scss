@@ -28,12 +28,12 @@
 
 .polling_header {
   font-size: 1.25em;
-  margin-bottom: 1%;
+  margin-bottom: 2.5%;
   text-align: center;
 }
 
 .polling_bar_chart {
-  width: 30%;
+  width: 50%;
   height: 20%;
   display: flex;
   flex-direction: row;
@@ -58,17 +58,16 @@
 .opinion_label {
   color: var(--buyingPowerSilver);
   order: 0;
-  // width: 3em;
-  font-size: .85em;
+  font-size: 1em;
   margin-top: .75em;
   text-align: center;
-  // text-anchor: middle;
+
 }
 
 .opinion_value {
   color: var(--buyingPowerSilver);
   order: 2;
-  font-size: 1em;
+  font-size: 2em;
   margin-bottom: .25em;
 }
 
@@ -85,3 +84,22 @@
     color: black !important;
   }
 }
+
+//responsive
+
+@media (max-width: 768px) {
+  .polling p {
+    margin: 1% 10%;
+  }
+  
+  .polling_bar_chart {
+    width: 80%;
+  }
+  
+  .polling_header {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+  }
+}
+
+
