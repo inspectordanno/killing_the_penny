@@ -85,10 +85,26 @@ html, body {
   }
 
   .step p {
-      background: gray;
+      color: white;
+      background: lighten($color: black, $amount: 30%);
       padding: 2%;
       margin-top: 2%;
     }
+
+  .section_title h2 {
+    color: white;
+    background: lighten($color: black, $amount: 30%);
+    text-align: center;
+    padding: 1%;
+  }
+
+  .intro {
+    padding-top: 2.5%;
+  }
+
+  .graphic_container {
+    top: 10vh;
+  }
 }
 
 

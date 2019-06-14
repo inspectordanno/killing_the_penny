@@ -36,11 +36,12 @@ const drawBarChart = () => {
     .attr('class', 'opinion_group')
     .classed('oppose_strongly', d => d.name === 'Oppose strongly')
    
-  const opinionBar = opinionGroup
-    .append('div')
-    .attr('class', 'opinion_bar')
-    .style('height', d => `${scaleY(d.value)}px`)
-    .style('background-color', 'var(--buyingPowerSilver)');
+  //DISABLING BARS  
+  // const opinionBar = opinionGroup
+  //   .append('div')
+  //   .attr('class', 'opinion_bar')
+  //   .style('height', d => `${scaleY(d.value)}px`)
+  //   .style('background-color', 'var(--buyingPowerSilver)');
       
   const opinionLabel = opinionGroup
     .append('span')

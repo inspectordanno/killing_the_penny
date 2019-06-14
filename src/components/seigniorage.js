@@ -80,7 +80,7 @@ const drawseigniorage = (data_step_attribute) => {
         .append('text')
         .attr('x', svgDimensions.width * .005)
         .attr('y', svgDimensions.height * .5)
-        .style('font-size', '1vw')
+        .style('font-size', '12px')
         .attr('class', 'left_axis_label')
 
       //bottom axis label
@@ -88,7 +88,7 @@ const drawseigniorage = (data_step_attribute) => {
         .append('text')
         .attr('x', svgDimensions.width * .5)
         .attr('y', svgDimensions.height * .97)
-        .style('font-size', '1vw')
+        .style('font-size', '12px')
         .attr('class', 'bottom_axis_label')
         .text('Year')
 
@@ -251,7 +251,7 @@ const drawseigniorage = (data_step_attribute) => {
     break;
 
     case 'seigniorage':
-      drawLineChart(seigniorageData, 'seigniorage', '$', 'url(#gradient)', 0, 1, 'Total Gain/Loss to the U.S. Treasury (Seigniorage)', 'Gain/loss (millions)', 1, 0);
+      drawLineChart(seigniorageData, 'seigniorage', '$', 'url(#gradient)', 0, 1, 'Total Gain/Loss to the U.S. Treasury (Seigniorage)', 'Gain/loss (mil)', 1, 0);
     break;
   }
 }

@@ -17,6 +17,7 @@ export const initializeScroll = (data) => {
   const scrollerseigniorage = scrollama();
 
   const handleStepEnter = (d) => {
+    console.log(d)
     //set opacity of step to 1 on enter
     d.element.setAttribute('style', 'opacity: 1')
 
