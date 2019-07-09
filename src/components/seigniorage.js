@@ -80,7 +80,7 @@ const drawseigniorage = (data_step_attribute) => {
         .append('text')
         .attr('x', svgDimensions.width * .005)
         .attr('y', svgDimensions.height * .5)
-        .style('font-size', '12px')
+        .style('font-size', '16px')
         .attr('class', 'left_axis_label')
 
       //bottom axis label
@@ -88,7 +88,7 @@ const drawseigniorage = (data_step_attribute) => {
         .append('text')
         .attr('x', svgDimensions.width * .5)
         .attr('y', svgDimensions.height * .97)
-        .style('font-size', '12px')
+        .style('font-size', '16px')
         .attr('class', 'bottom_axis_label')
         .text('Year')
 
@@ -218,7 +218,7 @@ const drawseigniorage = (data_step_attribute) => {
       .attr('y2', yScale(lineY))
       .style('opacity', lineOpacity)
 
-    //transition not working for this .join() alternative
+    // transition not working for this .join() alternative
     // d3.select('.line_chart')
     //     .selectAll('.dot')
     //     .data(lineData)
