@@ -313,13 +313,9 @@ template {
 html {
   font-size: 16px; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   html {
-    font-size: 14px; } }
-
-@media (max-width: 1000px) {
-  html {
-    font-size: 14px; } }
+    font-size: 20px; } }
 
 html {
   box-sizing: border-box; }
@@ -370,7 +366,7 @@ html, body {
   .paragraph p {
     margin-top: 10%; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .scroll_container {
     background-color: transparent;
     display: inline-block;
@@ -561,7 +557,7 @@ html, body {
 .oppose_strongly .opinion_value {
   color: black !important; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .polling p {
     margin: 1% 10%; }
   .polling_bar_chart {
@@ -666,7 +662,7 @@ html, body {
   grid-row: 4;
   grid-column: 3; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .waffle {
     grid-template-areas: "legend" "chart"; }
   .waffle_chart {
