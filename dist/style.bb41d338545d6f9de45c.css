@@ -319,7 +319,7 @@ html {
 
 @media (max-width: 1000px) {
   html {
-    font-size: 12px; } }
+    font-size: 14px; } }
 
 html {
   box-sizing: border-box; }
@@ -382,9 +382,19 @@ html, body {
     margin: 0 auto;
     position: relative; }
   .step p {
-    background: gray;
+    color: white;
+    background: #4d4d4d;
     padding: 2%;
-    margin-top: 2%; } }
+    margin-top: 2%; }
+  .section_title h2 {
+    color: white;
+    background: #4d4d4d;
+    text-align: center;
+    padding: 1%; }
+  .intro {
+    padding-top: 2.5%; }
+  .graphic_container {
+    top: 20vh; } }
 
 .heading {
   background: #4d4d4d;
@@ -430,17 +440,30 @@ html, body {
   justify-content: center;
   padding: 5% 20% 5% 20%; }
 
+@media (max-width: 1024px) {
+  .heading {
+    grid-template-columns: 1fr;
+    grid-template-areas: "titles" "heading__image"; }
+  .heading__image {
+    grid-area: heading__image;
+    justify-self: center; }
+  .titles {
+    grid-area: titles;
+    align-items: center; }
+  .titles__headlines {
+    text-align: center; }
+  #penny_img {
+    margin-top: 20%;
+    width: 200px;
+    height: 200px; } }
+
 @-webkit-keyframes rotate {
   0% {
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    transform-origin: center;
+    transform: rotate(0deg); }
   50% {
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); }
+    transform-origin: center;
+    transform: rotate(360deg); }
   50% {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
@@ -450,15 +473,11 @@ html, body {
 
 @keyframes rotate {
   0% {
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    transform-origin: center;
+    transform: rotate(0deg); }
   50% {
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); }
+    transform-origin: center;
+    transform: rotate(360deg); }
   50% {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
@@ -498,11 +517,11 @@ html, body {
 
 .polling_header {
   font-size: 1.25em;
-  margin-bottom: 1%;
+  margin-bottom: 2.5%;
   text-align: center; }
 
 .polling_bar_chart {
-  width: 30%;
+  width: 50%;
   height: 20%;
   display: flex;
   flex-direction: row;
@@ -523,14 +542,14 @@ html, body {
 .opinion_label {
   color: var(--buyingPowerSilver);
   order: 0;
-  font-size: .85em;
+  font-size: 1em;
   margin-top: .75em;
   text-align: center; }
 
 .opinion_value {
   color: var(--buyingPowerSilver);
   order: 2;
-  font-size: 1em;
+  font-size: 2em;
   margin-bottom: .25em; }
 
 .oppose_strongly .opinion_bar {
@@ -541,6 +560,15 @@ html, body {
 
 .oppose_strongly .opinion_value {
   color: black !important; }
+
+@media (max-width: 768px) {
+  .polling p {
+    margin: 1% 10%; }
+  .polling_bar_chart {
+    width: 80%; }
+  .polling_header {
+    font-size: 1.5em;
+    margin-bottom: 5%; } }
 
 .waffle_container {
   display: flex;
@@ -638,6 +666,23 @@ html, body {
   grid-row: 4;
   grid-column: 3; }
 
+@media (max-width: 768px) {
+  .waffle {
+    grid-template-areas: "legend" "chart"; }
+  .waffle_chart {
+    grid-area: chart; }
+  .waffle_legend {
+    grid-area: legend;
+    grid-column-gap: 15px; }
+  .waffle_chart {
+    display: none; }
+  .waffle_subheader {
+    display: none; }
+  .percent {
+    font-size: 1.5em; }
+  .opinion {
+    font-size: 1em; } }
+
 .graphic_container {
   font-size: 1rem; }
 
@@ -674,15 +719,33 @@ html, body {
 .transaction_lavender {
   color: #bcbcf2; }
 
+.social {
+  background: #e65454;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em; }
+
+.social__question {
+  font-size: 2em; }
+
+.social__buttons {
+  margin-top: .5em; }
+
 .footer {
   background: #cccccc;
   display: flex;
   font-family: 'Source Sans Pro Light', sans-serif;
+  font-size: 1.25em;
   font-weight: 100;
   flex-direction: column;
+  padding: 2.5em;
+  line-height: 2;
   align-items: center;
-  justify-content: space-around;
-  height: 25%;
   padding-top: 2%;
   padding-bottom: 2%; }
   .footer a {
@@ -698,4 +761,8 @@ html, body {
   align-items: center; }
   .socials * {
     margin-right: .5em; }
+
+@media (max-width: 1000px) {
+  .footer {
+    align-items: flex-start; } }
 
