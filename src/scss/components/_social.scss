@@ -2,10 +2,18 @@
   background: darken(#e96a6a, 5%);
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding: 1em;
+}
+
+.social__question {
+  font-size: 2em;
+}
+
+.social__buttons{
+  margin-top: .5em;
 }
